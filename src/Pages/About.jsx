@@ -1,12 +1,12 @@
 import React from "react";
 import '../Stylesheets/About.css'
 import '../Stylesheets/Aboutresponsiveness.css'
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 
 const About =()=>{
     return(
         <>
-        {/* <Navbar/> */}
+        <Navbar/>
             <div className="aboutContainer">
                 <div className="whatWeDo">
                     <h1>WHAT WE DO</h1>

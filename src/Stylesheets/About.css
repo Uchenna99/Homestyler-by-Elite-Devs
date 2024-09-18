@@ -1,19 +1,19 @@
-@font-face {
+/* @font-face {
     font-family: lights;
-    src: url(../assets/Fonts/LexendDeca-Light.woff2);
+    src: url(../assets/Fonts/LexendDeca-Light.woff2) !important;
 }
 @font-face {
     font-family: semi;
-    src: url(../assets/Fonts/LexendDeca-SemiBold.woff2)
+    src: url(../assets/Fonts/LexendDeca-SemiBold.woff2) !important;
 }
 @font-face {
     font-family: mediums;
-    src: url(../assets/Fonts/LexendDeca-Medium.woff2);
+    src: url(../assets/Fonts/LexendDeca-Medium.woff2) !important;
 }
 @font-face {
     font-family: queen;
-    src:url(../assets/Fonts/Queens-Medium.woff2);
-}
+    src:url(../assets/Fonts/Queens-Medium.woff2) !important;
+} */
 *{
     padding: 0%;
     margin: 0%;
