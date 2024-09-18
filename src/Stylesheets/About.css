@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: lights;
     src: url(../assets/Fonts/LexendDeca-Light.woff2);
 }
@@ -13,7 +13,7 @@
 @font-face {
     font-family: queen;
     src:url(../assets/Fonts/Queens-Medium.woff2);
-}
+} */
 *{
     padding: 0%;
     margin: 0%;
@@ -22,7 +22,7 @@
 .aboutContainer{
     width: 100%;
     height: fit-content;
-    background-color: azure;
+    background-color: wheat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,22 +45,22 @@
 }
 .whatWeDo h1{
     /* font: 40px sans-serif; */
-    font-weight: 600;
-    color: gray;
-    font: 42px mediums;
+    font-weight: 300;
+    color: rgba(105, 77, 24, 0.664);
+    font: 42px text1;
 
 }
 .whatWeDo h2{
     width: 60%;
     height: 40px;
-    border-left: 4px solid rgb(172, 3, 3, 0.703);
-    border-right: 4px solid rgba(172, 3, 3, 0.703);
+    border-left: 4px solid brown;
+    border-right: 4px solid brown;
     border-top: none;
     border-bottom: none;
-    color: rgba(110, 110, 110, 0.752);
+    color: brown;
     margin-top: 20px;
     /* background-color: blanchedalmond; */
-    font: 25px semi;
+    font: 25px text2;
     font-weight: 400;
     display: flex;
     align-items: center;
