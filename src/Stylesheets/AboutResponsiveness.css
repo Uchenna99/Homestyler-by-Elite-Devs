@@ -1,0 +1,178 @@
+@media screen and (max-width: 1250px){
+    .Team{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .Team{
+        margin-top: 150px;
+        width: 90%;
+    }
+    .whatWeDo{
+        width: 80%;
+    }
+    .whatWeDo h2{
+        width: 75%;
+    }
+    .development{
+        width: 95%;
+        gap: 30px;
+        row-gap: 50px;
+    }
+    .design{
+        gap: 8px;
+    }
+    .text p{
+        font: 13px mediums;
+    }
+    
+}
+@media screen and (max-width: 950px) {
+    .whatWeDo{
+        width: 80%;
+    }
+    .whatWeDo h2{
+        width: 75%;
+    }
+    .development{
+        width: 95%;
+        gap: 30px;
+        row-gap: 50px;
+    }
+    .design{
+        gap: 8px;
+    }
+    .text p{
+        font: 13px mediums;
+    }
+    .Team{
+        width: 90%;
+        margin-top: 150px;
+    }
+    .frameTexts h6{
+        font: 18px sans-serif;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .text h4{
+        font: 16px semi;
+    }
+    .text p{
+        font: 14px mediums;
+    }
+    .Team{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .development{
+        width: 85%;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    
+    .picFrames{
+        width: 100%;
+        height: fit-content;
+        column-gap: 5%;
+        row-gap: 5%;
+        /* background-color: aqua; */
+       
+    }
+    .frame1 img{
+        /* width: 65%; */
+        height: 300px;
+        margin-top: 50px;
+        /* background-color: azure; */
+    }
+    .frame2 img{
+        /* width: 65%; */
+        height: 300px;
+        /* background-color: azure; */
+    }
+}
+@media screen and (max-width: 550px) {
+    .whatWeDo{
+        width: 95%;
+        margin-top: 100px;
+    }
+    .whatWeDo h1{
+        font-weight: 600;
+        color: gray;
+        font: 30px mediums;
+    
+    }
+    
+    .whatWeDo h2{
+        width: 90%;
+        height: 40px;
+        border-left: 3px solid rgb(172, 3, 3, 0.703);
+        border-right: 3px solid rgba(172, 3, 3, 0.703);
+        border-top: none;
+        border-bottom: none;
+        margin-top: 10px;
+        font: 17px semi;
+        padding-top: 10px;
+    }
+    .whatWeDo p{
+        width: 85%;
+        font: 12px semi;
+        line-height: 18px;
+        margin-top: 30px;
+        
+    }
+    .development{
+        width: 85%;
+        display: flex;
+        gap: 30px;
+        /* row-gap: 50px; */
+        flex-direction: column;
+    }
+    .design{
+        gap: 8px;
+    }
+    .design img{
+        width: 70px;
+        height: 70px;
+    
+    }
+    .text h4{
+        font: 16px semi;
+    }
+    .text p{
+        font: 12px mediums;
+    }
+    .Team{
+        width: 90%;
+        margin-top: 100px;
+        align-items: start;
+    }
+    .picFrames{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .frame1 img{
+        width: 90%;
+        height: 300px;
+        margin-top: 0px;
+        /* background-color: azure; */
+    }
+    .frame2 img{
+        width: 90%;
+        height: 300px;
+        /* background-color: azure; */
+    }
+    .frameTexts h6{
+        font: 18px sans-serif;
+        font-weight: 600;
+    }
+}
