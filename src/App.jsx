@@ -5,7 +5,6 @@ import HomePage from './Pages/HomePage'
 import contactPage from './Pages/contact-Page'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
