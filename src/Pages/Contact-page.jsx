@@ -1,8 +1,9 @@
 import React from "react";
-import '../Stylesheets/contactPage.css'
+import '../Stylesheets/contact-page.css'
+import Navbar from "./Navbar";
 
 
-const contactPage =()=>{
+const ContactPage =()=>{
     return(
         <>
         <Navbar/>
@@ -51,4 +52,4 @@ const contactPage =()=>{
 }
 
 
-export default contactPage;
+export default ContactPage;
