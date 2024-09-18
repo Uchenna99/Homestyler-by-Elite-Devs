@@ -1,0 +1,286 @@
+{
+    "designs": [
+      {
+        "id": "design1",
+        "name": "Contemporary Living Room",
+        "category": "Living Room",
+        "style": "Contemporary",
+        "image": "path/to/contemporary_living_room.jpg",
+        "description": "A modern living room design with sleek furniture and neutral colors.",
+        "cost": 1500,
+        "products": [
+          {
+            "name": "Modern Sofa",
+            "price": 800,
+            "image": "path/to/modern_sofa.jpg"
+          },
+          {
+            "name": "Glass Coffee Table",
+            "price": 200,
+            "image": "path/to/glass_coffee_table.jpg"
+          }
+        ]
+      },
+      {
+        "id": "design2",
+        "name": "Elegant Bedroom",
+        "category": "Bedroom",
+        "style": "Elegant",
+        "image": "path/to/elegant_bedroom.jpg",
+        "description": "A luxurious bedroom with classic furniture and soft tones.",
+        "cost": 2000,
+        "products": [
+          {
+            "name": "King Size Bed",
+            "price": 1200,
+            "image": "path/to/king_size_bed.jpg"
+          },
+          {
+            "name": "Elegant Nightstands",
+            "price": 300,
+            "image": "path/to/elegant_nightstands.jpg"
+          }
+        ]
+      },
+      {
+        "id": "design3",
+        "name": "Minimalist Kitchen",
+        "category": "Kitchen",
+        "style": "Minimalist",
+        "image": "path/to/minimalist_kitchen.jpg",
+        "description": "A sleek kitchen design with a minimalist approach and high-tech appliances.",
+        "cost": 1800,
+        "products": [
+          {
+            "name": "Modern Kitchen Island",
+            "price": 600,
+            "image": "path/to/kitchen_island.jpg"
+          },
+          {
+            "name": "Stainless Steel Sink",
+            "price": 150,
+            "image": "path/to/stainless_steel_sink.jpg"
+          }
+        ]
+      },
+      {
+        "id": "design4",
+        "name": "Rustic Dining Room",
+        "category": "Dining Room",
+        "style": "Rustic",
+        "image": "path/to/rustic_dining_room.jpg",
+        "description": "A cozy dining room with rustic furniture and warm colors.",
+        "cost": 1400,
+        "products": [
+          {
+            "name": "Wooden Dining Table",
+            "price": 500,
+            "image": "path/to/wooden_dining_table.jpg"
+          },
+          {
+            "name": "Country-style Chairs",
+            "price": 100,
+            "image": "path/to/country_style_chairs.jpg"
+          }
+        ]
+      },
+      {
+        "id": "design5",
+        "name": "Urban Loft",
+        "category": "Living Room",
+        "style": "Urban",
+        "image": "path/to/urban_loft.jpg",
+        "description": "An open-plan living space with industrial elements and urban flair.",
+        "cost": 2200,
+        "products": [
+          {
+            "name": "Industrial Coffee Table",
+            "price": 300,
+            "image": "path/to/industrial_coffee_table.jpg"
+          },
+          {
+            "name": "Leather Sectional Sofa",
+            "price": 900,
+            "image": "path/to/leather_sectional_sofa.jpg"
+          }
+        ]
+      },
+      {
+        "id": "design6",
+        "name": "Cozy Home Office",
+        "category": "Office",
+        "style": "Cozy",
+        "image": "path/to/cozy_home_office.jpg",
+        "description": "A warm and inviting home office with comfortable furniture and efficient storage.",
+        "cost": 1300,
+        "products": [
+          {
+            "name": "Ergonomic Desk Chair",
+            "price": 250,
+            "image": "path/to/ergonomic_desk_chair.jpg"
+          },
+          {
+            "name": "Modern Desk",
+            "price": 300,
+            "image": "path/to/modern_desk.jpg"
+          }
+        ]
+      }
+    ],
+    "designers": [
+      {
+        "id": "designer1",
+        "name": "Jane Doe",
+        "profileImage": "path/to/jane_doe.jpg",
+        "description": "Specializes in contemporary and modern interior designs.",
+        "rates": "$100/hr",
+        "contact": {
+          "email": "jane.doe@example.com",
+          "phone": "+1234567890"
+        }
+      },
+      {
+        "id": "designer2",
+        "name": "John Smith",
+        "profileImage": "path/to/john_smith.jpg",
+        "description": "Expert in elegant and classic home decor.",
+        "rates": "$120/hr",
+        "contact": {
+          "email": "john.smith@example.com",
+          "phone": "+0987654321"
+        }
+      },
+      {
+        "id": "designer3",
+        "name": "Emily Johnson",
+        "profileImage": "path/to/emily_johnson.jpg",
+        "description": "Known for creating cozy and inviting spaces with a personal touch.",
+        "rates": "$90/hr",
+        "contact": {
+          "email": "emily.johnson@example.com",
+          "phone": "+1122334455"
+        }
+      },
+      {
+        "id": "designer4",
+        "name": "Michael Brown",
+        "profileImage": "path/to/michael_brown.jpg",
+        "description": "Specializes in rustic and traditional designs with a focus on craftsmanship.",
+        "rates": "$110/hr",
+        "contact": {
+          "email": "michael.brown@example.com",
+          "phone": "+5566778899"
+        }
+      }
+    ],
+    "products": [
+      {
+        "id": "product1",
+        "name": "Modern Sofa",
+        "category": "Furniture",
+        "subCategory": "Sofas and Couches",
+        "price": 800,
+        "image": "path/to/modern_sofa.jpg",
+        "description": "A stylish modern sofa that complements any contemporary living space.",
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "Alice",
+            "rating": 5,
+            "comment": "Absolutely love this sofa! It looks amazing in my living room."
+          },
+          {
+            "user": "Bob",
+            "rating": 4,
+            "comment": "Good quality, but the delivery took longer than expected."
+          }
+        ]
+      },
+      {
+        "id": "product2",
+        "name": "Glass Coffee Table",
+        "category": "Furniture",
+        "subCategory": "Tables",
+        "price": 200,
+        "image": "path/to/glass_coffee_table.jpg",
+        "description": "A sleek glass coffee table that adds a touch of elegance to any room.",
+        "rating": 4.0,
+        "reviews": [
+          {
+            "user": "Carol",
+            "rating": 4,
+            "comment": "Very stylish and easy to assemble. Great addition to my living room."
+          }
+        ]
+      },
+      {
+        "id": "product3",
+        "name": "King Size Bed",
+        "category": "Furniture",
+        "subCategory": "Beds and Mattresses",
+        "price": 1200,
+        "image": "path/to/king_size_bed.jpg",
+        "description": "A comfortable king size bed with a luxurious design.",
+        "rating": 4.8,
+        "reviews": [
+          {
+            "user": "David",
+            "rating": 5,
+            "comment": "The best bed I've ever owned. Very comfortable and well-made."
+          }
+        ]
+      },
+      {
+        "id": "product4",
+        "name": "Wooden Dining Table",
+        "category": "Furniture",
+        "subCategory": "Tables",
+        "price": 500,
+        "image": "path/to/wooden_dining_table.jpg",
+        "description": "A sturdy wooden dining table perfect for family meals.",
+        "rating": 4.2,
+        "reviews": [
+          {
+            "user": "Eve",
+            "rating": 4,
+            "comment": "Beautiful table, but it arrived with a small scratch."
+          }
+        ]
+      },
+      {
+        "id": "product5",
+        "name": "Ergonomic Desk Chair",
+        "category": "Furniture",
+        "subCategory": "Office Chairs",
+        "price": 250,
+        "image": "path/to/ergonomic_desk_chair.jpg",
+        "description": "An ergonomic chair designed for long hours of comfortable work.",
+        "rating": 4.6,
+        "reviews": [
+          {
+            "user": "Frank",
+            "rating": 5,
+            "comment": "Extremely comfortable and adjustable. Perfect for my home office."
+          }
+        ]
+      },
+      {
+        "id": "product6",
+        "name": "Modern Desk",
+        "category": "Furniture",
+        "subCategory": "Desks",
+        "price": 300,
+        "image": "path/to/modern_desk.jpg",
+        "description": "A sleek and modern desk that fits perfectly in any office space.",
+        "rating": 4.4,
+        "reviews": [
+          {
+            "user": "Grace",
+            "rating": 4,
+            "comment": "Nice desk, but the assembly instructions were not very clear."
+          }
+        ]
+      }
+    ]
+  }
+  
