@@ -1,178 +1,159 @@
-@media screen and (max-width: 1250px){
-    .Team{
-        width: 75%;
-    }
+@font-face {
+    font-family: mediums;
+    src: url(../assets/LexendDeca-Medium.woff2);
+}
+@font-face {
+    font-family: semi;
+    src: url(../assets/LexendDeca-SemiBold.woff2)
+}
+@font-face {
+    font-family: queen;
+    src: url(../assets/Queens-Medium.woff2);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.aboutContainer{
+    width: 100%;
+    height: fit-content;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color:rgb(32,25,45); */
+    /* background-color: rgb(110,84,181); */
+    
+}
+.whatWeDo{
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+.whatWeDo h1{
+    /* font: 40px sans-serif; */
+    font-weight: 600;
+    color: gray;
+    font: 42px mediums;
+
+}
+.whatWeDo h2{
+    width: 60%;
+    height: 40px;
+    border-left: 4px solid rgb(172, 3, 3, 0.703);
+    border-right: 4px solid rgba(172, 3, 3, 0.703);
+    border-top: none;
+    border-bottom: none;
+    color: rgba(110, 110, 110, 0.752);
+    margin-top: 20px;
+    /* background-color: blanchedalmond; */
+    font: 25px semi;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.whatWeDo p{
+    width: 80%;
+    font: 14px queen;
+    color: gray;
+    margin-top: 20px;
+    line-height: 20px;
+    
+}
+.development{
+    width: 75%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, fit-content);
+    /* background-color: aqua; */
+    gap: 50px;
+    margin-top: 20px;
+}
+.design{
+    /* background-color: rgb(161, 17, 17); */
+    display: flex;
+    gap: 12px;
+}
+.design img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: beige;
+
+}
+.text{
+    color: gray;
+}
+.text h4{
+    color: rgb(110, 110, 110);
+    font: 18px semi;
+}
+.text p{
+    font: 14px mediums;
+    line-height: 18px;
+    font-weight: 100;
+}
+.Team{
+    width: 65%;
+    height: fit-content;
+    margin-bottom: 100px;
+    margin-top: 250px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.Team h1{
+    color: gray;
+    font: 32px sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.picFrames{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 380px);
+    column-gap: 70px;
+    row-gap: 100px;
+    /* background-color: aqua; */
+   
 }
 
-@media screen and (max-width: 1024px) {
-    
-    .Team{
-        margin-top: 150px;
-        width: 90%;
-    }
-    .whatWeDo{
-        width: 80%;
-    }
-    .whatWeDo h2{
-        width: 75%;
-    }
-    .development{
-        width: 95%;
-        gap: 30px;
-        row-gap: 50px;
-    }
-    .design{
-        gap: 8px;
-    }
-    .text p{
-        font: 13px mediums;
-    }
-    
+.frame1 img{
+    width: 100%;
+    height: 85%;
+    margin-top: 50px;
+    border-radius: 10px;
+    /* background-color: azure; */
 }
-@media screen and (max-width: 950px) {
-    .whatWeDo{
-        width: 80%;
-    }
-    .whatWeDo h2{
-        width: 75%;
-    }
-    .development{
-        width: 95%;
-        gap: 30px;
-        row-gap: 50px;
-    }
-    .design{
-        gap: 8px;
-    }
-    .text p{
-        font: 13px mediums;
-    }
-    .Team{
-        width: 90%;
-        margin-top: 150px;
-    }
-    .frameTexts h6{
-        font: 18px sans-serif;
-        font-weight: 600;
-    }
+.frame2 img{
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+    /* background-color: azure; */
 }
 
-
-@media screen and (max-width: 860px) {
-    .text h4{
-        font: 16px semi;
-    }
-    .text p{
-        font: 14px mediums;
-    }
-    .Team{
-        width: 95%;
-    }
+.frameTexts{
+    width: 100%;
+    height: 15%;
+    color: rgb(110, 110, 110);
+    /* background-color: aquamarine; */
+    padding-top: 10px;
 }
-@media screen and (max-width: 750px) {
-    .development{
-        width: 85%;
-        display: flex;
-        gap: 30px;
-        flex-direction: column;
-    }
-    
-    .picFrames{
-        width: 100%;
-        height: fit-content;
-        column-gap: 5%;
-        row-gap: 5%;
-        /* background-color: aqua; */
-       
-    }
-    .frame1 img{
-        /* width: 65%; */
-        height: 300px;
-        margin-top: 50px;
-        /* background-color: azure; */
-    }
-    .frame2 img{
-        /* width: 65%; */
-        height: 300px;
-        /* background-color: azure; */
-    }
-}
-@media screen and (max-width: 550px) {
-    .whatWeDo{
-        width: 95%;
-        margin-top: 100px;
-    }
-    .whatWeDo h1{
-        font-weight: 600;
-        color: gray;
-        font: 30px mediums;
-    
-    }
-    
-    .whatWeDo h2{
-        width: 90%;
-        height: 40px;
-        border-left: 3px solid rgb(172, 3, 3, 0.703);
-        border-right: 3px solid rgba(172, 3, 3, 0.703);
-        border-top: none;
-        border-bottom: none;
-        margin-top: 10px;
-        font: 17px semi;
-        padding-top: 10px;
-    }
-    .whatWeDo p{
-        width: 85%;
-        font: 12px semi;
-        line-height: 18px;
-        margin-top: 30px;
-        
-    }
-    .development{
-        width: 85%;
-        display: flex;
-        gap: 30px;
-        /* row-gap: 50px; */
-        flex-direction: column;
-    }
-    .design{
-        gap: 8px;
-    }
-    .design img{
-        width: 70px;
-        height: 70px;
-    
-    }
-    .text h4{
-        font: 16px semi;
-    }
-    .text p{
-        font: 12px mediums;
-    }
-    .Team{
-        width: 90%;
-        margin-top: 100px;
-        align-items: start;
-    }
-    .picFrames{
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .frame1 img{
-        width: 90%;
-        height: 300px;
-        margin-top: 0px;
-        /* background-color: azure; */
-    }
-    .frame2 img{
-        width: 90%;
-        height: 300px;
-        /* background-color: azure; */
-    }
-    .frameTexts h6{
-        font: 18px sans-serif;
-        font-weight: 600;
-    }
+.frameTexts h6{
+    font: 20px sans-serif;
+    font-weight: 600;
+    color: gray;
 }
