@@ -22,7 +22,7 @@
 .aboutContainer{
     width: 100%;
     height: fit-content;
-    background-color: wheat;
+    background-color: rgb(255, 244, 224);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@
 .whatWeDo h1{
     /* font: 40px sans-serif; */
     font-weight: 300;
-    color: rgba(105, 77, 24, 0.664);
+    color: brown;
     font: 42px text1;
 
 }
@@ -60,8 +60,8 @@
     color: brown;
     margin-top: 20px;
     /* background-color: blanchedalmond; */
-    font: 25px text2;
-    font-weight: 400;
+    font: 25px text3;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,14 +69,14 @@
 }
 .whatWeDo p{
     width: 80%;
-    font: 14px queen;
-    color: gray;
+    font: 15px text2;
+    color: brown;
     margin-top: 20px;
     line-height: 20px;
     
 }
 .development{
-    width: 75%;
+    width: 70%;
     height: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -94,20 +94,22 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: beige;
+    background-color: brown;
 
 }
 .text{
-    color: gray;
+    margin-top: 10px;
+    color:brown;
 }
 .text h4{
-    color: rgb(110, 110, 110);
-    font: 18px semi;
+    color: brown;
+    font: 18px text2;
 }
 .text p{
-    font: 14px mediums;
-    line-height: 18px;
+    font: 14px text1;
+    line-height: 20px;
     font-weight: 100;
+    margin-top: 8px;
 }
 .Team{
     width: 65%;
@@ -118,8 +120,8 @@
     text-align: center;
 }
 .Team h1{
-    color: gray;
-    font: 32px sans-serif;
+    color: brown;
+    font: 32px text2;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -152,12 +154,12 @@
 .frameTexts{
     width: 100%;
     height: 15%;
-    color: rgb(110, 110, 110);
+    color: brown;
     /* background-color: aquamarine; */
     padding-top: 10px;
 }
 .frameTexts h6{
-    font: 20px sans-serif;
+    font: 20px text2;
     font-weight: 600;
-    color: gray;
+    color: brown;
 }
