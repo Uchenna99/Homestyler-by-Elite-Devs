@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: Text2;
+    src: url(./assets/Fonts/LexendDeca-Medium.woff2);
+  }
+  
+  @font-face {
+    font-family: Text1;
+    src: url(./assets/Fonts/LexendDeca-SemiBold.woff2);
+  }
+  
+  @font-face {
+    font-family: Text3;
+    src: url(./assets/Fonts/LexendDeca-Light.woff2);
+  }
+  
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Text3;
+    line-height: 1.5;
+    }
+  
