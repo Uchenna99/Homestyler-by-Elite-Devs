@@ -8,12 +8,11 @@ function App() {
 
   return (
     <>
-      <About/>
-      {/* <Routes>
+      <Routes>
           <Route path='/' element={<HomePage/>} />
           <Route path='/about' element={<About/>}/>
 
-      </Routes> */}
+      </Routes>
     </>
   )
 }
