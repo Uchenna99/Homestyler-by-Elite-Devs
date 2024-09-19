@@ -2,8 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
-import Shopping from './Pages/Shopping'
-import Livingroom from './Pages/Livingroom'
+import Shop from './Pages/shop'
 
 function App() {
 
@@ -11,8 +10,7 @@ function App() {
     <>
       <Routes>
           <Route path='/' element={<HomePage/>} />
-          <Route path='/shopping' element={<Shopping/>}/>
-          <Routes path='/livingroom' element={<Livingroom/>}/>
+          <Route path='/shop' element={<Shop/>}/>
 
       </Routes>
     </>
