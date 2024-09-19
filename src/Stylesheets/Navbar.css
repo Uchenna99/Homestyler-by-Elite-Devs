@@ -2,7 +2,7 @@
 .navbar{
     width: 100%;
     height: 60px;
-    background-color: rgb(105, 54, 54);
+    background-color: wheat;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -24,7 +24,7 @@
 
 #nav-logo{
     font-size: 40px;
-    fill: wheat;
+    fill: brown;
 }
 
 
@@ -51,7 +51,7 @@
 }
 
 .nav-option > p{
-    color: wheat;
+    color: brown;
     text-decoration: none;
 }
 
@@ -80,60 +80,25 @@
 .nav-right-wrap{
     width: fit-content;
     height: fit-content;
-    /* background-color: black; */
+    /* background-color: green; */
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 
-.login-wrap{
-    width: fit-content;
-    height: fit-content;
-    /* background-color: palegreen; */
-    display: flex;
-    padding: 5px 10px 5px 0;
-    border-right: 1px solid wheat;
-}
-
-.login-wrap:hover{
-    cursor: pointer;
-    text-decoration: underline wheat;
-}
-
-.login-wrap > p{
-    color: wheat;
-    font-size: 14px;
-}
-
-#login-link{
-    text-decoration: none;
-}
-
-
-.signin-wrap{
-    width: fit-content;
-    height: fit-content;
-    /* background-color: pink; */
-    padding-left: 10px;
-}
-
-
-button.nav-butn{
-    width: 90px;
-    height: 30px;
-    background-color: wheat;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 16px;
+.cart-icon{
+    font-size: 30px;
     color: brown;
 }
 
-button.nav-butn:hover{
-    transition: 300ms;
-    cursor: pointer;
-    background-color: wheat;
+.search-icon{
+    font-size: 25px;
+    color: brown;
 }
+
+
+
 
 
 

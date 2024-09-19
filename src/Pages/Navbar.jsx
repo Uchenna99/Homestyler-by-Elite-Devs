@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../Stylesheets/Navbar.css"
 import { IoLogoReact } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
+import { IoCartOutline } from "react-icons/io5";
+import { FiSearch } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -24,17 +26,15 @@ const Navbar =()=>{
 
             <div className="nav-mid">
                 <NavLink to='/' id='link'><div className="nav-option"><p>Home</p></div></NavLink>
-                <NavLink to='' id='link'><div className="nav-option"><p>Services</p></div></NavLink>
+                <NavLink to='/shopping' id='link'><div className="nav-option"><p>Shopping</p></div></NavLink>
                 <NavLink to='/about' id='link'><div className="nav-option"><p>About</p></div></NavLink>
                 <NavLink to='/contact-page' id='link'><div className="nav-option"><p>Contact Us</p></div></NavLink>
             </div>
 
             <div className="nav-right">
                 <div className="nav-right-wrap">
-                    <Link to='/login' id='login-link'><div className="login-wrap"><p>Log In</p></div></Link>
-                    <div className="signin-wrap">
-                        <Link to='/sign-up'><button className='nav-butn'>Sign Up</button></Link>
-                    </div>
+                    <FiSearch className="search-icon" />
+                    <IoCartOutline className="cart-icon" />
                 </div>
             </div>
 
