@@ -116,8 +116,20 @@
 }
 
 .bi-geo-alt-fill:hover .geo-location{
-    display: none;
+    animation-name: geo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 } 
+
+@keyframes geo {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 
 
 .send-us-textdiv{
