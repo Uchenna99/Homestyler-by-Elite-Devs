@@ -125,7 +125,17 @@ const HomePage =()=>{
                 </div>
             </div>
 
-            <div className="partners-section">
+            <div className="gallery-section">
+                <div className="gallery-header">
+                    <h2>GALLERY</h2>
+                </div>
+                <div className="gallery-pic"></div>
+                <div className="gallery-pic"></div>
+                <div className="gallery-pic"></div>
+                <div className="gallery-pic"></div>
+            </div>
+
+            {/* <div className="partners-section">
                 <div className="partners-header">
                     <h2>OUR PARTNERS</h2>
                 </div>
@@ -155,7 +165,7 @@ const HomePage =()=>{
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             
             <div className="about-section">
                 <div className="about-info">
