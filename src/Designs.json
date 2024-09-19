@@ -22,7 +22,7 @@
         "name": "Elegant Bedroom",
         "category": "Bedroom",
         "style": "Elegant",
-        "image": "../src/assets/eleg_bed.jpeg",
+        "image": "../src/assets/eleg_bed.jpeg.jpg",
         "description": "A luxurious bedroom with classic furniture and soft tones.",
         "cost": 2000,
         "products": [
