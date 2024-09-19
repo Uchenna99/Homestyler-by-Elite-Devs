@@ -26,7 +26,7 @@ const Navbar =()=>{
 
             <div className="nav-mid">
                 <NavLink to='/' id='link'><div className="nav-option"><p>Home</p></div></NavLink>
-                <NavLink to='/shop' id='link'><div className="nav-option"><p>Shopping</p></div></NavLink>
+                <NavLink to='/shop' id='link'><div className="nav-option"><p>Shop</p></div></NavLink>
                 <NavLink to='/about' id='link'><div className="nav-option"><p>About</p></div></NavLink>
                 <NavLink to='/contact-page' id='link'><div className="nav-option"><p>Contact Us</p></div></NavLink>
             </div>
