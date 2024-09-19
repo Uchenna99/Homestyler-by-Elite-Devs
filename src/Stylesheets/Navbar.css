@@ -1,0 +1,264 @@
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: wheat;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.nav-left{
+    width: 170px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+#nav-logo{
+    font-size: 40px;
+    fill: brown;
+}
+
+
+
+
+.nav-mid{
+    width: 500px;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.nav-option{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.nav-option > p{
+    color: brown;
+    text-decoration: none;
+}
+
+.nav-option > p:hover{
+    border-bottom: 1px solid wheat;
+}
+
+#link{
+    text-decoration: none;
+}
+
+
+
+
+.nav-right{
+    width: 200px;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 25px 0 0;
+}
+
+
+.nav-right-wrap{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.cart-icon{
+    font-size: 30px;
+    color: brown;
+}
+
+.search-icon{
+    font-size: 25px;
+    color: brown;
+}
+
+
+
+
+
+
+
+.nav-burger{
+    width: 100px;
+    height: 100%;
+    /* background-color: pink; */
+    display: none;
+    justify-content: end;
+    align-items: center;
+    padding: 0 25px 0 0;
+}
+
+
+/* .burger-icon{
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+
+.burger-icon:hover{
+    scale: 1.1;
+}
+
+.burger-close{
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+.burger-close:hover{
+    scale: 1.1;
+} */
+
+
+
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .3s;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 2px;
+    background-color: wheat;
+    border-radius: 5px;
+    transition-duration: .3s;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    margin-left: 9px;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: rotate(135deg);
+    margin-left: 0;
+    transform-origin: center;
+    transition-duration: .3s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    transform: rotate(45deg);
+    transition-duration: .3s;
+    transform-origin: left center;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    transform: rotate(-45deg);
+    transition-duration: .3s;
+    transform-origin: left center;
+    margin-top: 4px;
+  }
+  
+
+
+
+
+.nav-burger-drop-menu{
+    width: 160px;
+    height: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #00246B;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 60px;
+    right: -0;
+    animation-name: drop-animation;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+}
+
+@keyframes drop-animation {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+.drop-menu-option{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 2px 15px;
+}
+
+.drop-menu-option:hover{
+    background-color: #00246b15;
+}
+
+
+button.drop-butn{
+    background-color: #00246B;
+    color: white;
+}
+
+
+#drop-link{
+    text-decoration: none;
+    font-size: 16px;
+    color: #00246B;
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 949px) {
+    .nav-mid{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-burger{
+        display: flex;
+    }
+}
