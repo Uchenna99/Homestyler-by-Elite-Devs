@@ -72,6 +72,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    position: relative;
 }
 .phone-div{
     width: 350px;
@@ -103,6 +104,22 @@
     padding-right: 2px;
     width: 390px;
 }
+
+
+.geo-location{
+    width: 300px;
+    height: 350px;
+    background-color: pink;
+    position: fixed;
+    right: 0px;
+    bottom: 40px;
+}
+
+.bi-geo-alt-fill:hover .geo-location{
+    display: none;
+} 
+
+
 .send-us-textdiv{
     width: 100%;
     height: 100px;

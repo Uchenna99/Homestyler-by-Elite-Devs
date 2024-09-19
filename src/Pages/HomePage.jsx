@@ -12,7 +12,14 @@ import Navbar from "./Navbar";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoPlaystation } from "react-icons/io";
-
+import img1 from "../assets/Kitchen/kitchen9.jpg"
+import img2 from "../assets/LivingRoom/livingroom2.jpeg"
+import img3 from "../assets/LivingRoom/livingroom4.jpg"
+import img4 from "../assets/Dining/dining2.png"
+import img5 from "../assets/Kitchen/kitchen4.jpeg"
+import img6 from "../assets/Dining/dining1.jpg"
+import img7 from "../assets/Bedroom/bedroom3.jpg"
+import img8 from "../assets/Bedroom/bedroom2.jpeg"
 
 const HomePage =()=>{
     return(
@@ -23,11 +30,11 @@ const HomePage =()=>{
                 <div className="hero-image">
                     <div className="hero-text-section">
                         <div className="hero-text">
-                            <h2>APTECH TECHRIZZZ</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illum repellendus libero ex, dolorum vel ratione. Possimus architecto minima at!</p>
+                            <h2>ELITE INTERIOR DESIGNS</h2>
+                            <p>Beautiful interior design services, now within reach.</p>
                         </div>
                         <div className="hero-button">
-                            <Link to='/sign-up'><button className="hero-butn">Join Us</button></Link>
+                            <Link to='/sign-up'><button className="hero-butn">Explore</button></Link>
                         </div>
                     </div>
                 </div>
@@ -129,10 +136,50 @@ const HomePage =()=>{
                 <div className="gallery-header">
                     <h2>GALLERY</h2>
                 </div>
-                <div className="gallery-pic"></div>
-                <div className="gallery-pic"></div>
-                <div className="gallery-pic"></div>
-                <div className="gallery-pic"></div>
+                <div className="gallery-pic">
+                    <div className="first-img">
+                        <img  src={img3} alt="" />
+                    </div>
+                    <div className="second-img">
+                        <img  src={img2} alt="" />
+                    </div>
+                    <div className="img-description">
+                        <p>Living Rooms</p>
+                    </div>
+                </div>
+                <div className="gallery-pic gallery-pic2">
+                    <div className="first-img">
+                            <img  src={img5} alt="" />
+                        </div>
+                        <div className="second-img">
+                            <img  src={img1} alt="" />
+                        </div>
+                        <div className="img-description">
+                            <p>Kitchens</p>
+                        </div>
+                    </div>
+                <div className="gallery-pic gallery-pic3">
+                    <div className="first-img">
+                        <img  src={img7} alt="" />
+                    </div>
+                    <div className="second-img">
+                        <img  src={img8} alt="" />
+                    </div>
+                    <div className="img-description">
+                        <p>Bedrooms</p>
+                    </div>
+                </div>
+                <div className="gallery-pic gallery-pic4">
+                    <div className="first-img">
+                        <img  src={img4} alt="" />
+                    </div>
+                    <div className="second-img">
+                        <img  src={img6} alt="" />
+                    </div>
+                    <div className="img-description">
+                        <p>Dining</p>
+                    </div>
+                </div>
             </div>
 
             {/* <div className="partners-section">
@@ -184,6 +231,9 @@ const HomePage =()=>{
                     <div className="about-img-holder"></div>
                 </div>
             </div>
+
+           
+
         </div>
         
         </>
