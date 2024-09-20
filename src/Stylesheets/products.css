@@ -258,6 +258,12 @@
 }
 
 @media screen and (max-width: 975px) {
+    .subcat-box > *{
+        margin-top: 3px;
+    }
+    .prod-cat-sub > h1, .prod-price > h1, .prod-rate > h1{
+        font-size: 17px;
+    }
     .prod-head{
         justify-content: center;
     }
@@ -270,6 +276,7 @@
     }
     .prod-filter-wrap{
         height: 400px;
+        margin-bottom: 45px;
     }
     .product-content{
         grid-template-columns: 700px !important;
@@ -290,9 +297,12 @@
     }
     .prod-rate{
         width: 80%;
+        gap: 10%;
     }
     .rate-box{
         flex-direction: row;
+        /* background-color: red; */
+        height: 35px;
     }
     .rate-box > button{
         width: 10% !important;
@@ -309,6 +319,12 @@
     }
 }
 
+@media screen and (max-width:627px) {
+    .input-price{
+        font-size: 11px;
+    }
+}
+
 @media screen and (max-width:580px) {
     .prod-filter{
         width: 75%;
@@ -319,4 +335,7 @@
     .product-content{
         grid-template-columns: 350px !important;
     }
-}
+    .input-price{
+        font-size: 10px;
+    }
+} 
