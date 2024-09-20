@@ -1,7 +1,7 @@
 import React from "react";
 import DesignStyles from "../designStyles";
 import '../Stylesheets/shop.css'
-import Navbar from "./Navbar";
+import Navbar from "../Components/Navbar";
 
 const Shop=()=>{
     return(

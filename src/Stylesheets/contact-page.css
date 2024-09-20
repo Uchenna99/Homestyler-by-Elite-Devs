@@ -72,7 +72,6 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    position: relative;
 }
 .phone-div{
     width: 350px;
@@ -103,19 +102,31 @@
     padding-left: 2px;
     padding-right: 2px;
     width: 390px;
+    position: relative;
 }
 
+
+.geo-div{
+    width: fit-content;
+    height: 350px;
+    background-color: green;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: -300px;
+    bottom: -60px;
+    display: none;
+}
 
 .geo-location{
     width: 300px;
     height: 350px;
-    background-color: pink;
-    position: fixed;
-    right: 0px;
-    bottom: 40px;
+    /* background-color: pink; */
 }
 
-.bi-geo-alt-fill:hover .geo-location{
+.phone-div:hover .geo-div{
+    display: flex;
+    background-color: brown;
     animation-name: geo;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -210,6 +221,17 @@
         font-size: small;
     }
 
+    .geo-div{
+        left: -300px;
+    }
+    @keyframes geo {
+        from{
+            transform: translateX(300px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
 }
 
 @media screen and (max-width: 759px){
@@ -223,5 +245,20 @@
     }
     .get-in-touch{
         font-size: large;
+    }
+
+    .geo-div{
+        position: fixed;
+        left: 0;
+        bottom: 20px;
+    }
+
+    @keyframes geo {
+        from{
+            transform: translateX(-300px);
+        }
+        to{
+            transform: translateX(0px);
+        }
     }
 }
