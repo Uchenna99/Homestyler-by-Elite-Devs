@@ -19,7 +19,7 @@ const Navbar =()=>{
         <>
         <div className="navbar">
             <div className="nav-left">
-                <div className="logo-wrap"></div>
+                <Link to='/'><div className="logo-wrap"></div></Link>
             </div>
 
             <div className="nav-mid">

@@ -10,7 +10,7 @@
 
 
 .left-tab{
-    width: 13%;
+    width: 180px;
     height: 100%;
     background-color: #CADCFC;
 }
@@ -45,6 +45,7 @@ span.styler{
     display: flex;
     align-items: center;
     padding-left: 15%;
+    color: #00246B;
 }
 
 .option-tab:hover{
@@ -58,6 +59,10 @@ span.styler{
 }
 .blue-tab{
     color: rgb(66,7,225);
+}
+
+#signout{
+    color: #00246B;
 }
 
 
@@ -298,11 +303,16 @@ a:hover{
     font-size: small;
 }
 
+.jt:hover{
+    cursor: pointer;
+}
+
 .contact{
     width: 90%;
     height: fit-content;
     background-color: white;
     border-radius: 5px;
+    padding-right: 10px;
 }
 .cnt{
     width: 100%;
@@ -420,4 +430,23 @@ a:hover{
     align-items: center;
     color: #00246B;
     gap: 10px;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 949px) {
+    
+}
+
+
+@media screen and (max-width: 549px) {
+    
 }
