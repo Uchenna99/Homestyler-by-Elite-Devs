@@ -179,6 +179,8 @@
     .send-us-textdiv >h3{
         width:100% ;
         font-size: small;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 }
