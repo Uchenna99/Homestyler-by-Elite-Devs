@@ -1,4 +1,5 @@
 /* @font-face {
+/* @font-face {
     font-family: lights;
     src: url(../assets/Fonts/LexendDeca-Light.woff2) !important;
 }
@@ -13,6 +14,7 @@
 @font-face {
     font-family: queen;
     src:url(../assets/Fonts/Queens-Medium.woff2) !important;
+    src:url(../assets/Fonts/Queens-Medium.woff2);
 } */
 *{
     padding: 0%;
@@ -22,7 +24,7 @@
 .aboutContainer{
     width: 100%;
     height: fit-content;
-    background-color: azure;
+    background-color: rgb(255, 244, 224);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,23 +47,23 @@
 }
 .whatWeDo h1{
     /* font: 40px sans-serif; */
-    font-weight: 600;
-    color: gray;
-    font: 42px mediums;
+    font-weight: 300;
+    color: brown;
+    font: 42px text1;
 
 }
 .whatWeDo h2{
     width: 60%;
     height: 40px;
-    border-left: 4px solid rgb(172, 3, 3, 0.703);
-    border-right: 4px solid rgba(172, 3, 3, 0.703);
+    border-left: 4px solid brown;
+    border-right: 4px solid brown;
     border-top: none;
     border-bottom: none;
-    color: rgba(110, 110, 110, 0.752);
+    color: brown;
     margin-top: 20px;
     /* background-color: blanchedalmond; */
-    font: 25px semi;
-    font-weight: 400;
+    font: 25px text3;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,14 +71,14 @@
 }
 .whatWeDo p{
     width: 80%;
-    font: 14px queen;
-    color: gray;
+    font: 15px text2;
+    color: brown;
     margin-top: 20px;
     line-height: 20px;
     
 }
 .development{
-    width: 75%;
+    width: 70%;
     height: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -94,20 +96,22 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: beige;
+    background-color: brown;
 
 }
 .text{
-    color: gray;
+    margin-top: 10px;
+    color:brown;
 }
 .text h4{
-    color: rgb(110, 110, 110);
-    font: 18px semi;
+    color: brown;
+    font: 18px text2;
 }
 .text p{
-    font: 14px mediums;
-    line-height: 18px;
+    font: 14px text1;
+    line-height: 20px;
     font-weight: 100;
+    margin-top: 8px;
 }
 .Team{
     width: 65%;
@@ -118,8 +122,8 @@
     text-align: center;
 }
 .Team h1{
-    color: gray;
-    font: 32px sans-serif;
+    color: brown;
+    font: 32px text2;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -152,12 +156,12 @@
 .frameTexts{
     width: 100%;
     height: 15%;
-    color: rgb(110, 110, 110);
+    color: brown;
     /* background-color: aquamarine; */
     padding-top: 10px;
 }
 .frameTexts h6{
-    font: 20px sans-serif;
+    font: 20px text2;
     font-weight: 600;
-    color: gray;
+    color: brown;
 }

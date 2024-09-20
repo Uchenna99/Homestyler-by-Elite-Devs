@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../Stylesheets/Navbar.css"
 import { IoLogoReact } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
+import { IoCartOutline } from "react-icons/io5";
+import { FiSearch } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -19,12 +21,12 @@ const Navbar =()=>{
         <>
         <div className="navbar">
             <div className="nav-left">
-                <NavLink to='/'><IoLogoReact id='nav-logo'/></NavLink>
+                <div className="logo-wrap"></div>
             </div>
 
             <div className="nav-mid">
                 <NavLink to='/' id='link'><div className="nav-option"><p>Home</p></div></NavLink>
-                <NavLink to='' id='link'><div className="nav-option"><p>Services</p></div></NavLink>
+                <NavLink to='/shop' id='link'><div className="nav-option"><p>Shop</p></div></NavLink>
                 <NavLink to='/about' id='link'><div className="nav-option"><p>About</p></div></NavLink>
                 <NavLink to='/contact-page' id='link'><div className="nav-option"><p>Contact Us</p></div></NavLink>
             </div>
@@ -37,6 +39,13 @@ const Navbar =()=>{
                     </div>
                 </div>
             </div>
+
+            {/* <div className="nav-right">
+                <div className="nav-right-wrap">
+                    <FiSearch className="search-icon" />
+                    <IoCartOutline className="cart-icon" />
+                </div>
+            </div> */}
 
             <div className="nav-burger">
                 {/* <RxHamburgerMenu className='burger-icon' onClick={toggle}/> */}
