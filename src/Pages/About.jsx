@@ -1,7 +1,7 @@
 import React from "react";
 import '../Stylesheets/About.css'
 import '../Stylesheets/Aboutresponsiveness.css'
-import Navbar from "./Navbar";
+import Navbar from "../Components/Navbar";
 import imageOne from '../assets/Beverly-Hills-Luxury-Interiors-Sophisticated-and-Functional-Interiors-7.jpg'
 import imegeTwo from '../assets/NGNlZWRhM2QtOWFiYS00YWE2LWE4ZmEtZDE4ZTk5MTIyNGZk_best_of_luxury_interiors_interior_design_in_london___luxdeco.com_7826f8f2-c64b-4c53-b5ba-7376ac7ad37a.avif'
 import imageThree from '../assets/LivingRoom/livingroom1.jpg'

@@ -21,7 +21,7 @@ const Navbar =()=>{
         <>
         <div className="navbar">
             <div className="nav-left">
-                <NavLink to='/'><IoLogoReact id='nav-logo'/></NavLink>
+                <div className="logo-wrap"></div>
             </div>
 
             <div className="nav-mid">
@@ -33,10 +33,19 @@ const Navbar =()=>{
 
             <div className="nav-right">
                 <div className="nav-right-wrap">
+                    <Link to='/login' id='login-link'><div className="login-wrap"><p>Log In</p></div></Link>
+                    <div className="signin-wrap">
+                        <Link to='/sign-up'><button className='nav-butn'>Sign Up</button></Link>
+                    </div>
+                </div>
+            </div>
+
+            {/* <div className="nav-right">
+                <div className="nav-right-wrap">
                     <FiSearch className="search-icon" />
                     <IoCartOutline className="cart-icon" />
                 </div>
-            </div>
+            </div> */}
 
             <div className="nav-burger">
                 {/* <RxHamburgerMenu className='burger-icon' onClick={toggle}/> */}

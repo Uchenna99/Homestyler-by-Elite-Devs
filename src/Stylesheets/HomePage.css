@@ -2,7 +2,7 @@
 .homepage-wrap{
     width: 100%;
     height: fit-content;
-    background-color: wheat;
+    background-color: #FFFFFF;
     overflow: hidden;
 }
 
@@ -36,24 +36,27 @@
 
 
 @keyframes hero-img {
-    0%, 20%{
+    0%, 15%{
         background-image: url(../assets/LivingRoom/livingroom1.jpg);
     }
-    25%, 45%{
+    20%, 35%{
         background-image: url(../assets/LivingRoom/livingroom16.jpg);
     }
-    50%, 70%{
+    40%, 55%{
         background-image: url(../assets/Kitchen/kitchen7.jpg);
     }
-    75%, 95%{
+    60%, 75%{
         background-image: url(../assets/Kitchen/kitchen5.jpg);
+    }
+    80%, 95%{
+        background-image: url(../assets/LivingRoom/livingroom11.jpg);
     }
     100%{
         background-image: url(../assets/LivingRoom/livingroom1.jpg);
     }
 }
 
-@keyframes hero-txt {
+/* @keyframes hero-txt {
     0%, 20%{
         background-color: transparent;
     }
@@ -69,7 +72,7 @@
     100%{
         background-color: transparent;
     }
-}
+} */
 
 
 .hero-text-section{
@@ -107,7 +110,7 @@
     align-items: center;
     animation-name: text;
     animation-duration: 1.4s;
-    color: brown;
+    color: #00246B;
 }
 
 .hero-text > h2{
@@ -136,9 +139,9 @@ button.hero-butn{
     width: fit-content;
     height: 50px;
     background-color: transparent;
-    border: 2px solid brown;
+    border: 2px solid #00246B;
     border-radius: 5px;
-    color: brown;
+    color: #00246B;
     font-size: 20px;
     font-weight: 600;
     padding: 0 25px;
@@ -149,8 +152,8 @@ button.hero-butn{
 button.hero-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: brown;
-    color: wheat;
+    background-color: #00246B;
+    color: #FFFFFF;
 }
 
 
@@ -166,7 +169,7 @@ button.hero-butn:hover{
     justify-content: center;
     gap: 20px;
     padding: 80px 160px 100px;
-    color: brown;
+    color: #00246B;
 }
 
 
@@ -220,7 +223,7 @@ button.hero-butn:hover{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, fit-content);
     justify-content: center;
-    color: brown;
+    color: #032B44;
     padding: 40px 160px;
     gap: 40px;
 }
@@ -235,7 +238,7 @@ button.hero-butn:hover{
 
 .services-header > h2{
     font-size: 40px;
-    /* font-family: header; */
+    color: #00246B;
     text-align: center;
 }
 
@@ -255,7 +258,7 @@ button.hero-butn:hover{
 .services-card{
     width: 320px;
     height: 470px;
-    border: 1px solid;
+    border: 1px solid #00246B;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -283,15 +286,15 @@ button.hero-butn:hover{
 }
 
 .img-tech{
-    background-image: url(../assets/Techpic.jpg);
+    background-image: url(../assets/custom.jpg);
 }
 
 .img-business{
-    background-image: url(../assets/Businesspic.jpg);
+    background-image: url(../assets/consultation.jpg);
 }
 
 .img-software{
-    background-image: url(../assets/Softwarepic.jpg);
+    background-image: url(../assets/budget.jpg);
 }
 
 
@@ -303,6 +306,7 @@ button.hero-butn:hover{
     flex-direction: column;
     justify-content: center;
     padding: 10px 25px;
+    color: #00246B;
 }
 
 .services-card-info > h3{
@@ -330,7 +334,7 @@ button.hero-butn:hover{
     aspect-ratio: 2/2;
     border-radius: 50%;
     border: 5px solid #FFFFFF;
-    background-color: wheat;
+    background-color: #CADCFC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,6 +343,7 @@ button.hero-butn:hover{
 
 #scard-logo{
     font-size: 35px;
+    color: #00246B;
 }
 
 
@@ -353,10 +358,10 @@ button.hero-butn:hover{
 button#services-butn{
     width: fit-content;
     height: 50px;
-    border: 2px solid;
+    border: 2px solid #00246B;
     border-radius: 5px;
-    background-color: wheat;
-    color: brown;
+    background-color: #FFFFFF;
+    color: #00246B;
     font-size: 18px;
     font-weight: 600;
     padding: 0 25px;
@@ -365,8 +370,8 @@ button#services-butn{
 button#services-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: brown;
-    color: wheat;
+    background-color: #00246B;
+    color: #FFFFFF;
 }
 
 
@@ -383,7 +388,7 @@ button#services-butn:hover{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: fit-content 1fr 1fr;
     gap: 30px;
-    padding: 50px 160px 20px;
+    padding: 70px 160px 20px;
 }
 
 
@@ -397,7 +402,7 @@ button#services-butn:hover{
 
 .gallery-header > h2{
     font-size: 40px;
-    color: brown;
+    color: #00246B;
 }
 
 
@@ -410,6 +415,7 @@ button#services-butn:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 20px #00246b1f;
 }
 
 .gallery-pic > img{
@@ -473,7 +479,7 @@ button#services-butn:hover{
     z-index: 3;
     width: fit-content;
     height: fit-content;
-    background-color: rgba(165, 42, 42, 0.336);
+    background-color: #00246b57;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -482,7 +488,7 @@ button#services-butn:hover{
 }
 
 .img-description > p{
-    color: wheat;
+    color: #FFFFFF;
     font-size: 30px;
 }
 
@@ -499,7 +505,7 @@ button#services-butn:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: brown;
+    color: #00246B;
     padding: 50px 160px;
 }
 
@@ -545,10 +551,10 @@ button#services-butn:hover{
 button#abt-butn{
     width: fit-content;
     height: 50px;
-    background-color: wheat;
+    background-color: #FFFFFF;
     border: 2px solid;
     border-radius: 5px;
-    color: brown;
+    color: #00246B;
     font-size: 18px;
     font-weight: 600;
     padding: 0 25px;
@@ -557,8 +563,8 @@ button#abt-butn{
 button#abt-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: brown;
-    color: wheat;
+    background-color: #00246B;
+    color: #FFFFFF;
 }
 
 
@@ -580,6 +586,7 @@ button#abt-butn:hover{
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    box-shadow: 0px 0px 20px #00246b25;
 }
 
 
