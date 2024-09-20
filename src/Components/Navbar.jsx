@@ -66,9 +66,9 @@ const Navbar =()=>{
                         <p>Home</p>
                         </div>
                         </NavLink>
-                        <NavLink to='' id='drop-link'>
+                        <NavLink to='/shop' id='drop-link'>
                         <div className="drop-menu-option">
-                            <p>Services</p>
+                            <p>Shop</p>
                         </div>
                         </NavLink>
                         <NavLink to='/about' id='drop-link'>
