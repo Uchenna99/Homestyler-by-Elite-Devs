@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import './designStyles.css';
+import '../Stylesheets/designStyles.css';
 import { MdOutlineGridView } from 'react-icons/md';
 import { BsGrid3X3Gap } from 'react-icons/bs';
 import { TfiLayoutGrid4 } from 'react-icons/tfi';
 import { FaShoppingCart, FaInfo } from 'react-icons/fa';
-import data from './Designs.json';
+import data from '../Designs.json';
 
 const DesignStyles = () => {
     const [gridLayout, setGridLayout] = useState("default");
