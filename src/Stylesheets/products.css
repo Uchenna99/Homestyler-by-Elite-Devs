@@ -1,0 +1,322 @@
+.prod-head{
+    width: 100%;
+    height: 90px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.prod-filter{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.prod-display-filter{
+    width: 35%;
+    height: 90%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    font-size: 22px;
+    color: grey;
+}
+.prod-display-filter > *{
+    cursor: pointer;
+}
+.prod-display-filter > *:hover{
+    color: rgb(75, 75, 75) !important;
+}
+#sml{
+    font-size: 26px;
+}
+.prod-filter-trigger{
+    background-color: transparent;
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 3%;
+    cursor: pointer;
+    border: none;
+    color: grey;
+}
+.prod-filter-trigger > p{
+    font-size: 17px;
+}
+.prod-filter-wrap{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 0px 5px;
+    display: none;
+}
+.prod-cat-sub{
+    width: 70%;
+    height: 95%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.prod-cat-sub > h1{
+    font-size: 22px;
+}
+.prod-price{
+    width: 15%;
+    height: 95%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    padding-top: 2px;
+}
+.prod-price > h1{
+    font-size: 22px;
+}
+.price-box{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+.input-price{
+    width: 100%;
+    height: 15%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 5%;
+}
+.input-price > p{
+    margin-top: 3px;
+}
+.prod-rate{
+    width: 10%;
+    height: 95%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    padding-top: 2px;
+}
+.prod-rate > h1{
+    font-size: 22px;
+}
+.rate-box{
+    width: 100%;
+    height: 55%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.rate-box > button{
+    /* text-align: start; */
+    padding: 3% 0%;
+    width: 35%;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.fil-box{
+    width: 100%;
+    height: 80%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+.filter-cat-box{
+    width: 18%;
+    height: 100%;
+    /* background-color: white; */
+}
+.cat{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subcat-box{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.subcat-box > *{
+    margin-top: 8px;
+    padding: 2% 0%;
+    text-align: start;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.product-content{
+    width: 100%;
+    height: max-content;
+    /* background-color: red; */
+    padding: 30px 0px;
+    display: grid;
+    padding-left: 1%;
+    justify-content: center;
+    gap: 5%;
+}
+.product-card{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    justify-content: space-between;
+}
+.product-img{
+    width: 97%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-img:hover{
+    background-blend-mode: darken;
+}
+.product-img:hover #detail-icon{
+    display: flex;
+}
+#detail-icon{
+    border: 3px solid white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    display: none;
+    /* border: none; */
+    background-color: transparent;
+}
+#detail-icon:hover{
+    background-color: white;
+    color: gray;
+    border: none;
+}
+.product-details{
+    width: 97%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-texts{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.product-content.default {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 20px;
+    transition: 2s ease-in-out;
+}
+.product-content.three {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 20px;
+    transition: 2s ease-in-out;
+}
+.product-content.four {
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    grid-auto-rows: minmax(310px, 310px);
+    gap: 20px;
+    transition: 2s ease-in-out;
+}
+
+@media screen and (max-width: 1231px){
+    .prod-display-filter{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .prod-head{
+        justify-content: center;
+    }
+    .prod-filter{
+        width: 65%;
+        justify-content: center;
+    }
+    .prod-cat-sub{
+        width: 100%;
+    }
+    .prod-filter-wrap{
+        height: 400px;
+    }
+    .product-content{
+        grid-template-columns: 700px !important;
+    }
+    .prod-filter-wrap{
+        flex-direction: column;
+        gap: 5%;
+    }
+    .prod-price{
+        width: 100%;
+    }
+    .price-box{
+        flex-direction: row;
+        align-items: center;
+    }
+    .input-price{
+        height: 70%;
+    }
+    .prod-rate{
+        width: 80%;
+    }
+    .rate-box{
+        flex-direction: row;
+    }
+    .rate-box > button{
+        width: 10% !important;
+        padding: 1% 0% !important;
+    }
+}
+
+@media screen and (max-width:734px) {
+    .product-content{
+        grid-template-columns: 500px !important;
+    }
+    .subcat-box > button{
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .prod-filter{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:505px) {
+    .product-content{
+        grid-template-columns: 350px !important;
+    }
+}

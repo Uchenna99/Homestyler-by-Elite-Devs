@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import './designStyles.css';
+import '../Stylesheets/designStyles.css';
 import { MdOutlineGridView } from 'react-icons/md';
 import { BsGrid3X3Gap } from 'react-icons/bs';
 import { TfiLayoutGrid4 } from 'react-icons/tfi';
 import { FaShoppingCart, FaInfo } from 'react-icons/fa';
-import data from './Designs.json';
+import data from '../Designs.json';
 
 const DesignStyles = () => {
     const [gridLayout, setGridLayout] = useState("default");
@@ -39,6 +39,7 @@ const DesignStyles = () => {
 
     return (
         <>
+        
             <div className="des-head">
                 <div className="des-filter">
                     <p>All results</p>
@@ -46,6 +47,7 @@ const DesignStyles = () => {
                         <MdOutlineGridView id="sml" onClick={() => handleGridChange("default")} />
                         <BsGrid3X3Gap onClick={() => handleGridChange("three")} />
                         <TfiLayoutGrid4 onClick={() => handleGridChange("four")} />
+                        
                     </div>
                     <select
                         value={selectedCategory}

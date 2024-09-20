@@ -1,7 +1,7 @@
 .footer-section{
     width: 100%;
     height: fit-content;
-    background-color: #FFFFFF;
+    background-color: wheat;
     display: flex;
     padding: 70px 75px;
     border-top: 1px solid #00246B;
@@ -114,18 +114,18 @@ p.local-nums{
     font-weight: 500;
     font-family: Text2;
     margin-bottom: 10px;
-    color: #00246B;
+    color: brown;
 }
 
 .footer-links-list > a{
     font-size: 14px;
     text-decoration: none;
-    color: #00246B;
+    color: brown;
 }
 
 .footer-links-list > a:hover{
     text-decoration: underline;
-    color: #00246B;
+    color: black;
 }
 
 
@@ -164,7 +164,7 @@ p.local-nums{
 .social-handles{
     width: 100%;
     height: fit-content;
-    background-color: #FFFFFF;
+    background-color: brown;
     display: flex;
     justify-content: start;
     padding: 30px 75px 70px 75px;
