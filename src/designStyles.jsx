@@ -39,6 +39,7 @@ const DesignStyles = () => {
 
     return (
         <>
+        
             <div className="des-head">
                 <div className="des-filter">
                     <p>All results</p>
@@ -46,6 +47,7 @@ const DesignStyles = () => {
                         <MdOutlineGridView id="sml" onClick={() => handleGridChange("default")} />
                         <BsGrid3X3Gap onClick={() => handleGridChange("three")} />
                         <TfiLayoutGrid4 onClick={() => handleGridChange("four")} />
+                        
                     </div>
                     <select
                         value={selectedCategory}
