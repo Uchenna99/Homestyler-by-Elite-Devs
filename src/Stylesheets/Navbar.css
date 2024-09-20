@@ -20,12 +20,12 @@
     /* background-color: aliceblue; */
     display: flex;
     /* align-items: center; */
-    padding: 10px 25px;
+    padding: 0px 25px;
 }
 
 .logo-wrap{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: green;
     background-image: url(../assets/logo3.png);

@@ -43,9 +43,9 @@ const Footer =()=>{
             <div class="service-links">
                 <div class="footer-links-list">
                     <p>Quick Links</p>
+                    <Link to='/shop' className="footer-links-list"><a href="">Shop</a></Link>
                     <Link to='/contact-page' className="footer-links-list"><a href="">Contact Us</a></Link>
                     <Link to='/about' className="footer-links-list"><a href="">About Us</a></Link>
-                    <a href="">Industries</a>
                     <a href="">Find a Partner</a>
                     <a href="">Trials and Demos</a>
                     <a href="">Find Services</a>

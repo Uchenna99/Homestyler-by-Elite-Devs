@@ -4,7 +4,7 @@
     background-color: wheat;
     display: flex;
     padding: 70px 75px;
-    border-top: 1px solid #00246B;
+    /* border-top: 1px solid #00246B; */
 }
 
 .contact-info{
@@ -53,19 +53,19 @@
 
 p.naija{
     font-size: 14px;
-    color: #00246B;
+    color: brown;
     font-family: Text2;
 }
 
 p.number{
     font-size: 20px;
     font-weight: 600;
-    color: #00246B;
+    color: brown;
 }
 
 p.local-nums{
     font-size: 12px;
-    color: #00246B;
+    color: brown;
 }
 
 .contact-us{
@@ -75,16 +75,6 @@ p.local-nums{
 
 }
 
-.contact-us > a{
-    font-size: 14px;
-    text-decoration: none;
-    color: #00246B;
-}
-
-.contact-us > a:hover{
-    text-decoration: underline;
-    color: #00246B;
-}
 
 
 .chat{
@@ -140,7 +130,7 @@ p.local-nums{
 }
 
 .service-option{
-    border-bottom: 1px solid #00246B;
+    /* border-bottom: 1px solid #00246B; */
     display: flex;
     gap: 20px;
     padding: 15px 20px 15px 10px;
@@ -174,16 +164,16 @@ p.local-nums{
 .social-handle-wrap{
     width: 32px;
     height: 32px;
-    background-color: #FFFFFF;
+    background-color: wheat;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #00246B;
+    border: 1px solid brown;
 }
 
 .smedia-icon{
-    color: #00246B;
+    color: brown;
 }
 
 .social-handle-wrap:hover{
