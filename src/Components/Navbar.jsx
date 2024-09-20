@@ -8,8 +8,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar =()=>{
-    let burger = document.querySelector(".burger-icon")
-    let burgerClose = document.querySelector(".burger-close")
     const [buttonOpen, setButtonOpen] = useState(true);
 
     const toggle = () => {
@@ -35,7 +33,7 @@ const Navbar =()=>{
                 <div className="nav-right-wrap">
                     <Link to='/login' id='login-link'><div className="login-wrap"><p>Log In</p></div></Link>
                     <div className="signin-wrap">
-                        <Link to='/sign-up'><button className='nav-butn'>Sign Up</button></Link>
+                        <Link to='/signup'><button className='nav-butn'>Sign Up</button></Link>
                     </div>
                 </div>
             </div>
@@ -66,9 +64,9 @@ const Navbar =()=>{
                         <p>Home</p>
                         </div>
                         </NavLink>
-                        <NavLink to='' id='drop-link'>
+                        <NavLink to='/shop' id='drop-link'>
                         <div className="drop-menu-option">
-                            <p>Services</p>
+                            <p>Shop</p>
                         </div>
                         </NavLink>
                         <NavLink to='/about' id='drop-link'>
@@ -82,7 +80,7 @@ const Navbar =()=>{
                         </div>
                         </NavLink>
 
-                        <Link to='/sign-up'><button className='nav-butn drop-butn'>Sign Up</button></Link>
+                        <Link to='/signup'><button className='nav-butn drop-butn'>Sign Up</button></Link>
                     </div>
                 )}
             </div>

@@ -1,14 +1,14 @@
 @font-face {
     font-family: mediums;
-    src: url(../assets/LexendDeca-Medium.woff2);
+    src: url(../assets/Fonts/LexendDeca-Medium.woff2);
 }
 @font-face {
     font-family: semi;
-    src: url(../assets/LexendDeca-SemiBold.woff2)
+    src: url(../assets/Fonts/LexendDeca-SemiBold.woff2)
 }
 @font-face {
     font-family: queen;
-    src: url(../assets/Queens-Medium.woff2);
+    src: url(../assets/Fonts/Queens-Medium.woff2);
 }
 *{
     padding: 0;
@@ -55,16 +55,16 @@
 }
 .signup-create >h1{
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
-    font-family: queen;
+    font-family: mediums;
 
 
 }
 .signup-create >p{
     color: white;
     font-size: 16px;
-    font-family: queen;
+    font-family: mediums;
 }
 
 .signup-create >p >span{
@@ -165,7 +165,7 @@ input{
 .signup-border >p{
     font-size: 15px;
     color: white;
-    font-family: queen;
+    font-family: mediums;
 }
 
 .signup-write{
@@ -189,7 +189,7 @@ input{
 .signup-fi-name >p{
     font-size: 15px;
     color: brown;
-    font-family: queen;
+    font-family: mediums;
 }
 
 
