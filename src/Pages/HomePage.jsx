@@ -4,14 +4,9 @@ import { Link } from "react-router-dom";
 import { IoColorPaletteOutline } from "react-icons/io5";
 import { GiPencilRuler } from "react-icons/gi";
 import { RiMedalLine } from "react-icons/ri";
-import { GrTechnology } from "react-icons/gr";
 import { MdBusinessCenter } from "react-icons/md";
-import { FaInnosoft } from "react-icons/fa";
 import { BiChevronRight } from "react-icons/bi";
 import Navbar from "../Components/Navbar";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoGithub } from "react-icons/io";
-import { IoLogoPlaystation } from "react-icons/io";
 import img1 from "../assets/Kitchen/kitchen9.jpg"
 import img2 from "../assets/LivingRoom/livingroom2.jpeg"
 import img3 from "../assets/LivingRoom/livingroom4.jpg"

@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import "../Stylesheets/Navbar.css"
-import { IoLogoReact } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
-import { IoCartOutline } from "react-icons/io5";
-import { FiSearch } from "react-icons/fi";
-import { AiOutlineClose } from "react-icons/ai";
-import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar =()=>{
     let burger = document.querySelector(".burger-icon")

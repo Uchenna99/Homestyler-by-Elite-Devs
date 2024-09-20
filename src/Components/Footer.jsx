@@ -4,7 +4,6 @@ import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { FaRegEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
