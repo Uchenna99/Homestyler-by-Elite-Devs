@@ -322,6 +322,21 @@ button#login-dash{
 
 
 
+.logo-wrap2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+    background-image: url(../assets/logo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+
 /* @media screen and (max-width: 917px){
     .create{
         width: 90%;

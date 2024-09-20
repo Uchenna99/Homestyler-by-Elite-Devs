@@ -4,11 +4,13 @@ import { NavLink } from "react-router-dom";
 import image from "../assets/goggle-logo.png"
 import apple from "../assets/apple.png"
 import { BiFontFamily } from "react-icons/bi";
+import Logo from "../Components/Logo";
 // import "../Pages/Login"
 
 const Signup =()=>{
     return(
         <>
+        <Logo/>
         <div class="signup-container">
             <div className="signup-right">
                 <div className="signup-create">

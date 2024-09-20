@@ -3,9 +3,11 @@ import "../Stylesheets/Login.css"
 import { Link, NavLink } from "react-router-dom";
 import image from "../assets/goggle-logo.png"
 import apple from "../assets/apple.png"
+import Logo from "../Components/Logo";
 const Login = () => { 
     return (
         <>
+            <Logo/>
             <div class="login-container">
                 <div class="login-right">
                 
