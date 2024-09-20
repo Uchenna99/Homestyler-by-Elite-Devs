@@ -2,22 +2,18 @@
     "designs": [
       {
         "id": "design1",
-        "name": "Contemporary Living Room",
+        "name": "Crazy Living Room",
         "category": "Living Room",
         "style": "Contemporary",
-        "image": "path/to/contemporary_living_room.jpg",
+        "image": "../src/assets/cont_liv_room.webp",
         "description": "A modern living room design with sleek furniture and neutral colors.",
         "cost": 1500,
         "products": [
           {
-            "name": "Modern Sofa",
-            "price": 800,
-            "image": "path/to/modern_sofa.jpg"
+            "name": "Sofa"
           },
           {
-            "name": "Glass Coffee Table",
-            "price": 200,
-            "image": "path/to/glass_coffee_table.jpg"
+            "name": "Coffee Table"
           }
         ]
       },
@@ -26,19 +22,15 @@
         "name": "Elegant Bedroom",
         "category": "Bedroom",
         "style": "Elegant",
-        "image": "path/to/elegant_bedroom.jpg",
+        "image": "../src/assets/eleg_bed.jpeg.jpg",
         "description": "A luxurious bedroom with classic furniture and soft tones.",
         "cost": 2000,
         "products": [
           {
-            "name": "King Size Bed",
-            "price": 1200,
-            "image": "path/to/king_size_bed.jpg"
+            "name": "King Size Bed"
           },
           {
-            "name": "Elegant Nightstands",
-            "price": 300,
-            "image": "path/to/elegant_nightstands.jpg"
+            "name": "Nightstands"
           }
         ]
       },
@@ -47,19 +39,15 @@
         "name": "Minimalist Kitchen",
         "category": "Kitchen",
         "style": "Minimalist",
-        "image": "path/to/minimalist_kitchen.jpg",
+        "image": "../src/assets/min_kitchen.jpg",
         "description": "A sleek kitchen design with a minimalist approach and high-tech appliances.",
         "cost": 1800,
         "products": [
           {
-            "name": "Modern Kitchen Island",
-            "price": 600,
-            "image": "path/to/kitchen_island.jpg"
+            "name": "Modern Kitchen Island"
           },
           {
-            "name": "Stainless Steel Sink",
-            "price": 150,
-            "image": "path/to/stainless_steel_sink.jpg"
+            "name": "Stainless Steel Sink"
           }
         ]
       },
@@ -68,19 +56,15 @@
         "name": "Rustic Dining Room",
         "category": "Dining Room",
         "style": "Rustic",
-        "image": "path/to/rustic_dining_room.jpg",
+        "image": "../src/assets/rust_dining.jpg",
         "description": "A cozy dining room with rustic furniture and warm colors.",
         "cost": 1400,
         "products": [
           {
-            "name": "Wooden Dining Table",
-            "price": 500,
-            "image": "path/to/wooden_dining_table.jpg"
+            "name": "Wooden Dining Table"
           },
           {
-            "name": "Country-style Chairs",
-            "price": 100,
-            "image": "path/to/country_style_chairs.jpg"
+            "name": "Country-style Chairs"
           }
         ]
       },
@@ -89,19 +73,15 @@
         "name": "Urban Loft",
         "category": "Living Room",
         "style": "Urban",
-        "image": "path/to/urban_loft.jpg",
+        "image": "../src/assets/urban_loft.jpg",
         "description": "An open-plan living space with industrial elements and urban flair.",
         "cost": 2200,
         "products": [
           {
-            "name": "Industrial Coffee Table",
-            "price": 300,
-            "image": "path/to/industrial_coffee_table.jpg"
+            "name": "Coffee Table"
           },
           {
-            "name": "Leather Sectional Sofa",
-            "price": 900,
-            "image": "path/to/leather_sectional_sofa.jpg"
+            "name": "Leather Sectional Sofa"
           }
         ]
       },
@@ -110,19 +90,15 @@
         "name": "Cozy Home Office",
         "category": "Office",
         "style": "Cozy",
-        "image": "path/to/cozy_home_office.jpg",
+        "image": "../src/assets/home_office.avif",
         "description": "A warm and inviting home office with comfortable furniture and efficient storage.",
         "cost": 1300,
         "products": [
           {
-            "name": "Ergonomic Desk Chair",
-            "price": 250,
-            "image": "path/to/ergonomic_desk_chair.jpg"
+            "name": "Desk Chair"
           },
           {
-            "name": "Modern Desk",
-            "price": 300,
-            "image": "path/to/modern_desk.jpg"
+            "name": "Modern Desk"
           }
         ]
       }

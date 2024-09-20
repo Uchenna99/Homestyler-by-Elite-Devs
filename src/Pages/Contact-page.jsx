@@ -1,6 +1,6 @@
 import React from "react";
 import '../Stylesheets/contact-page.css'
-import Navbar from "./Navbar";
+import Navbar from "../Components/Navbar";
 
 
 const ContactPage =()=>{
@@ -26,12 +26,16 @@ const ContactPage =()=>{
                   <i class="bi bi-geo-alt-fill"></i>
                   <h3>ADDRESS</h3>
                   <p>Old Aba Road, Rumuomasi, Rivers State.</p>
-              </div>
+                  <div className="geo-div">
+                    <iframe className="geo-location" width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=mbm%20plaza%20old%20aba%20road+(Home%20Styler)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
+                  </div>
+                </div>
               <div  className="phone-div">
                   <i class="bi bi-envelope-fill"></i>
                   <h3>EMAIL</h3>
                   <p>elitesdevs1@gmail.com</p>
               </div>
+
          </div>
          <div  className="send-us-textdiv">
              <h3>IF YOU GOT ANY QUESTIONS PLEASE DO NOT HESITATE TO SEND US A MESSAGE.</h3>
