@@ -1,5 +1,5 @@
 import React from "react";
-import "../Stylesheets/Homepage.css"
+import "../Stylesheets/HomePage.css"
 import { Link } from "react-router-dom";
 import { IoColorPaletteOutline } from "react-icons/io5";
 import { GiPencilRuler } from "react-icons/gi";
