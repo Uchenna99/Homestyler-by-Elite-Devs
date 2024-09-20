@@ -1,262 +1,533 @@
 {
-    "designs": [
-      {
-        "id": "design1",
-        "name": "Crazy Living Room",
-        "category": "Living Room",
-        "style": "Contemporary",
-        "image": "../src/assets/cont_liv_room.webp",
-        "description": "A modern living room design with sleek furniture and neutral colors.",
-        "cost": 1500,
-        "products": [
-          {
-            "name": "Sofa"
-          },
-          {
-            "name": "Coffee Table"
-          }
-        ]
-      },
-      {
-        "id": "design2",
-        "name": "Elegant Bedroom",
-        "category": "Bedroom",
-        "style": "Elegant",
-        "image": "../src/assets/eleg_bed.jpeg.jpg",
-        "description": "A luxurious bedroom with classic furniture and soft tones.",
-        "cost": 2000,
-        "products": [
-          {
-            "name": "King Size Bed"
-          },
-          {
-            "name": "Nightstands"
-          }
-        ]
-      },
-      {
-        "id": "design3",
-        "name": "Minimalist Kitchen",
-        "category": "Kitchen",
-        "style": "Minimalist",
-        "image": "../src/assets/min_kitchen.jpg",
-        "description": "A sleek kitchen design with a minimalist approach and high-tech appliances.",
-        "cost": 1800,
-        "products": [
-          {
-            "name": "Modern Kitchen Island"
-          },
-          {
-            "name": "Stainless Steel Sink"
-          }
-        ]
-      },
-      {
-        "id": "design4",
-        "name": "Rustic Dining Room",
-        "category": "Dining Room",
-        "style": "Rustic",
-        "image": "../src/assets/rust_dining.jpg",
-        "description": "A cozy dining room with rustic furniture and warm colors.",
-        "cost": 1400,
-        "products": [
-          {
-            "name": "Wooden Dining Table"
-          },
-          {
-            "name": "Country-style Chairs"
-          }
-        ]
-      },
-      {
-        "id": "design5",
-        "name": "Urban Loft",
-        "category": "Living Room",
-        "style": "Urban",
-        "image": "../src/assets/urban_loft.jpg",
-        "description": "An open-plan living space with industrial elements and urban flair.",
-        "cost": 2200,
-        "products": [
-          {
-            "name": "Coffee Table"
-          },
-          {
-            "name": "Leather Sectional Sofa"
-          }
-        ]
-      },
-      {
-        "id": "design6",
-        "name": "Cozy Home Office",
-        "category": "Office",
-        "style": "Cozy",
-        "image": "../src/assets/home_office.avif",
-        "description": "A warm and inviting home office with comfortable furniture and efficient storage.",
-        "cost": 1300,
-        "products": [
-          {
-            "name": "Desk Chair"
-          },
-          {
-            "name": "Modern Desk"
-          }
-        ]
+  "designs": [
+    {
+      "id": "design1",
+      "name": "Crazy Living Room",
+      "category": "Living Room",
+      "style": "Contemporary",
+      "image": "../src/assets/cont_liv_room.webp",
+      "description": "A modern living room design with sleek furniture and neutral colors.",
+      "cost": 1500,
+      "products": [
+        {
+          "name": "Sofa"
+        },
+        {
+          "name": "Coffee Table"
+        }
+      ]
+    },
+    {
+      "id": "design2",
+      "name": "Elegant Bedroom",
+      "category": "Bedroom",
+      "style": "Elegant",
+      "image": "../src/assets/eleg_bed.jpeg",
+      "description": "A luxurious bedroom with classic furniture and soft tones.",
+      "cost": 2000,
+      "products": [
+        {
+          "name": "King Size Bed"
+        },
+        {
+          "name": "Nightstands"
+        }
+      ]
+    },
+    {
+      "id": "design3",
+      "name": "Minimalist Kitchen",
+      "category": "Kitchen",
+      "style": "Minimalist",
+      "image": "../src/assets/min_kitchen.jpg",
+      "description": "A sleek kitchen design with a minimalist approach and high-tech appliances.",
+      "cost": 1800,
+      "products": [
+        {
+          "name": "Modern Kitchen Island"
+        },
+        {
+          "name": "Stainless Steel Sink"
+        }
+      ]
+    },
+    {
+      "id": "design4",
+      "name": "Rustic Dining Room",
+      "category": "Dining Room",
+      "style": "Rustic",
+      "image": "../src/assets/rust_dining.jpg",
+      "description": "A cozy dining room with rustic furniture and warm colors.",
+      "cost": 1400,
+      "products": [
+        {
+          "name": "Wooden Dining Table"
+        },
+        {
+          "name": "Country-style Chairs"
+        }
+      ]
+    },
+    {
+      "id": "design5",
+      "name": "Urban Loft",
+      "category": "Living Room",
+      "style": "Urban",
+      "image": "../src/assets/urban_loft.jpg",
+      "description": "An open-plan living space with industrial elements and urban flair.",
+      "cost": 2200,
+      "products": [
+        {
+          "name": "Coffee Table"
+        },
+        {
+          "name": "Leather Sectional Sofa"
+        }
+      ]
+    },
+    {
+      "id": "design6",
+      "name": "Cozy Home Office",
+      "category": "Office",
+      "style": "Cozy",
+      "image": "../src/assets/home_office.avif",
+      "description": "A warm and inviting home office with comfortable furniture and efficient storage.",
+      "cost": 1300,
+      "products": [
+        {
+          "name": "Desk Chair"
+        },
+        {
+          "name": "Modern Desk"
+        }
+      ]
+    }
+  ],
+  "designers": [
+    {
+      "id": "designer1",
+      "name": "Jane Doe",
+      "profileImage": "../src/assets/designer.jpg",
+      "description": "Specializes in modern interior designs.",
+      "rates": "$100/hr",
+      "contact": {
+        "email": "jane.doe@example.com",
+        "phone": "+1234567890"
       }
-    ],
-    "designers": [
-      {
-        "id": "designer1",
-        "name": "Jane Doe",
-        "profileImage": "path/to/jane_doe.jpg",
-        "description": "Specializes in contemporary and modern interior designs.",
-        "rates": "$100/hr",
-        "contact": {
-          "email": "jane.doe@example.com",
-          "phone": "+1234567890"
-        }
-      },
-      {
-        "id": "designer2",
-        "name": "John Smith",
-        "profileImage": "path/to/john_smith.jpg",
-        "description": "Expert in elegant and classic home decor.",
-        "rates": "$120/hr",
-        "contact": {
-          "email": "john.smith@example.com",
-          "phone": "+0987654321"
-        }
-      },
-      {
-        "id": "designer3",
-        "name": "Emily Johnson",
-        "profileImage": "path/to/emily_johnson.jpg",
-        "description": "Known for creating cozy and inviting spaces with a personal touch.",
-        "rates": "$90/hr",
-        "contact": {
-          "email": "emily.johnson@example.com",
-          "phone": "+1122334455"
-        }
-      },
-      {
-        "id": "designer4",
-        "name": "Michael Brown",
-        "profileImage": "path/to/michael_brown.jpg",
-        "description": "Specializes in rustic and traditional designs with a focus on craftsmanship.",
-        "rates": "$110/hr",
-        "contact": {
-          "email": "michael.brown@example.com",
-          "phone": "+5566778899"
-        }
+    },
+    {
+      "id": "designer2",
+      "name": "John Smith",
+      "profileImage": "../src/assets/designer.jpg",
+      "description": "Expert in elegant home decor.",
+      "rates": "$120/hr",
+      "contact": {
+        "email": "john.smith@example.com",
+        "phone": "+0987654321"
       }
-    ],
-    "products": [
-      {
-        "id": "product1",
-        "name": "Modern Sofa",
-        "category": "Furniture",
-        "subCategory": "Sofas and Couches",
-        "price": 800,
-        "image": "path/to/modern_sofa.jpg",
-        "description": "A stylish modern sofa that complements any contemporary living space.",
-        "rating": 4.5,
-        "reviews": [
-          {
-            "user": "Alice",
-            "rating": 5,
-            "comment": "Absolutely love this sofa! It looks amazing in my living room."
-          },
-          {
-            "user": "Bob",
-            "rating": 4,
-            "comment": "Good quality, but the delivery took longer than expected."
-          }
-        ]
-      },
-      {
-        "id": "product2",
-        "name": "Glass Coffee Table",
-        "category": "Furniture",
-        "subCategory": "Tables",
-        "price": 200,
-        "image": "path/to/glass_coffee_table.jpg",
-        "description": "A sleek glass coffee table that adds a touch of elegance to any room.",
-        "rating": 4.0,
-        "reviews": [
-          {
-            "user": "Carol",
-            "rating": 4,
-            "comment": "Very stylish and easy to assemble. Great addition to my living room."
-          }
-        ]
-      },
-      {
-        "id": "product3",
-        "name": "King Size Bed",
-        "category": "Furniture",
-        "subCategory": "Beds and Mattresses",
-        "price": 1200,
-        "image": "path/to/king_size_bed.jpg",
-        "description": "A comfortable king size bed with a luxurious design.",
-        "rating": 4.8,
-        "reviews": [
-          {
-            "user": "David",
-            "rating": 5,
-            "comment": "The best bed I've ever owned. Very comfortable and well-made."
-          }
-        ]
-      },
-      {
-        "id": "product4",
-        "name": "Wooden Dining Table",
-        "category": "Furniture",
-        "subCategory": "Tables",
-        "price": 500,
-        "image": "path/to/wooden_dining_table.jpg",
-        "description": "A sturdy wooden dining table perfect for family meals.",
-        "rating": 4.2,
-        "reviews": [
-          {
-            "user": "Eve",
-            "rating": 4,
-            "comment": "Beautiful table, but it arrived with a small scratch."
-          }
-        ]
-      },
-      {
-        "id": "product5",
-        "name": "Ergonomic Desk Chair",
-        "category": "Furniture",
-        "subCategory": "Office Chairs",
-        "price": 250,
-        "image": "path/to/ergonomic_desk_chair.jpg",
-        "description": "An ergonomic chair designed for long hours of comfortable work.",
-        "rating": 4.6,
-        "reviews": [
-          {
-            "user": "Frank",
-            "rating": 5,
-            "comment": "Extremely comfortable and adjustable. Perfect for my home office."
-          }
-        ]
-      },
-      {
-        "id": "product6",
-        "name": "Modern Desk",
-        "category": "Furniture",
-        "subCategory": "Desks",
-        "price": 300,
-        "image": "path/to/modern_desk.jpg",
-        "description": "A sleek and modern desk that fits perfectly in any office space.",
-        "rating": 4.4,
-        "reviews": [
-          {
-            "user": "Grace",
-            "rating": 4,
-            "comment": "Nice desk, but the assembly instructions were not very clear."
-          }
-        ]
+    },
+    {
+      "id": "designer3",
+      "name": "Emily Johnson",
+      "profileImage": "path/to/emily_johnson.jpg",
+      "description": "Known for creating cozy spaces",
+      "rates": "$90/hr",
+      "contact": {
+        "email": "emily.johnson@example.com",
+        "phone": "+1122334455"
       }
-    ]
-  }
-  
+    },
+    {
+      "id": "designer4",
+      "name": "Michael Brown",
+      "profileImage": "path/to/michael_brown.jpg",
+      "description": "Specializes in rustic and traditional designs.",
+      "rates": "$110/hr",
+      "contact": {
+        "email": "michael.brown@example.com",
+        "phone": "+5566778899"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "product1",
+      "name": "Modern Sofa",
+      "category": "Furniture",
+      "subCategory": "Sofas and Couches",
+      "price": 800,
+      "image": "../src/assets/mod_sofa.jpg",
+      "description": "A stylish modern sofa that complements any contemporary living space.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Alice",
+          "rating": 5,
+          "comment": "Absolutely love this sofa! It looks amazing in my living room."
+        },
+        {
+          "user": "Bob",
+          "rating": 4,
+          "comment": "Good quality, but the delivery took longer than expected."
+        }
+      ]
+    },
+    {
+      "id": "product2",
+      "name": "Leather Recliner",
+      "category": "Furniture",
+      "subCategory": "Chairs and Recliners",
+      "price": 600,
+      "image": "../src/assets/leath_rec.jpeg",
+      "description": "A luxurious leather recliner perfect for relaxing.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Chris",
+          "rating": 5,
+          "comment": "Very comfortable and stylish!"
+        }
+      ]
+    },
+    {
+      "id": "product3",
+      "name": "Glass Dining Table",
+      "category": "Furniture",
+      "subCategory": "Tables",
+      "price": 500,
+      "image": "../src/assets/glass_din.jpg",
+      "description": "A modern glass dining table for elegant family meals.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Dana",
+          "rating": 3,
+          "comment": "Great table, but it scratches easily."
+        }
+      ]
+    },
+    {
+      "id": "product4",
+      "name": "King Size Bed",
+      "category": "Furniture",
+      "subCategory": "Beds and Mattresses",
+      "price": 1200,
+      "image": "../src/assets/king_size_bed.avif",
+      "description": "A comfortable king size bed with a luxurious design.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "David",
+          "rating": 5,
+          "comment": "The best bed I've ever owned. Very comfortable and well-made."
+        }
+      ]
+    },
+    {
+      "id": "product5",
+      "name": "Wooden Cabinet",
+      "category": "Furniture",
+      "subCategory": "Storage",
+      "price": 400,
+      "image": "../src/assets/wood_cab.jpeg",
+      "description": "A stylish wooden cabinet for all your storage needs.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Ella",
+          "rating": 4,
+          "comment": "Looks great, but the shelves are a bit narrow."
+        }
+      ]
+    },
+    {
+      "id": "product6",
+      "name": "Chandelier",
+      "category": "Lighting",
+      "subCategory": "Ceiling Lights",
+      "price": 250,
+      "image": "../src/assets/chand.jpg",
+      "description": "An elegant chandelier to light up your room with style.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Fiona",
+          "rating": 5,
+          "comment": "Absolutely beautiful!"
+        }
+      ]
+    },
+    {
+      "id": "product7",
+      "name": "Wall Sconce",
+      "category": "Lighting",
+      "subCategory": "Wall Lights",
+      "price": 80,
+      "image": "../src/assets/wall-scon.jpg",
+      "description": "A modern wall sconce for adding ambiance to your living space.",
+      "rating": 3,
+      "reviews": [
+        {
+          "user": "George",
+          "rating": 4,
+          "comment": "Nice design, but it was tricky to install."
+        }
+      ]
+    },
+    {
+      "id": "product8",
+      "name": "Floor Lamp",
+      "category": "Lighting",
+      "subCategory": "Floor Lamps",
+      "price": 150,
+      "image": "../src/assets/floor_lamp.jpg",
+      "description": "A sleek floor lamp that provides ample light in any room.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Hannah",
+          "rating": 5,
+          "comment": "Great for reading and stylish too!"
+        }
+      ]
+    },
+    {
+      "id": "product9",
+      "name": "Table Lamp",
+      "category": "Lighting",
+      "subCategory": "Table Lamps",
+      "price": 60,
+      "image": "../src/assets/tab_lamp.jpg",
+      "description": "A simple yet elegant table lamp for your desk or nightstand.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Ian",
+          "rating": 4,
+          "comment": "Does the job, but could be brighter."
+        }
+      ]
+    },
+    {
+      "id": "product10",
+      "name": "Outdoor Lantern",
+      "category": "Lighting",
+      "subCategory": "Outdoor Lighting",
+      "price": 100,
+      "image": "../src/assets/outdoor_lan.jpg",
+      "description": "A rustic outdoor lantern for your garden or patio.",
+      "rating": 5,
+      "reviews": [
+        {
+          "user": "Jane",
+          "rating": 5,
+          "comment": "Looks great and is weather-resistant."
+        }
+      ]
+    },
+    {
+      "id": "product11",
+      "name": "Wool Rug",
+      "category": "Decor",
+      "subCategory": "Rugs and Carpets",
+      "price": 300,
+      "image": "../src/assets/wool_rug.jpeg",
+      "description": "A plush wool rug to add comfort and style to your living space.",
+      "rating": 1,
+      "reviews": [
+        {
+          "user": "Kevin",
+          "rating": 3,
+          "comment": "Soft and luxurious, just what I was looking for!"
+        }
+      ]
+    },
+    {
+      "id": "product12",
+      "name": "Blackout Curtains",
+      "category": "Decor",
+      "subCategory": "Curtains and Blinds",
+      "price": 150,
+      "image": "../src/assets/black_curt.webp",
+      "description": "Blackout curtains for privacy and complete darkness.",
+      "rating": 2,
+      "reviews": [
+        {
+          "user": "Laura",
+          "rating": 2,
+          "comment": "Works perfectly for my bedroom!"
+        }
+      ]
+    },
+    {
+      "id": "product13",
+      "name": "Wall Mirror",
+      "category": "Decor",
+      "subCategory": "Wall Art and Mirrors",
+      "price": 200,
+      "image": "../src/assets/wall_mir.webp",
+      "description": "A large, stylish mirror perfect for your living room or hallway.",
+      "rating": 5,
+      "reviews": [
+        {
+          "user": "Mark",
+          "rating": 5,
+          "comment": "Beautiful mirror, really opens up the room."
+        }
+      ]
+    },
+    {
+      "id": "product14",
+      "name": "Cushion Set",
+      "category": "Decor",
+      "subCategory": "Cushions and Throws",
+      "price": 75,
+      "image": "../src/assets/cush.jpg",
+      "description": "A set of cozy cushions perfect for your sofa or bed.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Nina",
+          "rating": 4,
+          "comment": "Comfortable but the color faded slightly after washing."
+        }
+      ]
+    },
+    {
+      "id": "product15",
+      "name": "Ceramic Vase",
+      "category": "Decor",
+      "subCategory": "Vases and Plant Pots",
+      "price": 50,
+      "image": "../src/assets/cer_vac.jpg",
+      "description": "A stylish ceramic vase that complements any room decor.",
+      "rating": 2,
+      "reviews": [
+        {
+          "user": "Oscar",
+          "rating": 1,
+          "comment": "Lovely design but a bit smaller than expected."
+        }
+      ]
+    },
+    {
+      "id": "product16",
+      "name": "Kitchen Cabinet",
+      "category": "Kitchen",
+      "subCategory": "Cabinets and Pantries",
+      "price": 800,
+      "image": "../src/assets/kit_cab.jpeg",
+      "description": "A spacious kitchen cabinet with ample storage for your utensils.",
+      "rating": 3,
+      "reviews": [
+        {
+          "user": "Pam",
+          "rating": 5,
+          "comment": "Beautifully crafted and lots of storage."
+        }
+      ]
+    },
+    {
+      "id": "product17",
+      "name": "Chef's Knife Set",
+      "category": "Kitchen",
+      "subCategory": "Cookware and Utensils",
+      "price": 120,
+      "image": "../src/assets/knife_Set.webp",
+      "description": "A premium chef's knife set for all your cooking needs.",
+      "rating": 5,
+      "reviews": [
+        {
+          "user": "Quinn",
+          "rating": 5,
+          "comment": "Razor sharp and comfortable to handle."
+        }
+      ]
+    },
+    {
+      "id": "product19",
+      "name": "Elegant Vanity",
+      "category": "Bathroom",
+      "subCategory": "Vanities and Cabinets",
+      "price": 900,
+      "image": "../src/assets/bath_van.webp",
+      "description": "A stylish vanity with ample storage and a sleek design for modern bathrooms.",
+      "rating": 3,
+      "reviews": [
+        {
+          "user": "Anna",
+          "rating": 5,
+          "comment": "Beautiful vanity that fits perfectly in my bathroom."
+        }
+      ]
+    },
+    {
+      "id": "product20",
+      "name": "Luxury Shower",
+      "category": "Bathroom",
+      "subCategory": "Showers and Bathtubs",
+      "price": 1500,
+      "image": "../src/assets/lux_show.avif",
+      "description": "A luxury shower system with multiple jets and a rainfall showerhead.",
+      "rating": 5,
+      "reviews": [
+        {
+          "user": "James",
+          "rating": 5,
+          "comment": "This shower system is amazing, it feels like a spa experience."
+        }
+      ]
+    },
+    {
+      "id": "product21",
+      "name": "Modern Toilet",
+      "category": "Bathroom",
+      "subCategory": "Toilets and Bidets",
+      "price": 400,
+      "image": "../src/assets/mod_tol.jpg",
+      "description": "A modern, water-saving toilet with a sleek design and comfortable seating.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Olivia",
+          "rating": 4,
+          "comment": "Good toilet, works efficiently and looks stylish."
+        }
+      ]
+    },
+    {
+      "id": "product22",
+      "name": "Double Sink",
+      "category": "Bathroom",
+      "subCategory": "Bathroom Sinks",
+      "price": 600,
+      "image": "../src/assets/dob_snk.jpg",
+      "description": "A double sink with a contemporary design, perfect for shared bathrooms.",
+      "rating": 3,
+      "reviews": [
+        {
+          "user": "Sophia",
+          "rating": 5,
+          "comment": "This sink is perfect for our bathroom, it's both functional and stylish."
+        }
+      ]
+    },
+    {
+      "id": "product23",
+      "name": "Frameless Mirror",
+      "category": "Bathroom",
+      "subCategory": "Mirrors and Medicine Cabinets",
+      "price": 300,
+      "image": "../src/assets/frm_mir.jpg",
+      "description": "A frameless mirror with LED lighting, ideal for modern bathrooms.",
+      "rating": 4,
+      "reviews": [
+        {
+          "user": "Mia",
+          "rating": 5,
+          "comment": "I love the lighting on this mirror, it's great for getting ready in the morning."
+        }
+      ]
+    }  
+  ]
+}
