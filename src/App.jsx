@@ -14,11 +14,7 @@ import FeedbackPage from './Pages/Feedback'
 function App() {
 
   return (
-    <>
-
-      <FeedbackPage/>
-      
-      
+    <>    
       <Routes>
 
           <Route path='/' element={<HomePage/>} />
