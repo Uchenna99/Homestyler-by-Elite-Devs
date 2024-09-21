@@ -65,11 +65,13 @@
     font-family: mediums;
 }
 
+
 .login-create >p >span{
     font-size: 17px;
     color: brown;
     font-weight: 500;
     font-family: semi;
+    
 } 
 .signup-create >p >span{
     font-size: 17px;
