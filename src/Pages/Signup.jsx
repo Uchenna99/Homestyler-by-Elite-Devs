@@ -2,13 +2,15 @@ import React from "react";
 import "../Stylesheets/Signup.css";
 import { NavLink } from "react-router-dom";
 import image from "../assets/goggle-logo.png"
-import apple from "../assets/goggle-logo.png"
+import apple from "../assets/apple.png"
 import { BiFontFamily } from "react-icons/bi";
+import Logo from "../Components/Logo";
 // import "../Pages/Login"
 
 const Signup =()=>{
     return(
         <>
+        <Logo/>
         <div class="signup-container">
             <div className="signup-right">
                 <div className="signup-create">
@@ -47,7 +49,7 @@ const Signup =()=>{
                     <div className="signup-inp-placeholder signup-color">
                         <div className="signup-fi-name signup-account">
                          <img src={image} alt="" />
-                            <p>Goggle</p>
+                            <p>Google</p>
                         </div>
                         <div className="signup-fi-name signup-account">
                          <img src={apple} alt="" />

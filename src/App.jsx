@@ -7,6 +7,7 @@ import ContactPage from './Pages/Contact-page'
 import Signup from './Pages/Signup'
 import Login from './Pages/Login'
 import Dashboard from './Pages/Dashboard'
+import FeedbackPage from './Pages/Feedback'
 
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
           <Route path='/contact-page' element={<ContactPage/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/signup' element={<Signup/>}/>
-          <Route path= 'login' element={<Login/>}/>
+          <Route path= '/login' element={<Login/>}/>
           <Route path='/dash' element={<Dashboard/>}/>
+          <Route path='/feedback' element={<FeedbackPage/>}/>
       </Routes>
     </>
   )

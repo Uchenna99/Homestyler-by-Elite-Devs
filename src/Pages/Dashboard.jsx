@@ -7,6 +7,8 @@ import { RiArmchairLine } from "react-icons/ri";
 import { PiSignOutBold } from "react-icons/pi";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { IoCopyOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import Logo from "../Components/Logo";
 
 
 
@@ -16,7 +18,7 @@ const Dashboard =()=>{
         <div class="cover">
             <div class="left-tab">
                 <div class="logo">
-                    <img src={logoimg} alt="" />
+                    <Link to='/' className="logo"><img src={logoimg} alt="" /></Link>
                 </div>
                 <div class="option-tab blue-tab">
                     <IoHomeOutline className="option-logo"/> <b>Home</b>
@@ -27,9 +29,11 @@ const Dashboard =()=>{
                 <div class="option-tab">
                     <RiArmchairLine className="option-logo"/> <b>Furniture</b>
                 </div>
+                <Link to='/' id='signout'>
                 <div class="option-tab">
                     <PiSignOutBold className="option-logo"/> <b>Sign Out</b>
                 </div>
+                </Link>
             </div>
             <div class="mid-tab">
                 <div class="welcm">

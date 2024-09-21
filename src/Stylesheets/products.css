@@ -88,17 +88,12 @@
     flex-direction: column;
     gap: 3%;
 }
-.input-price{
-    width: 100%;
-    height: 15%;
-    /* background-color: whitesmoke; */
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    gap: 5%;
-}
-.input-price > p{
-    margin-top: 3px;
+#btn-price{
+    /* background-color: red; */
+    border: none;
+    background-color: transparent;
+    padding: 2% 0%;
+    text-align: start;
 }
 .prod-rate{
     width: 10%;
@@ -258,6 +253,12 @@
 }
 
 @media screen and (max-width: 975px) {
+    .subcat-box > *{
+        margin-top: 3px;
+    }
+    .prod-cat-sub > h1, .prod-price > h1, .prod-rate > h1{
+        font-size: 17px;
+    }
     .prod-head{
         justify-content: center;
     }
@@ -270,6 +271,7 @@
     }
     .prod-filter-wrap{
         height: 400px;
+        margin-bottom: 45px;
     }
     .product-content{
         grid-template-columns: 700px !important;
@@ -280,19 +282,24 @@
     }
     .prod-price{
         width: 100%;
+        /* background-color: red; */
     }
     .price-box{
         flex-direction: row;
         align-items: center;
+        /* background-color: blue; */
     }
-    .input-price{
-        height: 70%;
+    #btn-price{
+        width: 20%;
     }
     .prod-rate{
         width: 80%;
+        gap: 10%;
     }
     .rate-box{
         flex-direction: row;
+        /* background-color: red; */
+        height: 35px;
     }
     .rate-box > button{
         width: 10% !important;
@@ -309,14 +316,26 @@
     }
 }
 
+@media screen and (max-width:627px) {
+    .input-price{
+        font-size: 11px;
+    }
+}
+
 @media screen and (max-width:580px) {
     .prod-filter{
         width: 75%;
+    }
+    #btn-price{
+        font-size: 11px;
     }
 }
 
 @media screen and (max-width:505px) {
     .product-content{
         grid-template-columns: 350px !important;
+    }
+    .input-price{
+        font-size: 10px;
     }
 }

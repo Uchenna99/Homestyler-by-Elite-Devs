@@ -141,6 +141,7 @@ const HomePage =()=>{
                 <div className="gallery-header">
                     <h2>GALLERY</h2>
                 </div>
+                <Link to='/shop'>
                 <div className="gallery-pic">
                     <div className="first-img">
                         <img  src={img3} alt="" />
@@ -152,6 +153,8 @@ const HomePage =()=>{
                         <p>Living Rooms</p>
                     </div>
                 </div>
+                </Link>
+                <Link to='/shop'>
                 <div className="gallery-pic gallery-pic2">
                     <div className="first-img">
                             <img  src={img5} alt="" />
@@ -162,7 +165,9 @@ const HomePage =()=>{
                         <div className="img-description">
                             <p>Kitchens</p>
                         </div>
-                    </div>
+                </div>
+                </Link>
+                <Link to='/shop'>
                 <div className="gallery-pic gallery-pic3">
                     <div className="first-img">
                         <img  src={img7} alt="" />
@@ -174,6 +179,8 @@ const HomePage =()=>{
                         <p>Bedrooms</p>
                     </div>
                 </div>
+                </Link>
+                <Link to='/shop'>
                 <div className="gallery-pic gallery-pic4">
                     <div className="first-img">
                         <img  src={img4} alt="" />
@@ -185,6 +192,7 @@ const HomePage =()=>{
                         <p>Dining</p>
                     </div>
                 </div>
+                </Link>
             </div>
 
             {/* <div className="partners-section">

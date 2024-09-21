@@ -46,7 +46,7 @@ const Footer =()=>{
                     <Link to='/shop' className="footer-links-list"><a href="">Shop</a></Link>
                     <Link to='/contact-page' className="footer-links-list"><a href="">Contact Us</a></Link>
                     <Link to='/about' className="footer-links-list"><a href="">About Us</a></Link>
-                    <a href="">Find a Partner</a>
+                    <Link to='/feedback' className="footer-links-list"><a href="">Feedback</a></Link>
                     <a href="">Trials and Demos</a>
                     <a href="">Find Services</a>
                 </div>
@@ -93,7 +93,7 @@ const Footer =()=>{
                 </div>
                 <div class="service-option">
                     <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><g id="slim-arrow-right-1721491035578-djy1b"><path d="m5.8 13c-.21 0-.42-.08-.58-.25-.31-.32-.29-.83.03-1.13l3.79-3.62-3.79-3.62c-.32-.31-.33-.81-.03-1.13.31-.32.81-.33 1.13-.03l4.4 4.2c.16.15.25.36.25.58s-.09.43-.25.58l-4.4 4.2c-.15.15-.35.22-.55.22z"></path></g></svg>
-                    <p>About Home Styler</p>
+                    <Link to='/about' id='tab-abt'><p>About Home Styler</p></Link>
                 </div>
                 <div class="service-option">
                     <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><g id="slim-arrow-right-1721491035578-djy1b"><path d="m5.8 13c-.21 0-.42-.08-.58-.25-.31-.32-.29-.83.03-1.13l3.79-3.62-3.79-3.62c-.32-.31-.33-.81-.03-1.13.31-.32.81-.33 1.13-.03l4.4 4.2c.16.15.25.36.25.58s-.09.43-.25.58l-4.4 4.2c-.15.15-.35.22-.55.22z"></path></g></svg>
