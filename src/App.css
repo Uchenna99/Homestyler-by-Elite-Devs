@@ -13,6 +13,11 @@
     font-family: Text3;
     src: url(./assets/Fonts/LexendDeca-Light.woff2);
   }
+
+  @font-face {
+    font-family: Header;
+    src: url(./assets/Fonts/Queens-Medium.woff2);
+  }
   
   
   *{

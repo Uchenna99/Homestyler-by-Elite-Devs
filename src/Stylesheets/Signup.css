@@ -1,0 +1,288 @@
+@font-face {
+    font-family: mediums;
+    src: url(../assets/Fonts/LexendDeca-Medium.woff2);
+}
+@font-face {
+    font-family: semi;
+    src: url(../assets/Fonts/LexendDeca-SemiBold.woff2)
+}
+@font-face {
+    font-family: queen;
+    src: url(../assets/Fonts/Queens-Medium.woff2);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.signup-container{
+    width: 100%;
+    height: 100vh;
+    /* background-color:rgb(43,39,56); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/cont_liv_room.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(21, 20, 20, 0.68);
+    background-blend-mode: darken;
+    /* background: linear-gradient(90deg, brown, wheat); */
+    /* background-color: wheat; */
+
+
+}
+.signup-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(43,39,56); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.signup-create{
+        width: 80%;
+        height: 25%;
+        /* background-color: black;  */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;    
+}
+.signup-create >h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    font-family: mediums;
+
+
+}
+.signup-create >p{
+    color: white;
+    font-size: 16px;
+    font-family: mediums;
+}
+
+.signup-create >p >span{
+    font-size: 17px;
+    color: #CADCFC;
+    font-weight: 500;
+    font-family: semi;
+} 
+
+form{
+    width: 70%;
+    height: 80%;
+    /* border: 2px solid white; */
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: rgb(43,39,56); */
+    gap: 15px;
+}
+
+.signup-inp-placeholder{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    border-radius: 10px;
+    gap: 10px;
+    /* padding-left: 15px; */
+    
+} 
+.signup-lightpurpple{
+    /* background-color: white; ; */
+}
+.signup-fi-name{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 15px; */
+    background-color: white;
+    border-radius: 15px;    
+}
+.signup-fi-name >input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color:  brown;
+
+}
+.signup-inp-placeholder >label{
+    width: 30%;
+    height: 100%;
+    background-color:  white;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: semi;
+    color: brown;
+}
+input{
+    color: brown;
+    font-family: medium;
+ }
+.signup-inp-placeholder >input{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.signup-inp-placeholder >button{
+    width: 90%;
+    height: 100%;
+    border: none;
+    color:brown;
+    background-color: white;
+    border-radius: 15px;
+    font-family: semi;
+}
+.signup-border{
+    width: 30%;
+    /* height: 100%; */
+    border-bottom: 3px solid white;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-border >p{
+    font-size: 15px;
+    color: white;
+    font-family: mediums;
+}
+
+.signup-write{
+    border: none;
+}
+
+.signup-different{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-fi-name >img{
+    width: 50px;
+    height: 50px;
+}
+
+.signup-fi-name >p{
+    font-size: 15px;
+    color: brown;
+    font-family: mediums;
+}
+
+
+@media screen and (max-width: 950px){
+    .signup-create{
+        width: 90%;
+        padding-left: 15px;
+        /* background-color: aquamarine; */
+    }
+    form{
+        width: 90%;
+        /* background-color: orangered; */
+    }    
+}
+
+@media screen and (max-width: 856px){
+    .signup-create >h1{
+        font-size: 27px;
+    }
+
+    .signup-create >p{
+        font-size: 18px;
+    }
+    .signup-create >p >span{
+        font-size: 18px;
+    }
+    .signup-right{
+        width: 60%;
+        /* background-color: pink; */
+    }
+    .signup-border >p{
+        font-size: 10px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 587px){
+    .signup-right{
+        width: 80%;
+        /* background-color: pink; */
+    }
+    .signup-border >p{
+        font-size: 8px;
+        color: white;
+    }
+    .signup-create >h1{
+        font-size: 20px;
+    }
+
+    .signup-create >p{
+        font-size: 14px;
+    }
+    .signup-create >p >a{
+        font-size: 14px;
+    
+    }
+    .signup-inp-placeholder >label{
+        font-size: 13px;
+    }
+    .signup-inp-placeholder >button{
+        font-size: 13px;
+    }
+    .signup-fi-name >img{
+        width: 40px;
+        height: 40px;
+    }
+    .signup-fi-name >p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 495px){
+    .signup-create{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }    
+
+    .signup-border >p{
+        font-size: 6px;
+        color: white;
+    }
+    .signup-create >h1{
+        font-size: 14px;
+    }
+
+    .signup-create >p{
+        font-size: 11px;
+    }
+    .signup-create >p >span{
+        font-size: 12px;
+    }
+    .signup-inp-placeholder >label{
+        font-size: 9px;
+    }
+}

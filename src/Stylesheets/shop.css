@@ -1,0 +1,81 @@
+.shop-main-wrap{
+    width: 100%;
+    filter: blur(1px);
+}
+.shop-head{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.445);
+    background-image: url(../assets//landscape-interior-design-cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    gap: 5%;
+}
+.next-link{
+    /* background-color: white; */
+    width: 30%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.next-link > button{
+    border: none;
+    padding: 0% 5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 2px;
+    backdrop-filter: 5px;
+    cursor: pointer;
+}
+.next-link > button:hover{
+    background-color: black;
+}
+
+@media screen and (max-width:1087px) {
+    .shop-head{
+        font-size: 20px;
+    }
+    .next-link{
+        height: 10%;
+    }
+    .next-link > button{
+        font-size: 12px;
+        padding: 0% 2%;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .next-link{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:717px) {
+    .next-link{
+        width: 50%;
+        /* background-color: red; */
+        height: 30%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .next-link > button{
+        height: 30%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 371px) {
+    .next-link > button{
+        width: 70%;
+    }
+}

@@ -1,0 +1,420 @@
+@font-face {
+    font-family: mediums;
+    src: url(../assets/Fonts/LexendDeca-Medium.woff2);
+}
+@font-face {
+    font-family: semi;
+    src: url(../assets/Fonts/LexendDeca-SemiBold.woff2)
+}
+@font-face {
+    font-family: queen;
+    src: url(../assets/Fonts/Queens-Medium.woff2);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login-container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #CADCFC; */
+    background-color: rgba(0, 0, 0, 0.726);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../assets/Beverly-Hills-Luxury-Interiors-Sophisticated-and-Functional-Interiors-7.jpg);
+
+}
+
+.login-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(43,39,56); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.login-create{
+    width: 80%;
+    height: 25%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.login-create >h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    font-family: mediums;
+}
+
+.login-create >p{
+    color: white;
+    font-size: 16px;
+    font-family: mediums;
+}
+
+
+.login-create >p >span{
+    font-size: 17px;
+    color: brown;
+    font-weight: 500;
+    font-family: semi;
+    
+} 
+.signup-create >p >span{
+    font-size: 17px;
+    color: brown;
+    font-weight: 500;
+    font-family: semi;
+} 
+/* .different{
+    font-size: 15px;
+} */
+form{
+    width: 70%;
+    height: 70%;
+    /* border: 2px solid white; */
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    gap: 15px;
+}
+
+
+ .login-inp-placeholder{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    border-radius: 10px;
+    gap: 20px;
+} 
+
+
+.login-lightpurpple{
+    width: 100%;
+    height: 15%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #00246B; */
+}
+.login-fi-name{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 15px; */
+    
+}
+.login-fi-name >input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+
+}
+.login-inp-placeholder >label{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.login-create >p >nav{
+    color: #00246B;
+}
+.login-inp-placeholder >input{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+}
+button#login-dash{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: brown;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+#login-link{
+    color: brown;
+    text-decoration: none;
+}
+
+.login-border{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-border >p{
+    font-size: 13px;
+    color: white;
+}
+.login-b-bottom{
+    width: 90%;
+    /* height: 50%; */
+    border-bottom: 3px solid white;
+}
+.login-write{
+    width: 30%;
+    height: 100%;
+    /* border-bottom: 3px solid #00246B; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: purple; */
+    border: none;
+    color: white;
+}
+.login-different{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    gap: 15px;
+}
+.login-account{
+    /* border: 1px solid #00246B; */
+    border-radius: 12px;
+}
+.login-ccolor{
+    background-color: white;
+}
+.login-fi-name >img{
+    width: 50px;
+    height: 50px;
+}
+.login-fi-name >p{
+    font-size: 15px;
+    color: brown;
+    font-family: mediums;
+}
+
+
+
+
+@media screen and (max-width: 950px){
+    .signup-create{
+        width: 90%;
+        padding-left: 15px;
+        /* background-color: aquamarine; */
+    }
+    form{
+        width: 90%;
+        /* background-color: orangered; */
+    }    
+}
+
+@media screen and (max-width: 856px){
+    .login-create >h1{
+        font-size: 27px;
+    }
+
+    .login-create >p{
+        font-size: 18px;
+    }
+    .login-create >p >span{
+        font-size: 18px;
+    }
+    .login-right{
+        width: 60%;
+        /* background-color: pink; */
+    }
+    .login-border >p{
+        font-size: 10px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 587px){
+    .login-right{
+        width: 80%;
+        /* background-color: pink; */
+    }
+    .login-border >p{
+        font-size: 8px;
+        color: white;
+    }
+    .login-create >h1{
+        font-size: 20px;
+    }
+
+    .login-create >p{
+        font-size: 14px;
+    }
+    .login-create >p >a{
+        font-size: 14px;
+    
+    }
+    .login-inp-placeholder >label{
+        font-size: 13px;
+    }
+    .login-inp-placeholder >button{
+        font-size: 13px;
+    }
+    .login-fi-name >img{
+        width: 40px;
+        height: 40px;
+    }
+    .login-fi-name >p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 495px){
+    .login-create{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }    
+
+    .signup-border >p{
+        font-size: 6px;
+        color: white;
+    }
+    .signup-create >h1{
+        font-size: 14px;
+    }
+
+    .signup-create >p{
+        font-size: 11px;
+    }
+    .signup-create >p >span{
+        font-size: 12px;
+    }
+    .signup-inp-placeholder >label{
+        font-size: 9px;
+    }
+}
+
+
+
+.logo-wrap2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+    background-image: url(../assets/logo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* @media screen and (max-width: 917px){
+    .create{
+        width: 90%;
+        padding-left: 15px;
+    }
+    .form{
+        width: 90%;
+    }    
+}
+
+@media screen and (max-width: 856px){
+    .create >h1{
+        font-size: 27px;
+    }
+
+    .create >p{
+        font-size: 18px;
+    }
+    .create >p >a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 856px){
+    .border >p{
+        font-size: 10px;
+        color: white;
+    }
+    .create >p{
+        font-size: 16px;
+    }
+    .create >p >a{
+        font-size: 16px;
+    
+    }
+} */
+
+@media screen and (max-width: 587px){
+
+    .border >p{
+        font-size: 8px;
+        color: white;
+    }
+    .create >h1{
+        font-size: 20px;
+    }
+
+    .create >p{
+        font-size: 14px;
+    }
+    .create >p >a{
+        font-size: 14px;
+    
+    }
+}
+@media screen and (max-width: 495px){
+    .create{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }    
+
+    .border >p{
+        font-size: 6px;
+        color: white;
+    }
+    .create >h1{
+        font-size: 16px;
+    }
+
+    .create >p{
+        font-size: 11px;
+    }
+    .create >p >a{
+        font-size: 11px;
+    
+    }
+}

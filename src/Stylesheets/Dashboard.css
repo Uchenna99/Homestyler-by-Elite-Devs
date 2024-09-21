@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.cover{
+    width: 100%;
+    height: 720px;
+    background-color: #cadcfc62;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-tab{
+    width: 180px;
+    height: 100%;
+    background-color: #CADCFC;
+}
+.logo{
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(243,245,250); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.logo > h2{
+    color: wheat;
+    font-size: 22px;
+}
+
+span.styler{
+    color: brown;
+    font-size: 22px;
+}
+
+.option-tab{
+    width: 100%;
+    height: 60px;
+    /* background-color: lightskyblue; */
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    color: #00246B;
+}
+
+.option-tab:hover{
+    background-color: #032b4446;
+    cursor: pointer;
+}
+
+.option-logo{
+    font-size: large;
+    margin-right: 15px;
+}
+.blue-tab{
+    color: rgb(66,7,225);
+}
+
+#signout{
+    color: #00246B;
+}
+
+
+
+
+
+
+
+
+
+
+.mid-tab{
+    width: 55%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #00246B;
+}
+.welcm{
+    width: 100%;
+    height: 80px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: end;
+    font-size: x-large;
+}
+.books{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+}
+.folder-img{
+    width: 22%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.folder-img > img{
+    width: 110px;
+}
+.june-books{
+    width: 78%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+span.one{
+    color: rgb(66,7,225);
+}
+span.two{
+    font-weight: bold;
+}
+.complete{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    border-radius: 5px;
+}
+.junebooks2{
+    width: 50%;
+    height: 100%;
+    /* background-color: lightcyan; */
+    display: flex;
+}
+.file-img{
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.junbux{
+    width: 80%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.junbux > p{
+    font-size: small;
+}
+.download{
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 4%;
+}
+.download > a{
+    text-decoration: none;
+    color: rgb(66,7,225);
+    font-size: small;
+    font-weight: bold;
+}
+a:hover{
+    color: aquamarine;
+}
+.comp-check{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(228,240,207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    font-size: small;
+    color: rgb(83, 97, 60);
+}
+
+
+.tasks-tab{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-radius: 5px;
+}
+.tasks{
+    width: 100%;
+    height: 35%;
+    /* background-color: bisque; */
+    border-bottom: 2px solid rgb(243,245,250);
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+.transact{
+    width: 100%;
+    height: 65%;
+    /* background-color: pink; */
+   display: flex;
+}
+.lft{
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    gap: 3%;
+}
+.rght{
+    width: 30%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 4%;
+}
+
+.june-ins{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+}
+.june{
+    width: 100%;
+    height: 42px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+.row1{
+    width: 100%;
+    height: 78px;
+    /* background-color: yellowgreen; */
+    border-top: 2px solid rgb(243,245,250);
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-tab{
+    width: 25%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #00246B;
+}
+
+
+.cookie{
+    width: 90%;
+    height: 80px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 20px;
+    gap: 20px;
+}
+.cookie > h4{
+    margin-bottom: 5px;
+}
+
+.jt{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    background-color: rgb(51, 169, 241);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+}
+
+.jt:hover{
+    cursor: pointer;
+}
+
+.contact{
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+.cnt{
+    width: 100%;
+    height: 42px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    gap: 33%;
+    padding-left: 25px;
+}
+
+.headphone{
+    font-size: 25px;
+}
+
+.row2{
+    width: 100%;
+    height: 78px;
+    /* background-color: bisque; */
+    /* border-top: 2px solid rgb(243,245,250); */
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 13px;
+}
+.row3{
+    width: 100%;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    /* border-top: 2px solid rgb(243,245,250); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.text{
+    width: 60%;
+    height: 100%;
+    /* background-color: gainsboro; */
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #00246B;
+}
+
+.text > p{
+    font-size: 12px;
+    /* color: #CADCFC; */
+}
+
+.text > h5{
+    font-size: 14px;
+    line-height: 0;
+}
+.butn{
+    width: 40%;
+    height: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.butn > button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #CADCFC;
+    color: #00246B;
+    border-radius: 5px;
+}
+
+.butn > button:hover{
+    cursor: pointer;
+}
+
+
+
+
+.delivery{
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.next{
+    width: 100%;
+    height: 42px;
+    border-bottom: 2px solid rgb(243,245,250);
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+
+.date{
+    width: 100%;
+    height: fit-content;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 25px;
+    gap: 20px;
+}
+
+
+.link{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #00246B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00246B;
+    gap: 10px;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 949px) {
+    
+}
+
+
+@media screen and (max-width: 549px) {
+    
+}
