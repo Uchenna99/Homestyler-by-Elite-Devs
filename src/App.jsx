@@ -3,11 +3,11 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import Shop from './Pages/shop'
 import About from './Pages/About'
-import FeedbackPage from './Pages/feedbackpage'
 import ContactPage from './Pages/Contact-page'
 import Signup from './Pages/Signup'
 import Login from './Pages/Login'
 import Dashboard from './Pages/Dashboard'
+import FeedbackPage from './Pages/Feedback'
 
 
 
@@ -28,7 +28,7 @@ function App() {
           <Route path='/signup' element={<Signup/>}/>
           <Route path= '/login' element={<Login/>}/>
           <Route path='/dash' element={<Dashboard/>}/>
-          <Route path='feedbackpage' element={<FeedbackPage/>}/>
+          <Route path='/feedback' element={<FeedbackPage/>}/>
       </Routes>
 
     </>
