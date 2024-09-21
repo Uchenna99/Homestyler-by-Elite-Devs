@@ -20,7 +20,7 @@ const ContactPage =()=>{
              <div class="phone-div">
                   <i class="bi bi-phone"></i>
                   <h3>PHONE</h3>
-                  <p>Phone +000099999888877</p>
+                  <p>Phone +2348106809601</p>
              </div>
               <div  className="phone-div border">
                   <i class="bi bi-geo-alt-fill"></i>
