@@ -88,17 +88,12 @@
     flex-direction: column;
     gap: 3%;
 }
-.input-price{
-    width: 100%;
-    height: 15%;
-    /* background-color: whitesmoke; */
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    gap: 5%;
-}
-.input-price > p{
-    margin-top: 3px;
+#btn-price{
+    /* background-color: red; */
+    border: none;
+    background-color: transparent;
+    padding: 2% 0%;
+    text-align: start;
 }
 .prod-rate{
     width: 10%;
@@ -287,13 +282,15 @@
     }
     .prod-price{
         width: 100%;
+        /* background-color: red; */
     }
     .price-box{
         flex-direction: row;
         align-items: center;
+        /* background-color: blue; */
     }
-    .input-price{
-        height: 70%;
+    #btn-price{
+        width: 20%;
     }
     .prod-rate{
         width: 80%;
@@ -329,6 +326,9 @@
     .prod-filter{
         width: 75%;
     }
+    #btn-price{
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width:505px) {
@@ -338,4 +338,4 @@
     .input-price{
         font-size: 10px;
     }
-} 
+}

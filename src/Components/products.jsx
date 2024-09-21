@@ -33,8 +33,13 @@ const Products = () => {
     };
 
     const handleCategorySelect = (category) => {
-        setSelectedCategory(category);
-        setSelectedSubCategory(null);
+        if (selectedCategory === category) {
+            setSelectedCategory(null);
+            setSelectedSubCategory(null);
+        } else {
+            setSelectedCategory(category);
+            setSelectedSubCategory(null);
+        }
     };
 
     const handleSubCategorySelect = (subCategory) => {
@@ -42,11 +47,19 @@ const Products = () => {
     };
 
     const handlePriceSelect = (range) => {
-        setSelectedPriceRange(range);
+        if (selectedPriceRange === range) {
+            setSelectedPriceRange(null);  // Deselect if already selected
+        } else {
+            setSelectedPriceRange(range);  // Select new price range
+        }
     };
 
     const handleRatingSelect = (rating) => {
-        setSelectedRating(rating);
+        if (selectedRating === rating) {
+            setSelectedRating(null);  // Deselect if already selected
+        } else {
+            setSelectedRating(rating);  // Select new rating
+        }
     };
 
     const filteredProducts = data.products.filter(product => {
@@ -113,14 +126,14 @@ const Products = () => {
                     <h1>Price</h1>
                     <div className="price-box">
                         {["$0 - $500", "$500 - $1000", "$1000 - $1500", "$1500 - $2500", "$2500 - $5500"].map((range, index) => (
-                            <div className="input-price" key={index}>
-                                <input 
-                                    type="radio" 
-                                    name="price" 
-                                    onChange={() => handlePriceSelect(range)} 
-                                />
-                                <p>{range}</p>
-                            </div>
+                            <button
+                                id="btn-price"
+                                key={index}
+                                className={selectedPriceRange === range ? 'selected' : ''}
+                                onClick={() => handlePriceSelect(range)}
+                            >
+                                {range}
+                            </button>
                         ))}
                     </div>
                 </div>
@@ -128,20 +141,24 @@ const Products = () => {
                     <h1>Ratings</h1>
                     <div className="rate-box">
                         {[1, 2, 3, 4, 5].map(rating => (
-                            <button key={rating} onClick={() => handleRatingSelect(rating)}>
+                            <button 
+                                key={rating} 
+                                onClick={() => handleRatingSelect(rating)}
+                                className={selectedRating === rating ? 'selected' : ''}
+                            >
                                 {rating}
                             </button>
                         ))}
                     </div>
                 </div>
             </div>
-            <div className={`product-content ${gridLayout}`}>
+            <div className={'product-content ${gridLayout}'}>
                 {filteredProducts.length === 0 ? (
                     <p className="no-results">No products found for the selected filters.</p>
                 ) : (
                     filteredProducts.map(product => (
                         <div className="product-card" key={product.id}>
-                            <div className="product-img" style={{ backgroundImage: `url(${product.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <div className="product-img" style={{ backgroundImage: url('${product.image}'), backgroundSize: 'cover', backgroundPosition: 'center' }}>
                                 <button id="detail-icon">
                                     <FaInfo />
                                 </button>
