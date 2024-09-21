@@ -10,11 +10,13 @@ import Dashboard from './Pages/Dashboard'
 import FeedbackPage from './Pages/Feedback'
 
 
+
 function App() {
 
   return (
     <>
       <Routes>
+
           <Route path='/' element={<HomePage/>} />
           <Route path='/shop' element={<Shop/>}/>
           <Route path='/contact-page' element={<ContactPage/>}/>
@@ -24,6 +26,7 @@ function App() {
           <Route path='/dash' element={<Dashboard/>}/>
           <Route path='/feedback' element={<FeedbackPage/>}/>
       </Routes>
+
     </>
   )
 }
