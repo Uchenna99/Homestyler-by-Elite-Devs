@@ -46,7 +46,7 @@ const Footer =()=>{
                     <Link to='/shop' className="footer-links-list"><a href="">Shop</a></Link>
                     <Link to='/contact-page' className="footer-links-list"><a href="">Contact Us</a></Link>
                     <Link to='/about' className="footer-links-list"><a href="">About Us</a></Link>
-                    <a href="">Find a Partner</a>
+                    <Link to='/feedback' className="footer-links-list"><a href="">Feedback</a></Link>
                     <a href="">Trials and Demos</a>
                     <a href="">Find Services</a>
                 </div>

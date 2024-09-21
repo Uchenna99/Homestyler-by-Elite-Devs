@@ -152,13 +152,13 @@ const Products = () => {
                     </div>
                 </div>
             </div>
-            <div className={'product-content ${gridLayout}'}>
+            <div className={`product-content ${gridLayout}`}>
                 {filteredProducts.length === 0 ? (
                     <p className="no-results">No products found for the selected filters.</p>
                 ) : (
                     filteredProducts.map(product => (
                         <div className="product-card" key={product.id}>
-                            <div className="product-img" style={{ backgroundImage: url('${product.image}'), backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                            <div className="product-img" style={{ backgroundImage: `url(${product.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                                 <button id="detail-icon">
                                     <FaInfo />
                                 </button>
