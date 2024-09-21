@@ -97,6 +97,7 @@ span.styler{
     background-color: white;
     display: flex;
     border-radius: 5px;
+    padding: 0 20px;
 }
 .folder-img{
     width: 22%;
