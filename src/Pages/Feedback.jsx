@@ -2,6 +2,7 @@ import React from "react";
 import '../Stylesheets/Feedback.css'
 import { FaComments } from "react-icons/fa";
 import Navbar from "../Components/Navbar";
+import { Link } from "react-router-dom";
 
 
 const FeedbackPage =()=>{
@@ -39,7 +40,7 @@ const FeedbackPage =()=>{
                             <div className="messages">
                                 <textarea name="" id="textarea" placeholder="Comments" ></textarea>
                             </div>
-                            <button type="submit" className="submit">Submit</button>
+                            <Link to='/'><button type="submit" className="submit">Submit</button></Link>
                         </div>
                     </div>
                 </div>
