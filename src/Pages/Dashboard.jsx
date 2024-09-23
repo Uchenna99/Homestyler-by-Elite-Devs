@@ -40,31 +40,10 @@ const Dashboard =()=>{
                     <p><b>Welcome</b></p>
                 </div>
                 <div class="books">
-                    <div class="folder-img">
-                        {/* <img src="pilot file.png" alt=""> */}
-                    </div>
                     <div class="june-books">
-                        <h3>Your <span class="one">June books</span> have arrived</h3>
-                        <p>Download your latest monthly financial statements below</p>
+                        <h3>Feel free to go through the options and begin your journey with us!</h3>
                     </div>
                 </div>
-                {/* <div class="complete">
-                    <div class="junebooks2">
-                        <div class="file-img">
-                            <i class="bi bi-file-earmark-text"></i>
-                        </div>
-                        <div class="junbux">
-                            <h4>June books</h4>
-                            <p>Updated on July 14, 2022</p>
-                        </div>
-                    </div>
-                    <div class="download">
-                        <div class="comp-check">
-                            <i class="bi bi-check2"></i> Complete
-                        </div>
-                        <a href="">Download</a>
-                    </div>
-                </div> */}
                 <div class="tasks-tab">
                     <div class="tasks">
                         <h4>Current Projects</h4>
