@@ -15,7 +15,7 @@ const Signup =()=>{
             <div className="signup-right">
                 <div className="signup-create">
                     <h1>Create an account</h1>
-                    <p>Already have an account? <span ><NavLink to="/login" style={{color: " white"}} state={{BiFontFamily: ""}}>Login</NavLink></span></p>
+                    <p>Already have an account? <span ><NavLink to="/login" style={{color: " wheat"}} state={{BiFontFamily: ""}}>Login</NavLink></span></p>
                     {/* <p></p> */}
                 </div>
                 <form>
@@ -30,11 +30,11 @@ const Signup =()=>{
                     </div>
                     <div className="signup-inp-placeholder">
                         <label htmlFor="">Email</label>
-                        <input type="text" placeholder=""/>
+                        <input type="email" placeholder=""/>
                     </div>
                     <div className="signup-inp-placeholder">
                         <label htmlFor="">Password</label>
-                        <input type="text" placeholder=""/>
+                        <input type="password" placeholder=""/>
                     </div>
                     <div className="signup-inp-placeholder signup-lightpurpple">
                         <button>Create account</button>

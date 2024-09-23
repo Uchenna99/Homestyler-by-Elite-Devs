@@ -6,6 +6,7 @@ import imageOne from '../assets/Beverly-Hills-Luxury-Interiors-Sophisticated-and
 import imegeTwo from '../assets/NGNlZWRhM2QtOWFiYS00YWE2LWE4ZmEtZDE4ZTk5MTIyNGZk_best_of_luxury_interiors_interior_design_in_london___luxdeco.com_7826f8f2-c64b-4c53-b5ba-7376ac7ad37a.avif';
 import imageThree from '../assets/LivingRoom/livingroom1.jpg';
 import imageFour from '../assets/LivingRoom/livingroom1.jpg';
+import Footer from "../Components/Footer";
 
 
 const About =()=>{
@@ -53,42 +54,42 @@ const About =()=>{
                     <h1>MEET THE TEAM</h1>
                     <div className="picFrames">
                     <div className="frame1">
-                        <img src="src/assets/organize.png" alt="" />
+                        <img src="src/assets/BiGuy.jpg" alt="" />
                         <div className="frameTexts">
                             <h6>Paulinus Okonkwo</h6>
                             <p>Developer</p>
                         </div>
                     </div>
                     <div className="frame2">
-                        <img src="src/assets/plan.png" alt="" />
+                        <img src="src/assets/Tolu.jpg" alt="" />
                         <div className="frameTexts">
                             <h6>Tolulope Akinwande</h6>
                             <p>Developer</p>
                         </div>
                     </div>
                     <div className="frame1">
-                        <img src="src/assets/organize.png" alt="" />
+                        <img src="src/assets/Urchman.jpg" alt="" />
                         <div className="frameTexts">
                             <h6>Agbu Uchenna</h6>
                             <p>Developer</p>
                         </div>
                     </div>
                     <div className="frame1">
-                        <img src="src/assets/organize.png" alt="" />
+                        <img src="src/assets/just.jpg" alt="" />
                         <div className="frameTexts">
                             <h6>Ejike Justice</h6>
                             <p>Developer</p>
                         </div>
                     </div>
                     <div className="frame2">
-                        <img src="src/assets/plan.png" alt="" />
+                        <img src="src/assets/Stephanie.jpg" alt="" />
                         <div className="frameTexts">
                             <h6>Lewis Stephanie</h6>
                             <p>Developer</p>
                         </div>
                     </div>
                     <div className="frame1">
-                        <img src="src/assets/organize.png" alt="" />
+                        <img src="src/assets/Justice1.jpg" alt="" />
                         <div className="frameTexts">
                             <h6>Morrison Justice</h6>
                             <p>Developer</p>
@@ -97,6 +98,7 @@ const About =()=>{
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

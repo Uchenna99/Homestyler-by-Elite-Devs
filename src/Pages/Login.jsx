@@ -13,16 +13,16 @@ const Login = () => {
                 
                         <div class="login-create">
                             <h1>Welcome</h1>
-                            <p>Log in to access your account <span><NavLink to="/signup"> Create Account</NavLink></span></p>
+                            <p>Log in to access your account <span><NavLink to="/signup" style={{color: " wheat"}} state={{BiFontFamily: ""}}> Create Account</NavLink></span></p>
                         </div>
                         <form>
                             <div class="login-inp-placeholder">
                                 <label htmlFor="">Email</label>
-                                <input type="text" />
+                                <input type="email" />
                             </div>
                             <div class="login-inp-placeholder">
-                                <label htmlFor=" ">Password</label>
-                                <input type="text" />
+                                <label htmlFor="">Password</label>
+                                <input type="password" />
                             </div>
                             <div class="login-inp-placeholder login-lightpurpple">
 
