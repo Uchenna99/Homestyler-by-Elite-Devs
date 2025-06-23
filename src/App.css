@@ -20,11 +20,16 @@
   }
   
   
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Text3;
-    line-height: 1.5;
-    }
-  
+*{
+  box-sizing: border-box;
+  font-family: Text3;
+  line-height: 1.5;
+}
+
+
+/* background - #F4F4F4 */
+/* text - #2D2D2D */
+/* buttons/icons - #BFA181 */
+/* Call to action/buttons - #4B2E2B */
+/*  hover/highlights - #E3C8A2 */
+/* section backgrounds - Alternate #FFFFFF and #F4F4F4 */

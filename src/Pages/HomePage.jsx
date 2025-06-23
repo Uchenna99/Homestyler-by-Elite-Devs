@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Stylesheets/HomePage.css"
 import { Link } from "react-router-dom";
 import { IoColorPaletteOutline } from "react-icons/io5";
@@ -12,6 +12,12 @@ import Navbar from "../Components/Navbar";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoPlaystation } from "react-icons/io";
+import bimg1 from "../assets/LivingRoom/livingroom1.jpg";
+import bimg2 from "../assets/LivingRoom/livingroom16.jpg";
+import bimg3 from "../assets/Kitchen/kitchen7.jpg";
+import bimg4 from "../assets/Kitchen/kitchen5.jpg";
+import bimg5 from "../assets/LivingRoom/livingroom11.jpg";
+import bimg6 from "../assets/LivingRoom/livingroom1.jpg";
 import img1 from "../assets/Kitchen/kitchen9.jpg"
 import img2 from "../assets/LivingRoom/livingroom2.jpeg"
 import img3 from "../assets/LivingRoom/livingroom4.jpg"
@@ -25,12 +31,22 @@ import { BsCashStack } from "react-icons/bs";
 import Footer from "../Components/Footer";
 
 const HomePage =()=>{
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const images = [ bimg1, bimg2, bimg3, bimg4, bimg5, bimg6 ];
+
+    useEffect(()=>{
+        const interval = setInterval(() => {
+            setCurrentIndex((index)=> index === images.length-1? 0 : index + 1)
+        }, 4000);
+        return ()=> clearInterval(interval);
+    },[]);
+    
     return(
         <>
         <Navbar/>
         <div className="homepage-wrap">
             <div className="hero-section">
-                <div className="hero-image">
+                <div className="hero-image" style={{backgroundImage:`url(${images[currentIndex]})`}}>
                     <div className="hero-text-section">
                         <div className="hero-text">
                             <h2>ELITE INTERIOR DESIGNS</h2>
