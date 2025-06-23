@@ -32,36 +32,34 @@
     display: flex;
     align-items: end;
     justify-content: center;
-    padding: 0 25px;
     transition: all 800ms ease-out;
 }
 
 
 
 .hero-text-section{
-    width: 560px;
+    width: 450px;
     height: fit-content;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4d2;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    padding: 20px;
+    padding: 20px 20px 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 
-.hero-text > h2{
-    font-size: 35px;
+.hero-text-section > h2{
+    font-size: 25px;
     font-weight: 500;
     /* font-family: Header; */
     text-align: center;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
 }
 
-.hero-text > p{
-    font-size: 18px;
+.hero-text-section > p{
     text-align: center;
 }
 
@@ -178,7 +176,7 @@ button.hero-butn:hover{
     height: fit-content;
     /* background-color: gray; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -434,14 +432,13 @@ button#services-butn:hover{
     align-items: center;
     justify-content: center;
     color: #2D2D2D;
-    padding: 50px 160px;
 }
 
 
 .about-info{
     width: 500px;
     height: fit-content;
-    /* background-color: lightcyan; */
+    background-color: lightcyan;
     display: flex;
     flex-direction: column;
 }
@@ -460,7 +457,7 @@ button#services-butn:hover{
 .about-text{
     width: 100%;
     height: fit-content;
-    /* background-color: burlywood; */
+    background-color: burlywood;
     padding-right: 20px;
 }
 
@@ -543,11 +540,6 @@ button#abt-butn:hover{
         padding: 40px 100px;
     }
 
-    .services-card-wrap{
-        justify-content: center;
-        
-    }
-
     .gallery-section{
         padding: 50px 100px 20px;
     }
@@ -622,8 +614,14 @@ button#abt-butn:hover{
     .hero-section{
         height: 650px;
     }
-    button.hero-butn{
+    .hero-text-section{
+        width: 100%;
+    }
+    .hero-text-section > h2{
         font-size: 18px;
+    }
+    .hero-text-section > p{
+        font-size: 14px;
     }
 
     .assurance-card{

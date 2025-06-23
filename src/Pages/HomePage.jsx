@@ -203,37 +203,6 @@ const HomePage =()=>{
                 </Link>
             </div>
 
-            {/* <div className="partners-section">
-                <div className="partners-header">
-                    <h2>OUR PARTNERS</h2>
-                </div>
-                <div className="partner-logos-holder">
-                    <div className="partner-logo-slide">
-                        <div className="slide-inner-holder">
-                            <div className="logo-img"><IoLogoCss3 id='s-logo'/></div>
-                            <div className="logo-img"><IoLogoGithub id='s-logo2'/></div>
-                            <div className="logo-img"><IoLogoPlaystation id='s-logo3'/></div>
-                            <div className="logo-img"><IoLogoCss3 id='s-logo'/></div>
-                            <div className="logo-img"><IoLogoGithub id='s-logo2'/></div>
-                            <div className="logo-img"><IoLogoPlaystation id='s-logo3'/></div>
-                            <div className="logo-img"><IoLogoCss3 id='s-logo'/></div>
-                            <div className="logo-img"><IoLogoGithub id='s-logo2'/></div>
-                            <div className="logo-img"><IoLogoPlaystation id='s-logo3'/></div>
-                        </div>
-                        <div className="slide-inner-holder">
-                            <div className="logo-img"><IoLogoCss3 id='s-logo'/></div>
-                            <div className="logo-img"><IoLogoGithub id='s-logo2'/></div>
-                            <div className="logo-img"><IoLogoPlaystation id='s-logo3'/></div>
-                            <div className="logo-img"><IoLogoCss3 id='s-logo'/></div>
-                            <div className="logo-img"><IoLogoGithub id='s-logo2'/></div>
-                            <div className="logo-img"><IoLogoPlaystation id='s-logo3'/></div>
-                            <div className="logo-img"><IoLogoCss3 id='s-logo'/></div>
-                            <div className="logo-img"><IoLogoGithub id='s-logo2'/></div>
-                            <div className="logo-img"><IoLogoPlaystation id='s-logo3'/></div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
             
             <div className="about-section">
                 <div className="about-info">
