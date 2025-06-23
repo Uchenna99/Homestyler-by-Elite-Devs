@@ -27,82 +27,33 @@
     background-image: url(../assets/Wave1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 100%;
-    background-blend-mode: darken;
+    background-position: center;
     background-color: #F4F4F4;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     padding: 0 25px;
-    /* animation-name: hero-img;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; */
+    transition: all 800ms ease-out;
 }
 
-
-@keyframes hero-img {
-    0%, 15%{
-        background-image: url(../assets/LivingRoom/livingroom1.jpg);
-    }
-    20%, 35%{
-        background-image: url(../assets/LivingRoom/livingroom16.jpg);
-    }
-    40%, 55%{
-        background-image: url(../assets/Kitchen/kitchen7.jpg);
-    }
-    60%, 75%{
-        background-image: url(../assets/Kitchen/kitchen5.jpg);
-    }
-    80%, 95%{
-        background-image: url(../assets/LivingRoom/livingroom11.jpg);
-    }
-    100%{
-        background-image: url(../assets/LivingRoom/livingroom1.jpg);
-    }
-}
 
 
 .hero-text-section{
     width: 560px;
     height: fit-content;
-    /* background-color: rgba(245, 222, 179, 0.582); */
+    background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    animation-name: hero-txt;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes text {
-    from{
-        transform: scale(0.7);
-    }
-    to{
-        transform: scale(1);
-    }
-}
-
-
-.hero-text{
-    width: 100%;
-    height: fit-content;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    animation-name: text;
-    animation-duration: 1.4s;
-    color: #2D2D2D;
+    gap: 5px;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
+
 
 .hero-text > h2{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 500;
     /* font-family: Header; */
     text-align: center;
@@ -110,31 +61,22 @@
 }
 
 .hero-text > p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
 
-.hero-button{
-    width: 100%;
-    height: fit-content;
-    /* background-color: palegreen; */
-    display: flex;
-    justify-content: center;
-}
-
 button.hero-butn{
     width: fit-content;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid #2D2D2D;
+    height: 35px;
+    background-color: #BFA181;
+    border: none;
     border-radius: 5px;
-    color: #2D2D2D;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 0 25px;
-    animation-name: text;
-    animation-duration: 2s;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-top: 10px;
 }
 
 button.hero-butn:hover{

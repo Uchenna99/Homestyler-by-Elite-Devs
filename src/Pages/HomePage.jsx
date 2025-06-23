@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "../Stylesheets/HomePage.css"
 import { Link } from "react-router-dom";
 import { IoColorPaletteOutline } from "react-icons/io5";
 import { GiPencilRuler } from "react-icons/gi";
 import { RiMedalLine } from "react-icons/ri";
-import { GrTechnology } from "react-icons/gr";
 import { MdBusinessCenter } from "react-icons/md";
-import { FaInnosoft } from "react-icons/fa";
 import { BiChevronRight } from "react-icons/bi";
 import Navbar from "../Components/Navbar";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoGithub } from "react-icons/io";
-import { IoLogoPlaystation } from "react-icons/io";
 import bimg1 from "../assets/LivingRoom/livingroom1.jpg";
 import bimg2 from "../assets/LivingRoom/livingroom16.jpg";
 import bimg3 from "../assets/Kitchen/kitchen7.jpg";
@@ -48,13 +43,9 @@ const HomePage =()=>{
             <div className="hero-section">
                 <div className="hero-image" style={{backgroundImage:`url(${images[currentIndex]})`}}>
                     <div className="hero-text-section">
-                        <div className="hero-text">
-                            <h2>ELITE INTERIOR DESIGNS</h2>
-                            <p>Beautiful interior design services, now within reach.</p>
-                        </div>
-                        <div className="hero-button">
-                            <Link to='/shop'><button className="hero-butn">Explore</button></Link>
-                        </div>
+                        <h2>ELITE INTERIOR DESIGNS</h2>
+                        <p>Beautiful interior design services, now within reach.</p>
+                        <Link to='/shop'><button className="hero-butn">Explore</button></Link>
                     </div>
                 </div>
             </div>
