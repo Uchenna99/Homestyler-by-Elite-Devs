@@ -58,7 +58,8 @@ const HomePage =()=>{
                     </div>
                 </div>
             </div>
-
+            
+            
             <div className="assurance-section">
                 <div className="assurance-card">
                     <div className="card-img"><GiPencilRuler id='assure-icon'/></div>
