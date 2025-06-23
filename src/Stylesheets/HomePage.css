@@ -3,9 +3,15 @@
     width: 100%;
     height: fit-content;
     background-color: #F4F4F4;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.edge-wrap{
+    width: 1440px;
+    height: fit-content;
+}
 
 .hero-section{
     width: 100%;
@@ -21,114 +27,54 @@
     background-image: url(../assets/Wave1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 100%;
-    background-blend-mode: darken;
+    background-position: center;
     background-color: #F4F4F4;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-    padding: 0 25px;
-    /* animation-name: hero-img;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; */
+    transition: all 800ms ease-out;
 }
 
-
-@keyframes hero-img {
-    0%, 15%{
-        background-image: url(../assets/LivingRoom/livingroom1.jpg);
-    }
-    20%, 35%{
-        background-image: url(../assets/LivingRoom/livingroom16.jpg);
-    }
-    40%, 55%{
-        background-image: url(../assets/Kitchen/kitchen7.jpg);
-    }
-    60%, 75%{
-        background-image: url(../assets/Kitchen/kitchen5.jpg);
-    }
-    80%, 95%{
-        background-image: url(../assets/LivingRoom/livingroom11.jpg);
-    }
-    100%{
-        background-image: url(../assets/LivingRoom/livingroom1.jpg);
-    }
-}
 
 
 .hero-text-section{
-    width: 560px;
+    width: 450px;
     height: fit-content;
-    /* background-color: rgba(245, 222, 179, 0.582); */
+    background-color: #f4f4f4d2;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    animation-name: hero-txt;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes text {
-    from{
-        transform: scale(0.7);
-    }
-    to{
-        transform: scale(1);
-    }
-}
-
-
-.hero-text{
-    width: 100%;
-    height: fit-content;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    animation-name: text;
-    animation-duration: 1.4s;
-    color: #2D2D2D;
+    gap: 5px;
+    padding: 20px 20px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.hero-text > h2{
-    font-size: 45px;
+
+.hero-text-section > h2{
+    font-size: 25px;
     font-weight: 500;
     /* font-family: Header; */
     text-align: center;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
 }
 
-.hero-text > p{
-    font-size: 20px;
+.hero-text-section > p{
     text-align: center;
 }
 
 
-.hero-button{
-    width: 100%;
-    height: fit-content;
-    /* background-color: palegreen; */
-    display: flex;
-    justify-content: center;
-}
-
 button.hero-butn{
     width: fit-content;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid #2D2D2D;
+    height: 35px;
+    background-color: #BFA181;
+    border: none;
     border-radius: 5px;
-    color: #2D2D2D;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 0 25px;
-    animation-name: text;
-    animation-duration: 2s;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-top: 10px;
 }
 
 button.hero-butn:hover{
@@ -165,11 +111,11 @@ button.hero-butn:hover{
 
 
 .card-img{
-    width: 20%;
+    width: 15%;
     height: 100%;
     /* background-color: palegoldenrod; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     padding-top: 10px;
 }
 
@@ -181,7 +127,7 @@ button.hero-butn:hover{
 
 
 .card-writeup{
-    width: 80%;
+    width: 85%;
     height: 100%;
     /* background-color: lightcyan; */
     display: flex;
@@ -205,7 +151,7 @@ button.hero-butn:hover{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, fit-content);
     justify-content: center;
-    padding: 40px 160px;
+    padding: 40px;
     gap: 40px;
 }
 
@@ -230,7 +176,7 @@ button.hero-butn:hover{
     height: fit-content;
     /* background-color: gray; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -250,8 +196,8 @@ button.hero-butn:hover{
 }
 
 .services-card:hover{
-    transition: 300ms;
-    box-shadow: 0px 2px 3px;
+    transition: 250ms;
+    box-shadow: 0px 2px 3px #DADADA;
     scale: 1.01;
 }
 
@@ -339,10 +285,10 @@ button.hero-butn:hover{
 button#services-butn{
     width: fit-content;
     height: 50px;
-    border: 2px solid brown;
+    border: 2px solid #BFA181;
     border-radius: 5px;
     background-color: transparent;
-    color: brown;
+    color: #2D2D2D;
     font-size: 18px;
     font-weight: 600;
     padding: 0 25px;
@@ -351,8 +297,8 @@ button#services-butn{
 button#services-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: brown;
-    color: wheat;
+    background-color: #BFA181;
+    color: white;
 }
 
 
@@ -364,7 +310,7 @@ button#services-butn:hover{
 .gallery-section{
     width: 100%;
     height: fit-content;
-    background-color: wheat;
+    background-color: #F4F4F4;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: fit-content 1fr 1fr;
@@ -383,7 +329,7 @@ button#services-butn:hover{
 
 .gallery-header > h2{
     font-size: 40px;
-    color: brown;
+    color: #2D2D2D;
 }
 
 
@@ -395,8 +341,8 @@ button#services-butn:hover{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 20px rgba(165, 42, 42, 0.281);
+    align-items: end;
+    box-shadow: 0px 0px 20px #DADADA;
 }
 
 .gallery-pic > img{
@@ -413,7 +359,7 @@ button#services-butn:hover{
     animation-name: zoom;
     animation-duration: 500ms;
     animation-delay: 100ms;
-    animation-timing-function: linear;
+    animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
 
@@ -458,8 +404,9 @@ button#services-butn:hover{
     z-index: 3;
     width: fit-content;
     height: fit-content;
-    background-color: rgba(245, 222, 179, 0.363);
-    border-radius: 5px;
+    background-color: #F4F4F4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: flex;
     justify-content: center;
     padding: 5px 20px;
@@ -467,7 +414,7 @@ button#services-butn:hover{
 }
 
 .img-description > p{
-    color: brown;
+    color: #2D2D2D;
     font-size: 30px;
 }
 
@@ -480,19 +427,18 @@ button#services-butn:hover{
 .about-section{
     width: 100%;
     height: fit-content;
-    background-color: brown;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    padding: 50px 160px;
+    color: #2D2D2D;
 }
 
 
 .about-info{
     width: 500px;
     height: fit-content;
-    /* background-color: lightcyan; */
+    background-color: lightcyan;
     display: flex;
     flex-direction: column;
 }
@@ -511,7 +457,7 @@ button#services-butn:hover{
 .about-text{
     width: 100%;
     height: fit-content;
-    /* background-color: burlywood; */
+    background-color: burlywood;
     padding-right: 20px;
 }
 
@@ -531,9 +477,9 @@ button#abt-butn{
     width: fit-content;
     height: 50px;
     background-color: transparent;
-    border: 2px solid wheat;
+    border: 2px solid #BFA181;
     border-radius: 5px;
-    color: wheat;
+    color: #2D2D2D;
     font-size: 18px;
     font-weight: 600;
     padding: 0 25px;
@@ -542,8 +488,8 @@ button#abt-butn{
 button#abt-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: wheat;
-    color: brown;
+    background-color: #BFA181;
+    color: white;
 }
 
 
@@ -592,11 +538,6 @@ button#abt-butn:hover{
 
     .our-services{
         padding: 40px 100px;
-    }
-
-    .services-card-wrap{
-        justify-content: center;
-        
     }
 
     .gallery-section{
@@ -673,8 +614,14 @@ button#abt-butn:hover{
     .hero-section{
         height: 650px;
     }
-    button.hero-butn{
+    .hero-text-section{
+        width: 100%;
+    }
+    .hero-text-section > h2{
         font-size: 18px;
+    }
+    .hero-text-section > p{
+        font-size: 14px;
     }
 
     .assurance-card{

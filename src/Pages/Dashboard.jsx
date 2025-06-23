@@ -1,6 +1,6 @@
 import React from "react";
 import "../Stylesheets/Dashboard.css"
-import logoimg from "../assets/logo3.png"
+import logoimg from "../assets/logos/logo.png"
 import { SiCustomink } from "react-icons/si";
 import { IoHomeOutline } from "react-icons/io5";
 import { RiArmchairLine } from "react-icons/ri";
