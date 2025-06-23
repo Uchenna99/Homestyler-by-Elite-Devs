@@ -2,7 +2,7 @@
 .navbar{
     width: 100%;
     height: 60px;
-    background-color: wheat;
+    background-color: white;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -24,11 +24,10 @@
 }
 
 .logo-wrap{
-    width: 50px;
+    width: 100px;
     height: 50px;
-    border-radius: 50%;
-    background-color: green;
-    background-image: url(../assets/logo3.png);
+    /* background-color: green; */
+    background-image: url(../assets/logos/home_styler.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,7 +39,7 @@
 .nav-mid{
     width: 500px;
     height: 100%;
-    /* background-color: brown; */
+    /* background-color: #2D2D2D; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,13 +57,13 @@
 }
 
 .nav-option > p{
-    color: brown;
+    color: #2D2D2D;
     font-family: Text2;
     text-decoration: none;
 }
 
 .nav-option > p:hover{
-    border-bottom: 1px solid brown;
+    border-bottom: 1px solid #2D2D2D;
 }
 
 #link{
@@ -100,16 +99,16 @@
     /* background-color: palegreen; */
     display: flex;
     padding: 5px 10px 5px 0;
-    border-right: 1px solid brown;
+    border-right: 1px solid #2D2D2D;
 }
 
 .login-wrap:hover{
     cursor: pointer;
-    text-decoration: underline brown;
+    text-decoration: underline #2D2D2D;
 }
 
 .login-wrap > p{
-    color: brown;
+    color: #2D2D2D;
     font-family: Text2;
     font-size: 14px;
 }
@@ -130,53 +129,22 @@
 button.nav-butn{
     width: 90px;
     height: fit-content;
-    background-color: brown;
+    background-color: #BFA181;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
-    font-weight: 600;
-    font-size: 16px;
-    color: wheat;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
 }
 
 button.nav-butn:hover{
     transition: 300ms;
     cursor: pointer;
-    background-color: #FFC67D;
+    background-color: #E3C8A2;
 }
 
 
-
-/* .nav-right{
-    width: 200px;
-    height: 100%;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 0 25px 0 0;
-}
-
-
-.nav-right-wrap{
-    width: fit-content;
-    height: fit-content;
-    background-color: green;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-
-.cart-icon{
-    font-size: 30px;
-    color: brown;
-}
-
-.search-icon{
-    font-size: 25px;
-    color: brown;
-} */
 
 
 
@@ -194,26 +162,6 @@ button.nav-butn:hover{
     padding: 0 25px 0 0;
 }
 
-
-/* .burger-icon{
-    font-size: 30px;
-    color: white;
-    display: flex;
-}
-
-.burger-icon:hover{
-    scale: 1.1;
-}
-
-.burger-close{
-    font-size: 30px;
-    color: white;
-    display: none;
-}
-
-.burger-close:hover{
-    scale: 1.1;
-} */
 
 
 
@@ -237,7 +185,7 @@ button.nav-butn:hover{
   .bars {
     width: 100%;
     height: 3px;
-    background-color: brown;
+    background-color: #2D2D2D;
     border-radius: 5px;
     transition-duration: .3s;
   }
@@ -273,9 +221,9 @@ button.nav-butn:hover{
 .nav-burger-drop-menu{
     width: 160px;
     height: fit-content;
-    background-color: wheat;
+    background-color: white;
     border-radius: 5px;
-    color: brown;
+    color: #2D2D2D;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -311,7 +259,7 @@ button.nav-butn:hover{
 
 
 button.drop-butn{
-    background-color: brown;
+    background-color: #2D2D2D;
     color: wheat;
 }
 
@@ -319,7 +267,7 @@ button.drop-butn{
 #drop-link{
     text-decoration: none;
     font-size: 16px;
-    color: brown;
+    color: #2D2D2D;
 }
 
 

@@ -2,7 +2,7 @@
 .homepage-wrap{
     width: 100%;
     height: fit-content;
-    background-color: wheat;
+    background-color: #F4F4F4;
     overflow: hidden;
 }
 
@@ -23,15 +23,15 @@
     background-size: cover;
     background-position: center 100%;
     background-blend-mode: darken;
-    background-color: #00246b15;
+    background-color: #F4F4F4;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 25px;
-    animation-name: hero-img;
+    /* animation-name: hero-img;
     animation-duration: 16s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
 }
 
 
@@ -55,24 +55,6 @@
         background-image: url(../assets/LivingRoom/livingroom1.jpg);
     }
 }
-
-/* @keyframes hero-txt {
-    0%, 20%{
-        background-color: transparent;
-    }
-    25%, 45%{
-        background-color: transparent;
-    }
-    50%, 70%{
-        background-color: rgba(245, 222, 179, 0.582);
-    }
-    75%, 95%{
-        background-color: transparent;
-    }
-    100%{
-        background-color: transparent;
-    }
-} */
 
 
 .hero-text-section{
@@ -110,7 +92,7 @@
     align-items: center;
     animation-name: text;
     animation-duration: 1.4s;
-    color: brown;
+    color: #2D2D2D;
 }
 
 .hero-text > h2{
@@ -139,9 +121,9 @@ button.hero-butn{
     width: fit-content;
     height: 50px;
     background-color: transparent;
-    border: 2px solid brown;
+    border: 2px solid #2D2D2D;
     border-radius: 5px;
-    color: brown;
+    color: #2D2D2D;
     font-size: 20px;
     font-weight: 600;
     padding: 0 25px;
@@ -152,8 +134,8 @@ button.hero-butn{
 button.hero-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: brown;
-    color: wheat;
+    background-color: #2D2D2D;
+    color: white;
 }
 
 
@@ -164,12 +146,12 @@ button.hero-butn:hover{
 .assurance-section{
     width: 100%;
     height: fit-content;
-    background-color: brown;
+    background-color: #F4F4F4;
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 80px 160px 100px;
-    color: white;
+    color: #2D2D2D;
 }
 
 
@@ -218,12 +200,11 @@ button.hero-butn:hover{
 .our-services{
     width: 100%;
     height:fit-content;
-    /* background-color: #FFFFFF; */
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, fit-content);
     justify-content: center;
-    color: brown;
     padding: 40px 160px;
     gap: 40px;
 }
@@ -238,7 +219,7 @@ button.hero-butn:hover{
 
 .services-header > h2{
     font-size: 40px;
-    color: brown;
+    color: #2D2D2D;
     text-align: center;
 }
 
@@ -258,7 +239,7 @@ button.hero-butn:hover{
 .services-card{
     width: 320px;
     height: 470px;
-    border: 1px solid brown;
+    border: 1px solid #BFA181;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -306,7 +287,7 @@ button.hero-butn:hover{
     flex-direction: column;
     justify-content: center;
     padding: 10px 25px;
-    color: brown;
+    color: #2D2D2D;
 }
 
 .services-card-info > h3{
@@ -333,8 +314,8 @@ button.hero-butn:hover{
     min-width: 45px;
     aspect-ratio: 2/2;
     border-radius: 50%;
-    border: 5px solid  brown;
-    background-color: wheat;
+    border: 5px solid #BFA181;
+    background-color: #F4F4F4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -343,7 +324,7 @@ button.hero-butn:hover{
 
 #scard-logo{
     font-size: 35px;
-    color: brown;
+    color: #BFA181;
 }
 
 
