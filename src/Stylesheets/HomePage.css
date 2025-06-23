@@ -250,8 +250,8 @@ button.hero-butn:hover{
 }
 
 .services-card:hover{
-    transition: 300ms;
-    box-shadow: 0px 2px 3px;
+    transition: 250ms;
+    box-shadow: 0px 2px 3px #DADADA;
     scale: 1.01;
 }
 
@@ -339,10 +339,10 @@ button.hero-butn:hover{
 button#services-butn{
     width: fit-content;
     height: 50px;
-    border: 2px solid brown;
+    border: 2px solid #BFA181;
     border-radius: 5px;
     background-color: transparent;
-    color: brown;
+    color: #2D2D2D;
     font-size: 18px;
     font-weight: 600;
     padding: 0 25px;
@@ -351,8 +351,8 @@ button#services-butn{
 button#services-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: brown;
-    color: wheat;
+    background-color: #BFA181;
+    color: white;
 }
 
 
@@ -364,7 +364,7 @@ button#services-butn:hover{
 .gallery-section{
     width: 100%;
     height: fit-content;
-    background-color: wheat;
+    background-color: #F4F4F4;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: fit-content 1fr 1fr;
@@ -383,7 +383,7 @@ button#services-butn:hover{
 
 .gallery-header > h2{
     font-size: 40px;
-    color: brown;
+    color: #2D2D2D;
 }
 
 
@@ -395,8 +395,8 @@ button#services-butn:hover{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 20px rgba(165, 42, 42, 0.281);
+    align-items: end;
+    box-shadow: 0px 0px 20px #DADADA;
 }
 
 .gallery-pic > img{
@@ -413,7 +413,7 @@ button#services-butn:hover{
     animation-name: zoom;
     animation-duration: 500ms;
     animation-delay: 100ms;
-    animation-timing-function: linear;
+    animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
 
@@ -458,8 +458,9 @@ button#services-butn:hover{
     z-index: 3;
     width: fit-content;
     height: fit-content;
-    background-color: rgba(245, 222, 179, 0.363);
-    border-radius: 5px;
+    background-color: #F4F4F4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: flex;
     justify-content: center;
     padding: 5px 20px;
@@ -467,7 +468,7 @@ button#services-butn:hover{
 }
 
 .img-description > p{
-    color: brown;
+    color: #2D2D2D;
     font-size: 30px;
 }
 
@@ -480,11 +481,11 @@ button#services-butn:hover{
 .about-section{
     width: 100%;
     height: fit-content;
-    background-color: brown;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #2D2D2D;
     padding: 50px 160px;
 }
 
@@ -531,9 +532,9 @@ button#abt-butn{
     width: fit-content;
     height: 50px;
     background-color: transparent;
-    border: 2px solid wheat;
+    border: 2px solid #BFA181;
     border-radius: 5px;
-    color: wheat;
+    color: #2D2D2D;
     font-size: 18px;
     font-weight: 600;
     padding: 0 25px;
@@ -542,8 +543,8 @@ button#abt-butn{
 button#abt-butn:hover{
     transition: 200ms;
     cursor: pointer;
-    background-color: wheat;
-    color: brown;
+    background-color: #BFA181;
+    color: white;
 }
 
 
