@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../Stylesheets/Navbar.css"
-import { IoLogoReact } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
-import { IoCartOutline } from "react-icons/io5";
-import { FiSearch } from "react-icons/fi";
-import { AiOutlineClose } from "react-icons/ai";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Navbar =()=>{
     const [buttonOpen, setButtonOpen] = useState(false);
@@ -22,6 +18,7 @@ const Navbar =()=>{
         }, 100);
         
     };
+
 
     return(
         <>
@@ -59,17 +56,19 @@ const Navbar =()=>{
                 }
                 
 
-                {buttonOpen && (
-                    <div className="nav-burger-drop-menu">
+                    <motion.div className="nav-burger-drop-menu"
+                        initial={{ x:250}} animate={buttonOpen?{x:0}:{}} 
+                        transition={{duration:0.3, ease:'easeOut'}} >
+
                         <NavLink to='/' id='drop-link'>
                             <div className="drop-menu-option">
                             <p>Home</p>
                             </div>
                         </NavLink>
                         <NavLink to='/shop' id='drop-link'>
-                        <div className="drop-menu-option">
-                            <p>Shop</p>
-                        </div>
+                            <div className="drop-menu-option">
+                                <p>Shop</p>
+                            </div>
                         </NavLink>
                         <NavLink to='/about' id='drop-link'>
                         <div className="drop-menu-option">
@@ -93,8 +92,8 @@ const Navbar =()=>{
                                 <p>Log in</p>
                             </div>
                         </Link>
-                    </div>
-                )}
+
+                    </motion.div>
             </div>
             
         </div>
