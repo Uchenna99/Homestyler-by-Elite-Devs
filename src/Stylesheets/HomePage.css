@@ -415,7 +415,7 @@ button#services-butn:hover{
 
 .img-description > p{
     color: #2D2D2D;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 
@@ -438,7 +438,7 @@ button#services-butn:hover{
 .about-info{
     width: 500px;
     height: fit-content;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     display: flex;
     flex-direction: column;
 }
@@ -457,7 +457,7 @@ button#services-butn:hover{
 .about-text{
     width: 100%;
     height: fit-content;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     padding-right: 20px;
 }
 
@@ -505,7 +505,7 @@ button#abt-butn:hover{
 .about-img-holder{
     width: 450px;
     height: 320px;
-    background-color: green;
+    /* background-color: green; */
     background-image: url(../assets/Softwarepic.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -647,6 +647,9 @@ button#abt-butn:hover{
 
     .gallery-section{
         padding: 50px 25px 200px;
+    }
+    .img-description > p{
+        font-size: 20px;
     }
 
     .about-section{

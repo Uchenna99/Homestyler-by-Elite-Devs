@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import '../Stylesheets/Footer.css'
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 
 
 const Footer =()=>{
+
     return(
         <>
            <div class="footer-section">
@@ -27,19 +28,8 @@ const Footer =()=>{
                         </div>
                     </div>
                 </div>
-                {/* <div class="contact-us">
-                    <div className="small-icon">
-                        <FaRegEnvelope/>
-                    </div>
-                    <a href="">Contact us</a>
-                </div>
-                <div class="chat">
-                    <div className="small-icon">
-                        <img src="chat-discussion-2-icon-grey8.svg" alt="">
-                    </div>
-                    <a href="">Chat now</a>
-                </div> */}
             </div>
+
             <div class="service-links">
                 <div class="footer-links-list">
                     <p>Quick Links</p>
