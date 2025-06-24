@@ -170,15 +170,13 @@ p.local-nums{
     justify-content: center;
     align-items: center;
     border: 1px solid #DADADA;
+    cursor: pointer;
 }
 
 .smedia-icon{
     color: #2D2D2D;
 }
 
-.social-handle-wrap:hover{
-    cursor: pointer;
-}
 
 #tab-abt{
     text-decoration: none;
