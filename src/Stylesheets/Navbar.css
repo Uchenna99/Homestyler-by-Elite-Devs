@@ -169,44 +169,31 @@ button.nav-butn:hover{
 
 
 .nav-burger-drop-menu{
-    width: 160px;
+    width: 200px;
     height: fit-content;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 2px;
     color: #2D2D2D;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    padding: 5px;
-    position: absolute;
+    gap: 15px;
+    padding: 20px 10px;
+    position: fixed;
     top: 60px;
-    right: -0;
-    animation-name: drop-animation;
-    animation-duration: 300ms;
-    animation-timing-function: linear;
+    right: 0;
 }
 
-@keyframes drop-animation {
-    from{
-        transform: translateX(100px);
-    }
-    to{
-        transform: translateX(0px);
-    }
-}
 
 
 .drop-menu-option{
     width: fit-content;
     height: fit-content;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 2px 15px;
+    /* background-color: yellow; */
 }
 
-.drop-menu-option:hover{
-    background-color: rgba(165, 42, 42, 0.438);
-}
-
+nav
 
 button.drop-butn{
     background-color: #2D2D2D;
@@ -216,8 +203,16 @@ button.drop-butn{
 
 #drop-link{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500;
     color: #2D2D2D;
+}
+
+#burger-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2D2D2D;
+    font-weight: 600;
 }
 
 

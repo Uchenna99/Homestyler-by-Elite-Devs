@@ -16,6 +16,13 @@ const Navbar =()=>{
         else{ setButtonOpen(true) }
     }
 
+    const delayClose = ()=>{
+        setTimeout(() => {
+            setButtonOpen(false)
+        }, 100);
+        
+    };
+
     return(
         <>
         <div className="navbar">
@@ -42,7 +49,7 @@ const Navbar =()=>{
 
 
             <div className="nav-burger" tabIndex={-1} onClick={toggle}
-                onBlur={()=> setButtonOpen(false)}>
+                onBlur={delayClose}>
 
                 {
                     !buttonOpen?
@@ -75,7 +82,17 @@ const Navbar =()=>{
                         </div>
                         </NavLink>
 
-                        <Link to='/signup'><button className='nav-butn drop-butn'>Sign Up</button></Link>
+                        <Link to='/signup' id="burger-link">
+                            <div className="drop-menu-option">
+                                <p>Sign up</p>
+                            </div>
+                        </Link>
+
+                        <Link to='/login' id="burger-link">
+                            <div className="drop-menu-option">
+                                <p>Log in</p>
+                            </div>
+                        </Link>
                     </div>
                 )}
             </div>
