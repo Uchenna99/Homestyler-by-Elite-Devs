@@ -38,6 +38,7 @@
     border-radius: 2px;
     backdrop-filter: 5px;
     cursor: pointer;
+    font-size: 25px;
 }
 .next-link > button:hover{
     background-color: black;

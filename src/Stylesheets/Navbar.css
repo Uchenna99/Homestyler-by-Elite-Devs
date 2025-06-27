@@ -27,7 +27,7 @@
     font-family: logoText;
     font-weight: 500;
     font-size: 24px;
-    color: #2D2D2D;
+    color: white;
 }
 
 .logo-wrap{
@@ -64,13 +64,14 @@
 }
 
 .nav-option > p{
-    color: #2D2D2D;
+    /* color: white; */
     font-family: Text2;
     text-decoration: none;
 }
 
 .nav-option > p:hover{
-    border-bottom: 1px solid #2D2D2D;
+    transition: all 200ms linear;
+    transform: translateY(-2px);
 }
 
 #link{
@@ -106,16 +107,16 @@
     /* background-color: palegreen; */
     display: flex;
     padding: 5px 10px 5px 0;
-    border-right: 1px solid #2D2D2D;
+    border-right: 1px solid white;
 }
 
 .login-wrap:hover{
     cursor: pointer;
-    text-decoration: underline #2D2D2D;
+    text-decoration: underline white;
 }
 
 .login-wrap > p{
-    color: #2D2D2D;
+    color: white;
     font-family: Text2;
     font-size: 14px;
 }

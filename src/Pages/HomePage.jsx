@@ -39,7 +39,7 @@ const HomePage =()=>{
     
     return(
         <>
-        <Navbar/>
+        <Navbar page={'home'}/>
 
         <div className="homepage-wrap">
 
