@@ -17,19 +17,22 @@
     justify-content: center;
     color: white;
     font-size: 30px;
-    gap: 5%;
+    gap: 20px;
 }
+
 .next-link{
     /* background-color: white; */
-    width: 30%;
-    height: 13%;
+    width: fit-content;
+    height: 50px;
     display: flex;
     justify-content: center;
     gap: 5%;
 }
 .next-link > button{
+    min-width: fit-content;
+    height: 100%;
     border: none;
-    padding: 0% 5%;
+    padding: 0 30px;
     color: white;
     background-color: rgba(0, 0, 0, 0.719);
     border-radius: 2px;
@@ -40,42 +43,30 @@
     background-color: black;
 }
 
+
 @media screen and (max-width:1087px) {
     .shop-head{
         font-size: 20px;
     }
     .next-link{
-        height: 10%;
+        height: 40px;
     }
     .next-link > button{
-        font-size: 12px;
-        padding: 0% 2%;
-        width: 30%;
+        font-size: 14px;
+        padding: 0 20px;
     }
 }
 
-@media screen and (max-width:950px) {
-    .next-link{
-        width: 40%;
-    }
-}
 
 @media screen and (max-width:717px) {
     .next-link{
-        width: 50%;
-        /* background-color: red; */
-        height: 30%;
         flex-direction: column;
         align-items: center;
+        height: fit-content;
+        gap: 6px;
     }
     .next-link > button{
-        height: 30%;
-        width: 50%;
+        height: 30px;
     }
 }
 
-@media screen and (max-width: 371px) {
-    .next-link > button{
-        width: 70%;
-    }
-}

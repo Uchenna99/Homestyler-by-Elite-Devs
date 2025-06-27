@@ -5,26 +5,26 @@
     width: 100%;
     height: 90px;
     /* border-bottom: 1px solid grey; */
-    background-color: wheat;
+    background-color: #F4F4F4;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: end;
 }
 .des-filter{
     width: 45%;
     height: 50%;
-    /* background-color: rgb(207, 0, 0); */
+    /* background-color: red; */
     display: flex;
     align-items: center;
-    gap: 3%;
-    color: brown;
+    gap: 25px;
+    color: #2D2D2D;
 }
 .des-filter > select{
     height: 60%;
     padding: 0% 2%;
-    border: 1px solid brown;
+    border: 1px solid #DADADA;
     margin-top: 2px;
-    color: brown;
+    color: #2D2D2D;
     outline: none;
 }
 .display-filter{
@@ -36,7 +36,7 @@
     justify-content: center;
     gap: 7%;
     font-size: 22px;
-    color: brown;
+    color: #2D2D2D;
 }
 .display-filter > *{
     cursor: pointer;
@@ -77,23 +77,21 @@
 .design-style-content{
     width: 100%;
     height: max-content;
-    background-color: wheat;
-    padding: 30px 0px;
+    background-color: #F4F4F4;
+    padding: 30px 20px;
     display: grid;
-    /* grid-template-columns: 500px 500px;
-    grid-auto-rows: minmax(300px, 300px); */
-    padding-left: 1%;
     justify-content: center;
-    gap: 5%;
+    gap: 20px;
 }
 .design-style-card{
-    border: 1px solid brown;
+    border: 1px solid #DADADA;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 1%;
     justify-content: space-between;
+    transition: 2s ease-in-out;
 }
 .style-card-img{
     width: 97%;
@@ -148,27 +146,19 @@
     align-items: center;
     justify-content: space-between;
     font-size: 15px;
-    color: brown;
+    color: #2D2D2D;
 }
 
+
 .design-style-content.default {
-    display: grid;
     grid-template-columns: repeat(2, 500px);
-    gap: 20px;
-    transition: 2s ease-in-out;
 }
 .design-style-content.three {
-    display: grid;
     grid-template-columns: repeat(3, 400px);
-    gap: 20px;
-    transition: 2s ease-in-out;
 }
 .design-style-content.four {
-    display: grid;
     grid-template-columns: repeat(4, 320px);
     grid-auto-rows: minmax(310px, 310px);
-    gap: 20px;
-    transition: 2s ease-in-out;
 }
 
 .info-modal{
