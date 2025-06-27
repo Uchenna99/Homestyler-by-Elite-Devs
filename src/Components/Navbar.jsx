@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../Stylesheets/Navbar.css"
 import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -6,6 +6,24 @@ import { motion } from "framer-motion";
 
 const Navbar =()=>{
     const [buttonOpen, setButtonOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+        const triggerPoint = 400;
+
+        if (scrollPosition > triggerPoint) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
 
     const toggle = () => {
         if(buttonOpen) { setButtonOpen(false) }
@@ -22,9 +40,11 @@ const Navbar =()=>{
 
     return(
         <>
-        <div className="navbar">
+        <div className={`navbar transition-all duration-300 ${scrolled? 'bg-white shadow-sm' : 'bg-transparent'}`}>
             <div className="nav-left">
-                <Link to='/'><div className="logo-wrap"></div></Link>
+                <Link to='/'>
+                    <p className="logoText">Home Styler</p>
+                </Link>
             </div>
 
             <div className="nav-mid">
