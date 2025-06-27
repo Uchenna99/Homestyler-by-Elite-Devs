@@ -24,6 +24,7 @@ import img8 from "../assets/Bedroom/bedroom2.jpeg"
 import { SiCustomink } from "react-icons/si";
 import { BsCashStack } from "react-icons/bs";
 import Footer from "../Components/Footer";
+import { AnimatePresence, motion } from "framer-motion";
 
 const HomePage =()=>{
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,18 +40,29 @@ const HomePage =()=>{
     return(
         <>
         <Navbar/>
+
         <div className="homepage-wrap">
-            <div className="hero-section">
-                <div className="hero-image" style={{backgroundImage:`url(${images[currentIndex]})`}}>
-                    <div className="hero-text-section">
-                        <h2>ELITE INTERIOR DESIGNS</h2>
-                        <p>Beautiful interior design services, now within reach.</p>
-                        <Link to='/shop'><button className="hero-butn">Explore</button></Link>
-                    </div>
-                </div>
+
+            <div className="w-full h-[750px] relative flex items-center justify-center bg-[#F4F4F4] ">
+            {
+                images.map((image, index)=>(
+                    <motion.div className="hero-image" style={{backgroundImage:`url(${image})`}}
+                        initial={{opacity:0}} animate={currentIndex === index? {opacity:1}:{}} 
+                        transition={{duration:1, ease:'easeInOut'}} key={index}>
+
+                        <div className="hero-text-section">
+                            <h2>ELITE INTERIOR DESIGNS</h2>
+                            <p>Beautiful interior design services, now within reach.</p>
+                            <Link to='/shop'><button className="hero-butn">Explore</button></Link>
+                        </div>
+
+                    </motion.div>
+                ))
+            }
             </div>
             
             
+
             <div className="assurance-section">
                 <div className="assurance-card">
                     <div className="card-img"><GiPencilRuler id='assure-icon'/></div>

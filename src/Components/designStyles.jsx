@@ -73,6 +73,9 @@ const DesignStyles = () => {
                     </select>
                 </div>
             </div>
+
+
+            
             <div className={`design-style-content ${gridLayout}`}>
                 {filteredDesigns.length > 0 ? (
                     filteredDesigns.map((design, index) => (

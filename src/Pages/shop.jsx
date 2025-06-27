@@ -10,7 +10,8 @@ const Home = () => {
 
     return (
         <>
-        <Navbar/>
+            <Navbar/>
+
             <div className="shop-head">
                 <h1>
                     {view === 'designStyles' && 'DESIGN STYLES'}
@@ -26,6 +27,7 @@ const Home = () => {
             {view === 'designStyles' && <DesignStyles />}
             {view === 'products' && <Products />}
             {view === 'designers' && <Designers />}
+            
         </>
     );
 }

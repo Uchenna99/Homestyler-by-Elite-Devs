@@ -1,24 +1,34 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: Text2;
-    src: url(./assets/Fonts/LexendDeca-Medium.woff2);
-  }
+  font-family: Text2;
+  src: url(./assets/Fonts/LexendDeca-Medium.woff2);
+}
   
-  @font-face {
-    font-family: Text1;
-    src: url(./assets/Fonts/LexendDeca-SemiBold.woff2);
-  }
-  
-  @font-face {
-    font-family: Text3;
-    src: url(./assets/Fonts/LexendDeca-Light.woff2);
-  }
+@font-face {
+  font-family: Text1;
+  src: url(./assets/Fonts/LexendDeca-SemiBold.woff2);
+}
 
-  @font-face {
-    font-family: Header;
-    src: url(./assets/Fonts/Queens-Medium.woff2);
-  }
+@font-face {
+  font-family: Text3;
+  src: url(./assets/Fonts/LexendDeca-Light.woff2);
+}
+
+@font-face {
+  font-family: Header;
+  src: url(./assets/Fonts/Queens-Medium.woff2);
+}
+
+@font-face {
+  font-family: logoText;
+  src: url(./assets/Fonts/GreatVibes-Regular.ttf);
+}
+
+
+:root {
+--font-logo: "logoText", "sans-serif"; 
+}
   
   
 *{
