@@ -156,7 +156,7 @@
       "category": "Furniture",
       "subCategory": "Sofas and Couches",
       "price": 800,
-      "image": "../src/assets/mod_sofa.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097451/mod_sofa_gpllc8.jpg",
       "description": "A stylish modern sofa that complements any contemporary living space.",
       "rating": 4,
       "reviews": [
@@ -178,7 +178,7 @@
       "category": "Furniture",
       "subCategory": "Chairs and Recliners",
       "price": 600,
-      "image": "../src/assets/leath_rec.jpeg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097453/leath_rec_njcfwr.jpg",
       "description": "A luxurious leather recliner perfect for relaxing.",
       "rating": 4,
       "reviews": [
@@ -195,7 +195,7 @@
       "category": "Furniture",
       "subCategory": "Tables",
       "price": 500,
-      "image": "../src/assets/glass_din.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097536/glass_din_tl2csu.jpg",
       "description": "A modern glass dining table for elegant family meals.",
       "rating": 4,
       "reviews": [
@@ -212,7 +212,7 @@
       "category": "Furniture",
       "subCategory": "Beds and Mattresses",
       "price": 1200,
-      "image": "../src/assets/king_size_bed.avif",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097535/king_size_bed_u8lapg.avif",
       "description": "A comfortable king size bed with a luxurious design.",
       "rating": 4,
       "reviews": [
@@ -229,7 +229,7 @@
       "category": "Furniture",
       "subCategory": "Storage",
       "price": 400,
-      "image": "../src/assets/wood_cab.jpeg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097684/wood_cab_eiqfyq.png",
       "description": "A stylish wooden cabinet for all your storage needs.",
       "rating": 4,
       "reviews": [
@@ -246,7 +246,7 @@
       "category": "Lighting",
       "subCategory": "Ceiling Lights",
       "price": 250,
-      "image": "../src/assets/chand.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097684/chand_znwaku.jpg",
       "description": "An elegant chandelier to light up your room with style.",
       "rating": 4,
       "reviews": [
@@ -263,7 +263,7 @@
       "category": "Lighting",
       "subCategory": "Wall Lights",
       "price": 80,
-      "image": "../src/assets/wall-scon.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097761/wall-scon_ybiamz.jpg",
       "description": "A modern wall sconce for adding ambiance to your living space.",
       "rating": 3,
       "reviews": [
@@ -280,7 +280,7 @@
       "category": "Lighting",
       "subCategory": "Floor Lamps",
       "price": 150,
-      "image": "../src/assets/floor_lamp.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751097761/floor_lamp_dusfoa.webp",
       "description": "A sleek floor lamp that provides ample light in any room.",
       "rating": 4,
       "reviews": [
@@ -297,7 +297,7 @@
       "category": "Lighting",
       "subCategory": "Table Lamps",
       "price": 60,
-      "image": "../src/assets/tab_lamp.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098034/tab_lamp_xyr4qe.jpg",
       "description": "A simple yet elegant table lamp for your desk or nightstand.",
       "rating": 4,
       "reviews": [
@@ -314,7 +314,7 @@
       "category": "Lighting",
       "subCategory": "Outdoor Lighting",
       "price": 100,
-      "image": "../src/assets/outdoor_lan.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098034/outdoor_lan_oyso0y.jpg",
       "description": "A rustic outdoor lantern for your garden or patio.",
       "rating": 5,
       "reviews": [
@@ -331,7 +331,7 @@
       "category": "Decor",
       "subCategory": "Rugs and Carpets",
       "price": 300,
-      "image": "../src/assets/wool_rug.jpeg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098091/wool_rug_q4lmob.jpg",
       "description": "A plush wool rug to add comfort and style to your living space.",
       "rating": 1,
       "reviews": [
@@ -348,7 +348,7 @@
       "category": "Decor",
       "subCategory": "Curtains and Blinds",
       "price": 150,
-      "image": "../src/assets/black_curt.webp",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098092/black_curt_zl4ftg.webp",
       "description": "Blackout curtains for privacy and complete darkness.",
       "rating": 2,
       "reviews": [
@@ -365,7 +365,7 @@
       "category": "Decor",
       "subCategory": "Wall Art and Mirrors",
       "price": 200,
-      "image": "../src/assets/wall_mir.webp",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098125/wall_mir_oot1px.webp",
       "description": "A large, stylish mirror perfect for your living room or hallway.",
       "rating": 5,
       "reviews": [
@@ -382,7 +382,7 @@
       "category": "Decor",
       "subCategory": "Cushions and Throws",
       "price": 75,
-      "image": "../src/assets/cush.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098124/cush_ghzbqv.jpg",
       "description": "A set of cozy cushions perfect for your sofa or bed.",
       "rating": 4,
       "reviews": [
@@ -399,7 +399,7 @@
       "category": "Decor",
       "subCategory": "Vases and Plant Pots",
       "price": 50,
-      "image": "../src/assets/cer_vac.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098334/cer_vac_gohsak.jpg",
       "description": "A stylish ceramic vase that complements any room decor.",
       "rating": 2,
       "reviews": [
@@ -416,7 +416,7 @@
       "category": "Kitchen",
       "subCategory": "Cabinets and Pantries",
       "price": 800,
-      "image": "../src/assets/kit_cab.jpeg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098363/kit_cab_rb4qzq.jpg",
       "description": "A spacious kitchen cabinet with ample storage for your utensils.",
       "rating": 3,
       "reviews": [
@@ -433,7 +433,7 @@
       "category": "Kitchen",
       "subCategory": "Cookware and Utensils",
       "price": 120,
-      "image": "../src/assets/knife_Set.webp",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098368/knife_Set_kdovop.jpg",
       "description": "A premium chef's knife set for all your cooking needs.",
       "rating": 5,
       "reviews": [
@@ -450,7 +450,7 @@
       "category": "Bathroom",
       "subCategory": "Vanities and Cabinets",
       "price": 900,
-      "image": "../src/assets/bath_van.webp",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098392/bath_van_gjriok.webp",
       "description": "A stylish vanity with ample storage and a sleek design for modern bathrooms.",
       "rating": 3,
       "reviews": [
@@ -467,7 +467,7 @@
       "category": "Bathroom",
       "subCategory": "Showers and Bathtubs",
       "price": 1500,
-      "image": "../src/assets/lux_show.avif",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098418/lux_show_sqsgil.avif",
       "description": "A luxury shower system with multiple jets and a rainfall showerhead.",
       "rating": 5,
       "reviews": [
@@ -484,7 +484,7 @@
       "category": "Bathroom",
       "subCategory": "Toilets and Bidets",
       "price": 400,
-      "image": "../src/assets/mod_tol.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098419/mod_tol_odelll.png",
       "description": "A modern, water-saving toilet with a sleek design and comfortable seating.",
       "rating": 4,
       "reviews": [
@@ -501,7 +501,7 @@
       "category": "Bathroom",
       "subCategory": "Bathroom Sinks",
       "price": 600,
-      "image": "../src/assets/dob_snk.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098749/dob_snk_klk6ds.jpg",
       "description": "A double sink with a contemporary design, perfect for shared bathrooms.",
       "rating": 3,
       "reviews": [
@@ -518,7 +518,7 @@
       "category": "Bathroom",
       "subCategory": "Mirrors and Medicine Cabinets",
       "price": 300,
-      "image": "../src/assets/frm_mir.jpg",
+      "image": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751098749/frm_mir_qklge8.jpg",
       "description": "A frameless mirror with LED lighting, ideal for modern bathrooms.",
       "rating": 4,
       "reviews": [
