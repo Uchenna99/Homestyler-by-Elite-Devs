@@ -66,12 +66,14 @@ button.hero-butn{
     font-weight: 500;
     padding: 0 20px;
     margin-top: 10px;
+    position: relative;
+    z-index: 20;
 }
 
 button.hero-butn:hover{
-    transition: 200ms;
+    transition: all 200ms linear;
     cursor: pointer;
-    background-color: #2D2D2D;
+    background-color: #E3C8A2;
     color: white;
 }
 
