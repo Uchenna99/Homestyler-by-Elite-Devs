@@ -29,6 +29,9 @@
     color: #2D2D2D;
     outline: none;
 }
+.des-filter > select > option{
+    font-size: 12px;
+}
 .display-filter{
     width: 120px;
     height: 90%;
@@ -230,7 +233,7 @@
     color: white;
     font-size: 14px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin: 5px 0 10px;
     cursor: pointer;
     transition: all 300ms linear;
 }
@@ -259,7 +262,7 @@
         min-width: 300px;
     }
     .main-img{
-        aspect-ratio: 3/2.1;
+        aspect-ratio: 3/2;
     }
 }
 
