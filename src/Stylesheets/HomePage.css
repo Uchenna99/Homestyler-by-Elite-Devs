@@ -113,7 +113,7 @@ button.hero-butn:hover{
 
 #assure-icon{
     font-size: 50px;
-    /* color: #660066; */
+    color: #BFA181;
 }
 
 
@@ -125,6 +125,10 @@ button.hero-butn:hover{
     flex-direction: column;
     gap: 10px;
     padding: 10px;
+}
+
+.card-writeup > h3{
+    font-weight: 600;
 }
 
 

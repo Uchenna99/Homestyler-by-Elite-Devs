@@ -1,20 +1,19 @@
 .designer-wrap{
     width: 100%;
     height: max-content;
-    background-color: wheat;
-    padding: 60px 25px;
+    /* background-color: #F4F4F4; */
     display: grid;
     grid-template-columns: repeat(2, 400px);
-    grid-auto-rows: minmax(300px, 300px);
+    grid-auto-rows: minmax(300px, 400px);
     justify-content: center;
-    gap: 5%;
+    gap: 40px;
+    padding: 0 20px;
 }
 .designer-card{
-    background-image: url(../src/assets/designer.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.0);
     background-blend-mode: darken;
     display: flex;
     align-items: end;
@@ -22,20 +21,19 @@
 }
 .prof-card{
     background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(5px); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: 50%;
-    display: grid;
-    grid-auto-columns: minmax(200px, auto);
-    grid-auto-rows: minmax(25px, 25px);
-    gap: 3%;
-    padding: 1%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px;
 }
 .prof-det{
     /* background-color: white; */
     font-weight: bold;
-    color: white;
+    color: #2D2D2D;
 }
 
 

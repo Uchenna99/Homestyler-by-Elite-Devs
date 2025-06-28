@@ -11,9 +11,9 @@ const Navbar =({ page })=>{
     useEffect(() => {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
-        const triggerPoint = page === 'home'? 400 : 50
+        const triggerPoint = page === 'home'? 400 : page === 'about'? 0 : 50
 
-        if (scrollPosition > triggerPoint) {
+        if (scrollPosition >= triggerPoint) {
           setScrolled(true);
         } else {
           setScrolled(false);
@@ -82,9 +82,9 @@ const Navbar =({ page })=>{
 
                 {
                     !buttonOpen?
-                    <Menu size={30} color="#2D2D2D" />
+                    <Menu size={30} color={scrolled?'#2D2D2D' : 'white'} />
                     :
-                    <X size={30} color="#2D2D2D" />
+                    <X size={30} color={scrolled?'#2D2D2D' : 'white'} />
                 }
                 
 

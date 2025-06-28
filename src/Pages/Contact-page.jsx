@@ -38,7 +38,7 @@ const ContactPage =()=>{
 
          </div>
          <div  className="send-us-textdiv">
-             <h3>IF YOU GOT ANY QUESTIONS PLEASE DO NOT HESITATE TO SEND US A MESSAGE.</h3>
+             <h3>IF YOU'VE GOT ANY QUESTIONS PLEASE DO NOT HESITATE TO SEND US A MESSAGE.</h3>
           </div>
           <div className="input-div">
               <input className="input" placeholder="Your Name" type="text"/>

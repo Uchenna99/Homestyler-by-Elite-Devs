@@ -12,7 +12,7 @@ import Footer from "../Components/Footer";
 const About =()=>{
     return(
         <>
-        <Navbar/>
+        <Navbar page={'about'}/>
             <div className="aboutContainer">
                 <div className="whatWeDo">
                     <h1>WHAT WE DO</h1>

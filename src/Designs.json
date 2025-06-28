@@ -107,7 +107,7 @@
     {
       "id": "designer1",
       "name": "Jane Doe",
-      "profileImage": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751096869/designer_d9y1u0.jpg",
+      "profileImage": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751101460/istockphoto-1212571889-612x612_kjfhrc.jpg",
       "description": "Specializes in modern interior designs.",
       "rates": "$100/hr",
       "contact": {
@@ -118,7 +118,7 @@
     {
       "id": "designer2",
       "name": "John Smith",
-      "profileImage": "../src/assets/designer.jpg",
+      "profileImage": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751101460/istockphoto-1140711121-612x612_gwk5zk.jpg",
       "description": "Expert in elegant home decor.",
       "rates": "$120/hr",
       "contact": {
@@ -129,7 +129,7 @@
     {
       "id": "designer3",
       "name": "Emily Johnson",
-      "profileImage": "path/to/emily_johnson.jpg",
+      "profileImage": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751101460/passiveincomeinteriordesignmelissagalt_a2vm3c.jpg",
       "description": "Known for creating cozy spaces",
       "rates": "$90/hr",
       "contact": {
@@ -140,7 +140,7 @@
     {
       "id": "designer4",
       "name": "Michael Brown",
-      "profileImage": "path/to/michael_brown.jpg",
+      "profileImage": "https://res.cloudinary.com/df6xz7bqp/image/upload/v1751101460/Nigerian-interior-designers-to-watch-in-2024_oyssqq.jpg",
       "description": "Specializes in rustic and traditional designs.",
       "rates": "$110/hr",
       "contact": {
