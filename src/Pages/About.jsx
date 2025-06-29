@@ -35,35 +35,35 @@ const About =()=>{
                 <div className="development">
                     <div className="design">
                         <img src={imageOne} alt="" />
-                        <div className="text">
+                        <div className="text-div">
                             <h4>LUXURY</h4>
                             <p>Curating luxurious interiors that reflect your refined taste where every detail is a masterpiece</p>
                         </div>
                     </div>
                     <div className="design">
                         <img src={imegeTwo} alt="" />
-                        <div className="text">
+                        <div className="text-div">
                             <h4>SMART</h4>
                             <p>Transforming Spaces, Live and Experiencing the Art of Luxury Design.</p>
                         </div>
                     </div>
                     <div className="design">
                         <img src={imageFour} alt="" />
-                        <div className="text">
+                        <div className="text-div">
                             <h4>DESIGN</h4>
-                            <p>Smart Spaces, Smarter Living. <br /> Expertly crafting intelligent spaces that simplify life. <br />Where technology and design converge</p>
+                            <p>Smart Spaces, Smarter Living. <br /> Expertly crafting intelligent spaces that simplify life. Where technology and design converge</p>
                         </div>
                     </div>
                     <div className="design">
                         <img src={imageThree} alt="" />
-                        <div className="text">
+                        <div className="text-div">
                             <h4>TRENDY</h4>
-                            <p> Unparalleled Elegance and Unmatched Quality <br /> Expertly crafting luxury spaces that inspire.</p>
+                            <p> Unparalleled Elegance and Unmatched Quality. Expertly crafting luxury spaces that inspire.</p>
                         </div>
                     </div>
                 </div>
 
-                
+
                 <div className="Team"> 
                     <h1>MEET THE TEAM</h1>
                     <div className="picFrames">

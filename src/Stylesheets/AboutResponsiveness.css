@@ -13,30 +13,12 @@
         width: 90%;
     }
     .development{
-        width: 95%;
-        gap: 30px;
-        row-gap: 50px;
-    }
-    .design{
-        gap: 8px;
-    }
-    .text p{
-        font: 13px mediums;
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
+
 @media screen and (max-width: 950px) {
-    .development{
-        width: 95%;
-        gap: 30px;
-        row-gap: 50px;
-    }
-    .design{
-        gap: 8px;
-    }
-    .text p{
-        font: 13px mediums;
-    }
     .Team{
         width: 90%;
         margin-top: 150px;
@@ -52,22 +34,16 @@
     .whatWeDo > p{
         width: 100%;
     }
-    .text h4{
-        font: 16px semi;
-    }
-    .text p{
-        font: 14px mediums;
-    }
     .Team{
         width: 95%;
     }
 }
+
+
 @media screen and (max-width: 750px) {
     .development{
-        width: 85%;
-        display: flex;
-        gap: 30px;
-        flex-direction: column;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
     }
     
     .picFrames{
@@ -109,26 +85,11 @@
         margin-top: 30px;
         
     }
-    .development{
-        width: 85%;
-        display: flex;
-        gap: 30px;
-        /* row-gap: 50px; */
-        flex-direction: column;
-    }
-    .design{
-        gap: 8px;
-    }
     .design img{
         width: 70px;
         height: 70px;
-    
-    }
-    .text h4{
-        font: 16px semi;
-    }
-    .text p{
-        font: 12px mediums;
+        min-width: 70px;
+        min-height: 70px;
     }
     .Team{
         width: 90%;
