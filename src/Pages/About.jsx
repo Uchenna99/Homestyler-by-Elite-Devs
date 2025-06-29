@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import '../Stylesheets/About.css';
 import '../Stylesheets/AboutResponsiveness.css';
 import Navbar from "../Components/Navbar";
@@ -10,10 +10,20 @@ import Footer from "../Components/Footer";
 
 
 const About =()=>{
+    const aboutRef = useRef(null);
+
+    useEffect(()=>{
+        const scrollPosition = window.scrollY;
+        if(scrollPosition === 0) {
+            window.scrollTo({top:1, behavior:'smooth'});
+        }else{ window.scrollTo({top:0, behavior:'smooth'}); }
+
+    },[]);
+
     return(
         <>
         <Navbar page={'about'}/>
-            <div className="aboutContainer">
+            <div className="aboutContainer" ref={aboutRef}>
                 <div className="whatWeDo">
                     <h1>WHAT WE DO</h1>
                     <h2 className="strategy">LUXURY DESIGNS, SMART AND TRENDY</h2>
