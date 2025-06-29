@@ -5,16 +5,12 @@
 }
 
 @media screen and (max-width: 1024px) {
-    
+    .whatWeDo{
+        width: 100%;
+    }
     .Team{
         margin-top: 150px;
         width: 90%;
-    }
-    .whatWeDo{
-        width: 80%;
-    }
-    .whatWeDo h2{
-        width: 75%;
     }
     .development{
         width: 95%;
@@ -30,12 +26,6 @@
     
 }
 @media screen and (max-width: 950px) {
-    .whatWeDo{
-        width: 80%;
-    }
-    .whatWeDo h2{
-        width: 75%;
-    }
     .development{
         width: 95%;
         gap: 30px;
@@ -59,6 +49,9 @@
 
 
 @media screen and (max-width: 860px) {
+    .whatWeDo > p{
+        width: 100%;
+    }
     .text h4{
         font: 16px semi;
     }
@@ -97,32 +90,21 @@
         /* background-color: azure; */
     }
 }
-@media screen and (max-width: 550px) {
-    .whatWeDo{
-        width: 95%;
-        margin-top: 100px;
-    }
+@media screen and (max-width: 600px) {
     .whatWeDo h1{
-        font-weight: 600;
-        color: gray;
-        font: 30px mediums;
+        font-size: 30px;
     
     }
     
     .whatWeDo h2{
-        width: 90%;
-        height: 40px;
-        border-left: 3px solid rgb(172, 3, 3, 0.703);
-        border-right: 3px solid rgba(172, 3, 3, 0.703);
-        border-top: none;
-        border-bottom: none;
+        width: 300px;
+        border-left: 3px solid #2D2D2D;
+        border-right: 3px solid #2D2D2D;
         margin-top: 10px;
-        font: 17px semi;
+        font-size: 18px;
         padding-top: 10px;
     }
     .whatWeDo p{
-        width: 85%;
-        font: 12px semi;
         line-height: 18px;
         margin-top: 30px;
         

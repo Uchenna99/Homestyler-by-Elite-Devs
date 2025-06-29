@@ -30,6 +30,8 @@ const About =()=>{
                     <p>We are a luxury interior brand with the vision of offerring innovative and superior quality products and designs to our customers. We specialise in providing an exceptional online shopping experience.
                     </p>
                 </div>
+
+
                 <div className="development">
                     <div className="design">
                         <img src={imageOne} alt="" />
@@ -60,6 +62,8 @@ const About =()=>{
                         </div>
                     </div>
                 </div>
+
+                
                 <div className="Team"> 
                     <h1>MEET THE TEAM</h1>
                     <div className="picFrames">

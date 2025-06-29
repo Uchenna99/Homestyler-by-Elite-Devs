@@ -6,36 +6,31 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* background-color:rgb(32,25,45); */
-    /* background-color: rgb(110,84,181); */
     
 }
 .whatWeDo{
-    width: 60%;
-    height: 300px;
+    width: 1000px;
+    height: fit-content;
     text-align: center;
     /* background-color: antiquewhite; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 150px;
+    padding: 0 20px 40px;
 
 }
 .whatWeDo h1{
-    /* font: 40px sans-serif; */
     font-weight: 300;
     color: #2D2D2D;
-    font: 42px text1;
+    font: 40px text1;
 
 }
 .whatWeDo h2{
-    width: 60%;
-    height: 40px;
+    width: 550px;
     border-left: 4px solid #2D2D2D;
     border-right: 4px solid #2D2D2D;
-    border-top: none;
-    border-bottom: none;
     color: #2D2D2D;
     margin-top: 20px;
     /* background-color: blanchedalmond; */
@@ -48,24 +43,26 @@
 }
 .whatWeDo p{
     width: 80%;
-    font: 15px text2;
+    font: 14px text2;
     color: #2D2D2D;
     margin-top: 20px;
     line-height: 20px;
     
 }
 .development{
-    width: 70%;
+    width: 100%;
     height: fit-content;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 500px);
     grid-template-rows: repeat(2, fit-content);
     /* background-color: aqua; */
+    justify-content: center;
     gap: 40px;
     margin-top: 20px;
+    padding: 0 20px;
 }
 .design{
-    /* background-color: rgb(161, 17, 17); */
+    background-color: rgb(161, 17, 17);
     display: flex;
     gap: 12px;
 }
