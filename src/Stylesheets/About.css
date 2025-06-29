@@ -1,41 +1,36 @@
 .aboutContainer{
     width: 100%;
     height: fit-content;
-    background-color: #F4F4F4;
+    /* background-color: red; */
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    /* background-color:rgb(32,25,45); */
-    /* background-color: rgb(110,84,181); */
+    align-items: center;
+    overflow: hidden;
     
 }
 .whatWeDo{
-    width: 60%;
-    height: 300px;
+    width: 1000px;
+    height: fit-content;
     text-align: center;
     /* background-color: antiquewhite; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 150px;
+    padding: 0 20px 40px;
 
 }
 .whatWeDo h1{
-    /* font: 40px sans-serif; */
     font-weight: 300;
     color: #2D2D2D;
-    font: 42px text1;
+    font: 40px text1;
 
 }
 .whatWeDo h2{
-    width: 60%;
-    height: 40px;
+    width: 550px;
     border-left: 4px solid #2D2D2D;
     border-right: 4px solid #2D2D2D;
-    border-top: none;
-    border-bottom: none;
     color: #2D2D2D;
     margin-top: 20px;
     /* background-color: blanchedalmond; */
@@ -48,60 +43,61 @@
 }
 .whatWeDo p{
     width: 80%;
-    font: 15px text2;
+    font: 14px text2;
     color: #2D2D2D;
     margin-top: 20px;
-    line-height: 20px;
+    line-height: 1.5;
     
 }
 .development{
-    width: 70%;
+    width: 100%;
     height: fit-content;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, fit-content);
+    grid-template-columns: repeat(2, 490px);
     /* background-color: aqua; */
-    gap: 40px;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 50px;
     margin-top: 20px;
+    padding: 0 20px;
 }
 .design{
     /* background-color: rgb(161, 17, 17); */
     display: flex;
-    gap: 12px;
+    gap: 15px;
 }
-.design img{
+.design > img{
     width: 100px;
     height: 100px;
+    min-width: 100px;
+    min-height: 100px;
     border-radius: 50%;
-    background-color: #2D2D2D;
+    background-color: lightgray;
 
 }
-.text{
-    margin-top: 10px;
-    color:#2D2D2D;
-}
-.text h4{
+.text-div h4{
     color: #2D2D2D;
-    font: 18px text2;
+    font: 16px text1;
 }
-.text p{
-    font: 14px text1;
+.text-div p{
+    font: 500 14px text3;
     line-height: 20px;
-    font-weight: 100;
-    margin-top: 8px;
+    margin-top: 5px;
     color: #2D2D2D;
 }
 .Team{
-    width: 65%;
+    width: 100%;
     height: fit-content;
     margin-bottom: 100px;
-    margin-top: 250px;
+    margin-top: 150px;
     padding-bottom: 50px;
+    padding: 0 20px;
     text-align: center;
+    /* background-color: yellow; */
 }
 .Team h1{
     color: #2D2D2D;
-    font: 32px text2;
+    font: 30px text2;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -109,31 +105,30 @@
     width: 100%;
     height: fit-content;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 380px);
-    column-gap: 70px;
-    row-gap: 100px;
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 30px;
+    row-gap: 80px;
+    justify-content: center;
     /* background-color: aqua; */
    
 }
 
 .frame1 img{
     width: 100%;
-    height: 80%;
+    aspect-ratio: 2/2;
     margin-top: 50px;
     border-radius: 10px;
-    /* background-color: azure; */
+    background-color: azure;
 }
 .frame2 img{
     width: 100%;
-    height: 80%;
+    aspect-ratio: 2/2;
     border-radius: 10px;
-    /* background-color: azure; */
+    background-color: azure;
 }
 
 .frameTexts{
     width: 100%;
-    height: 15%;
     color: #2D2D2D;
     /* background-color: aquamarine; */
     padding-top: 10px;
