@@ -1,11 +1,11 @@
 .aboutContainer{
     width: 100%;
     height: fit-content;
-    background-color: #F4F4F4;
+    /* background-color: red; */
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    overflow: hidden;
     
 }
 .whatWeDo{
@@ -46,7 +46,7 @@
     font: 14px text2;
     color: #2D2D2D;
     margin-top: 20px;
-    line-height: 20px;
+    line-height: 1.5;
     
 }
 .development{
@@ -75,10 +75,6 @@
     background-color: lightgray;
 
 }
-.text-div{
-    width: 100%;
-    /* background-color: green; */
-}
 .text-div h4{
     color: #2D2D2D;
     font: 16px text1;
@@ -90,16 +86,18 @@
     color: #2D2D2D;
 }
 .Team{
-    width: 65%;
+    width: 100%;
     height: fit-content;
     margin-bottom: 100px;
-    margin-top: 250px;
+    margin-top: 150px;
     padding-bottom: 50px;
+    padding: 0 20px;
     text-align: center;
+    /* background-color: yellow; */
 }
 .Team h1{
     color: #2D2D2D;
-    font: 32px text2;
+    font: 30px text2;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -107,31 +105,30 @@
     width: 100%;
     height: fit-content;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 380px);
-    column-gap: 70px;
-    row-gap: 100px;
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 30px;
+    row-gap: 80px;
+    justify-content: center;
     /* background-color: aqua; */
    
 }
 
 .frame1 img{
     width: 100%;
-    height: 80%;
+    aspect-ratio: 2/2;
     margin-top: 50px;
     border-radius: 10px;
-    /* background-color: azure; */
+    background-color: azure;
 }
 .frame2 img{
     width: 100%;
-    height: 80%;
+    aspect-ratio: 2/2;
     border-radius: 10px;
-    /* background-color: azure; */
+    background-color: azure;
 }
 
 .frameTexts{
     width: 100%;
-    height: 15%;
     color: #2D2D2D;
     /* background-color: aquamarine; */
     padding-top: 10px;

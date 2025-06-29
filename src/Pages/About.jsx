@@ -22,8 +22,11 @@ const About =()=>{
 
     return(
         <>
-        <Navbar page={'about'}/>
+        
             <div className="aboutContainer" ref={aboutRef}>
+
+                <Navbar page={'about'}/>
+
                 <div className="whatWeDo">
                     <h1>WHAT WE DO</h1>
                     <h2 className="strategy">LUXURY DESIGNS, SMART AND TRENDY</h2>
@@ -67,52 +70,53 @@ const About =()=>{
                 <div className="Team"> 
                     <h1>MEET THE TEAM</h1>
                     <div className="picFrames">
-                    <div className="frame1">
-                        <img src="src/assets/BiGuy.jpg" alt="" />
-                        <div className="frameTexts">
-                            <h6>Paulinus Okonkwo</h6>
-                            <p>Developer</p>
+                        <div className="frame1">
+                            <img src="src/assets/BiGuy.jpg" alt="" />
+                            <div className="frameTexts">
+                                <h6>Paulinus Okonkwo</h6>
+                                <p>Developer</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="frame2">
-                        <img src="src/assets/Tolu.jpg" alt="" />
-                        <div className="frameTexts">
-                            <h6>Tolulope Akinwande</h6>
-                            <p>Developer</p>
+                        <div className="frame2">
+                            <img src="src/assets/Tolu.jpg" alt="" />
+                            <div className="frameTexts">
+                                <h6>Tolulope Akinwande</h6>
+                                <p>Developer</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="frame1">
-                        <img src="src/assets/Urchman.jpg" alt="" />
-                        <div className="frameTexts">
-                            <h6>Agbu Uchenna</h6>
-                            <p>Developer</p>
+                        <div className="frame1">
+                            <img src="src/assets/Urchman.jpg" alt="" />
+                            <div className="frameTexts">
+                                <h6>Agbu Uchenna</h6>
+                                <p>Developer</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="frame1">
-                        <img src="src/assets/just.jpg" alt="" />
-                        <div className="frameTexts">
-                            <h6>Ejike Justice</h6>
-                            <p>Developer</p>
+                        <div className="frame1">
+                            <img src="src/assets/just.jpg" alt="" />
+                            <div className="frameTexts">
+                                <h6>Ejike Justice</h6>
+                                <p>Developer</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="frame2">
-                        <img src="src/assets/Stephanie.jpg" alt="" />
-                        <div className="frameTexts">
-                            <h6>Lewis Stephanie</h6>
-                            <p>Developer</p>
+                        <div className="frame2">
+                            <img src="src/assets/Stephanie.jpg" alt="" />
+                            <div className="frameTexts">
+                                <h6>Lewis Stephanie</h6>
+                                <p>Developer</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="frame1">
-                        <img src="src/assets/Justice1.jpg" alt="" />
-                        <div className="frameTexts">
-                            <h6>Morrison Justice</h6>
-                            <p>Developer</p>
+                        <div className="frame1">
+                            <img src="src/assets/Justice1.jpg" alt="" />
+                            <div className="frameTexts">
+                                <h6>Morrison Justice</h6>
+                                <p>Developer</p>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
+                
+                <Footer/>
             </div>
-            <Footer/>
         </>
     )
 }
