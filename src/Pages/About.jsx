@@ -71,42 +71,42 @@ const About =()=>{
                     <h1>MEET THE TEAM</h1>
                     <div className="picFrames">
                         <div className="frame1">
-                            <img src="src/assets/BiGuy.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/df6xz7bqp/image/upload/v1751233892/BiGuy_yq9iwr.jpg" alt="" />
                             <div className="frameTexts">
                                 <h6>Paulinus Okonkwo</h6>
                                 <p>Developer</p>
                             </div>
                         </div>
                         <div className="frame2">
-                            <img src="src/assets/Tolu.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/df6xz7bqp/image/upload/v1751233942/Tolu_xhqihx.jpg" alt="" />
                             <div className="frameTexts">
                                 <h6>Tolulope Akinwande</h6>
                                 <p>Developer</p>
                             </div>
                         </div>
                         <div className="frame1">
-                            <img src="src/assets/Urchman.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/df6xz7bqp/image/upload/v1751233893/Urchman_qo4ena.jpg" alt="" />
                             <div className="frameTexts">
                                 <h6>Agbu Uchenna</h6>
                                 <p>Developer</p>
                             </div>
                         </div>
                         <div className="frame1">
-                            <img src="src/assets/just.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/df6xz7bqp/image/upload/v1751233892/just_rrltls.jpg" alt="" />
                             <div className="frameTexts">
                                 <h6>Ejike Justice</h6>
                                 <p>Developer</p>
                             </div>
                         </div>
                         <div className="frame2">
-                            <img src="src/assets/Stephanie.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/df6xz7bqp/image/upload/v1751233890/Stephanie_dqridg.jpg" alt="" />
                             <div className="frameTexts">
                                 <h6>Lewis Stephanie</h6>
                                 <p>Developer</p>
                             </div>
                         </div>
                         <div className="frame1">
-                            <img src="src/assets/Justice1.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/df6xz7bqp/image/upload/v1751233924/Justice1_del8qm.jpg" alt="" />
                             <div className="frameTexts">
                                 <h6>Morrison Justice</h6>
                                 <p>Developer</p>
