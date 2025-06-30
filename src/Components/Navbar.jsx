@@ -82,9 +82,9 @@ const Navbar =({ page })=>{
 
                 {
                     !buttonOpen?
-                    <Menu size={30} color={scrolled?'#2D2D2D' : 'white'} />
+                    <Menu size={30} color={scrolled?'#2D2D2D' : 'white'} strokeWidth={1.2} />
                     :
-                    <X size={30} color={scrolled?'#2D2D2D' : 'white'} />
+                    <X size={30} color={scrolled?'#2D2D2D' : 'white'} strokeWidth={1.2} />
                 }
                 
 
