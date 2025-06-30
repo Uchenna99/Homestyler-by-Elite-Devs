@@ -156,6 +156,7 @@
 .input2{
     height: 100px;
     padding: 10px 15px;
+    resize: none;
 }
 .input1::placeholder{
     font-family: Text3;
@@ -219,5 +220,7 @@
     .geo-div{
         width: 100%;
     }
-
+    .send-us-textdiv >h3{
+        font-size: 14px;
+    }
 }
