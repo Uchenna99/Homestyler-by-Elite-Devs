@@ -10,16 +10,19 @@ const Login = () => {
 
     return (
         <>
-            <Logo/>
             <div class="login-container">
+
+                <Link to='/'>
+                    <p className="logoText">Home Styler</p>
+                </Link>
 
                 <div class="login-right">
                 
                         <div class="login-create">
-                            <h1>Welcome</h1>
+                            <h1>Welcome Back</h1>
 
                             <div className="w-full flex gap-2 items-center justify-center ">
-                                <p className="text-white">Don't have an account </p>
+                                <p className="text-white">Don't have an account?</p>
                                 <Link to={'/signup'}
                                     className="text-[#BFA181] hover:text-red-400">
                                     Create account
