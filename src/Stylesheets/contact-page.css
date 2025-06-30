@@ -27,10 +27,7 @@
     width: 100%;
     /* background-color: antiquewhite; */
     color:white;
-    /* border: 1px solid white; */
-    /* margin-left: 20px; */
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .contact-us >h1{
@@ -38,7 +35,6 @@
     /* background-color: antiquewhite; */
     color: #F4F4F4;
     border: 4px solid #F4F4F4;
-    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,15 +52,16 @@
 }
 .second-part{
     width: 100%;
-    height: 280px;
+    height: 240px;
     /* background-color: teal; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
+    padding: 0 20px;
 }
 .phone-div{
-    width: 350px;
+    width: 300px;
     height: 150px;
     /* background-color: blueviolet; */
     display: flex;
@@ -83,94 +80,80 @@
     color:#2D2D2D;
 }
 .phone-div >h3{
-    color: #2D2D2D;    
+    color: #2D2D2D;
+    font-weight: 600;  
 }
-.border{
+.border1{
     border-left:1px solid #2D2D2D ;
     border-right: 1px solid #2D2D2D;
-    border-top: none;
-    border-bottom: none;
-    padding-left: 2px;
-    padding-right: 2px;
-    width: 390px;
+    width: 370px;
+    padding: 0 30px;
     position: relative;
 }
 
 
 .geo-div{
-    width: fit-content;
-    height: 350px;
+    width: 400px;
+    height: fit-content;
     background-color: #DADADA;
-    border-radius: 10px;
+    border-radius: 5px;
+    display: flex;
     overflow: hidden;
-    position: absolute;
-    right: -300px;
-    bottom: -60px;
-    display: none;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    transition: all 200ms ease-out;
 }
 
 .geo-location{
-    width: 300px;
+    width: 100%;
     height: 350px;
     /* background-color: pink; */
 }
 
-.phone-div:hover .geo-div{
-    display: flex;
-    background-color: #2D2D2D;
-    animation-name: geo;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-} 
-
-@keyframes geo {
-    from{
-        transform: translateX(-300px);
-    }
-    to{
-        transform: translateX(0px);
-    }
-}
 
 
 .send-us-textdiv{
     width: 100%;
-    height: 100px;
+    height: 140px;
     /* background-color: tomato; */
     color:#2D2D2D;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-    text-align: center;
+    padding: 0 20px;
 }
 .send-us-textdiv >h3{
-    width: 50%;
+    text-align: center;
 }
 .input-div{
     width: 100%;
-    height: 350px;
+    height: 330px;
     /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 17px;
+    gap: 15px;
     justify-content: center;
+    padding: 0 20px;
 }
-.input{
+.input1{
     width: 700px;
     height: 49px;
     display: flex;
-    align-items: start;
-    flex-wrap: wrap;
-    padding-bottom: 14px;
-    padding-left: 10px;
-    padding-right: 15px;
+    padding: 0 15px;
     background-color: white;
     border:1px solid #DADADA;
     font-size: 15px;
     color: #2D2D2D;
     border-radius: 3px;
+}
+.input2{
+    height: 100px;
+    padding: 10px 15px;
+}
+.input1::placeholder{
+    font-family: Text3;
 }
 .btn{
     width:150px;
@@ -179,7 +162,7 @@
     border: none;
     color:white;
     font-size: 15px;
-    font-weight:bolder;
+    font-weight:bold;
     transition: all 300ms linear;
 }
 .btn:hover{
@@ -187,43 +170,27 @@
     background-color: #E3C8A2;
 }
 
+
+
+
 /* RESPONSIVNESS */
 
 @media screen and (max-width: 950px){
     .second-part{
         height: fit-content;
-        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
     }
-    .border{
-        border-right: none;
+    .phone-div{
+        width: 100%;
     }
-    .input{
-        width: 80%;
-        height: 45px;
-        display: flex;
-        align-items: start;
-        flex-wrap: wrap;
-        padding-bottom: 14px;
-        padding-left: 10px;
-        padding-right: 15px;
-        font-size: 15px;
-    }
-    .send-us-textdiv >h3{
-        width:100% ;
-        font-size: small;
+    .border1{
+        border: none;
+        width: 100%;
+        padding: 0;
     }
 
-    .geo-div{
-        left: -300px;
-    }
-    @keyframes geo {
-        from{
-            transform: translateX(300px);
-        }
-        to{
-            transform: translateX(0px);
-        }
-    }
 }
 
 @media screen and (max-width: 759px){
@@ -238,19 +205,12 @@
     .get-in-touch{
         font-size: large;
     }
-
-    .geo-div{
-        position: fixed;
-        left: 0;
-        bottom: 20px;
+    .input1{
+        width: 100%;
+    }
+    .send-us-textdiv >h3{
+        font-size: 15px;
     }
 
-    @keyframes geo {
-        from{
-            transform: translateX(-300px);
-        }
-        to{
-            transform: translateX(0px);
-        }
-    }
+
 }
