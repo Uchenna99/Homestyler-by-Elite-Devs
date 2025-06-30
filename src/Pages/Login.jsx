@@ -61,7 +61,7 @@ const Login = () => {
 
                                 <div class="w-[50%] h-full flex items-center justify-center bg-white cursor-pointer">
                                     <img 
-                                        className="w-[40px] "
+                                        className="w-[25px] "
                                         src={image}
                                         alt=""
                                     />
@@ -70,7 +70,7 @@ const Login = () => {
 
                                 <div class="w-[50%] h-full flex items-center justify-center bg-white cursor-pointer">
                                     <img 
-                                        className="w-[40px] "
+                                        className="w-[25px] "
                                         src={apple}
                                         alt=""
                                     />

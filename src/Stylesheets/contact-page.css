@@ -220,5 +220,7 @@
     .geo-div{
         width: 100%;
     }
-
+    .send-us-textdiv >h3{
+        font-size: 14px;
+    }
 }
