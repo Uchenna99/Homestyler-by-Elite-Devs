@@ -156,6 +156,7 @@
 .input2{
     height: 100px;
     padding: 10px 15px;
+    resize: none;
 }
 .input1::placeholder{
     font-family: Text3;
