@@ -1,11 +1,14 @@
-import React from "react";
+import { useState } from "react";
 import '../Stylesheets/contact-page.css'
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { X } from "lucide-react";
+import { motion } from "framer-motion";
 
 
 const ContactPage =()=>{
+    const [viewMap, setViewMap] = useState(false);
+
     return(
         <>
         <Navbar/>
@@ -30,7 +33,7 @@ const ContactPage =()=>{
                     <p>+234 810 680 9601</p>
                 </div>
 
-                <div  className="phone-div border1">
+                <div  className="phone-div border1" onClick={()=> setViewMap(true)}>
                     <i class="bi bi-geo-alt-fill"></i>
                     <h3>ADDRESS</h3>
                     <p>Old Aba Road, Rumuomasi, Rivers State.</p>
@@ -62,10 +65,14 @@ const ContactPage =()=>{
                 <h2>Connect with us !</h2>
             </div>
 
-            <div className="geo-div">
-                <X className="absolute top-2 right-2 bg-red-300 cursor-pointer hover:bg-red-500" />
-                <iframe className="geo-location" width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=mbm%20plaza%20old%20aba%20road+(Home%20Styler)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
-            </div>
+            <motion.div className="geo-div " 
+                initial={{x:-800}} animate={viewMap? {x:0}:{}} transition={{duration:0.15, ease:'easeOut'}} >
+                <X 
+                    className="absolute top-2 right-2 bg-red-300 cursor-pointer hover:bg-red-500" 
+                    onClick={()=> setViewMap(false)}
+                />
+                <iframe className="geo-location" width="400" height="350" frameborder="0" marginheight="0" marginwidth="0" allowFullScreen src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=mbm%20plaza%20old%20aba%20road+(Home%20Styler)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
+            </motion.div>
 
             <Footer/>
 
