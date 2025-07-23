@@ -56,7 +56,7 @@ const Signup =()=>{
 
                                 <div class="login-border"></div>
 
-                                <p className="text-white">Or register with  </p>
+                                <p className="text-white text-nowrap">Or register with  </p>
 
                                 <div class="login-border"></div>
 

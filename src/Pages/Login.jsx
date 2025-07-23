@@ -50,7 +50,7 @@ const Login = () => {
 
                                 <div class="login-border"></div>
 
-                                <p className="text-white">or sign in with</p>
+                                <p className="text-white text-nowrap">or sign in with</p>
 
                                 <div class="login-border"></div>
 
